@@ -2,6 +2,7 @@ import argparse
 import os
 import numpy as np
 import pandas as pd
+from model.call_gpt_oss import generate
 
 choices = ["A", "B", "C", "D"]
 
@@ -43,18 +44,12 @@ def eval(args, subject, dev_df, test_df):
         label = test_df.iloc[i, test_df.shape[1]-1]
 
         try:
-            """ c = openai.Completion.create(
-                engine=engine,
-                prompt=prompt,
-                max_tokens=1,
-                logprobs=100,
-                temperature=0,
-                echo=True
-            ) """
-            pred = "A"
+            output = generate(prompt)
+            pred = output["final"]
         except:
             raise Exception("Error: " + prompt)
 
+        print("pred: {}, label: {}".format(pred, label))
         cor = pred == label
         cors.append(cor)
 
@@ -86,8 +81,8 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ntrain", "-k", type=int, default=5)
-    parser.add_argument("--data_dir", "-d", type=str, default="data")
-    parser.add_argument("--save_dir", "-s", type=str, default="results")
+    parser.add_argument("--data_dir", "-d", type=str, default="dataset/mmlu/data")
+    parser.add_argument("--save_dir", "-s", type=str, default="dataset/mmlu/results")
     args = parser.parse_args()
     main(args)
 
