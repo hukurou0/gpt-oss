@@ -1,0 +1,220 @@
+2025-10-30 21:01:39 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251030_210139.log
+2025-10-30 21:01:39 - mmlu_logger - INFO - Loading analysis from: results/mmlu_results_20251030_163851.jsonl
+2025-10-30 21:01:39 - mmlu_logger - INFO - Loaded 100 analyses
+2025-10-30 21:01:39 - mmlu_logger - INFO - Results will be saved to: results/mmlu_early_answer_20251030_210139.jsonl
+2025-10-30 21:01:39 - mmlu_logger - INFO - Found 57 subjects to evaluate
+2025-10-30 21:01:39 - mmlu_logger - INFO - Loading data for subject: abstract_algebra
+2025-10-30 21:01:39 - mmlu_logger - INFO - Starting evaluation for subject: abstract_algebra
+2025-10-30 21:01:39 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q1
+2025-10-30 21:01:54 - mmlu_logger - INFO - Question 1/100: pred: A, label: B (AI time: 14.83s)
+2025-10-30 21:01:54 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q2
+2025-10-30 21:01:56 - mmlu_logger - INFO - Question 2/100: pred: C, label: C (AI time: 1.50s)
+2025-10-30 21:01:56 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q3
+2025-10-30 21:01:57 - mmlu_logger - INFO - Question 3/100: pred: C, label: D (AI time: 1.26s)
+2025-10-30 21:01:57 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q4
+2025-10-30 21:01:58 - mmlu_logger - INFO - Question 4/100: pred: C, label: B (AI time: 1.02s)
+2025-10-30 21:01:58 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q5
+2025-10-30 21:01:59 - mmlu_logger - INFO - Question 5/100: pred: B, label: B (AI time: 1.14s)
+2025-10-30 21:01:59 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q6
+2025-10-30 21:02:01 - mmlu_logger - INFO - Question 6/100: pred: D, label: A (AI time: 1.83s)
+2025-10-30 21:02:01 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q7
+2025-10-30 21:02:02 - mmlu_logger - INFO - Question 7/100: pred: C, label: A (AI time: 0.87s)
+2025-10-30 21:02:02 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q8
+2025-10-30 21:02:03 - mmlu_logger - INFO - Question 8/100: pred: C, label: D (AI time: 1.28s)
+2025-10-30 21:02:03 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q9
+2025-10-30 21:02:04 - mmlu_logger - INFO - Question 9/100: pred: B, label: B (AI time: 0.86s)
+2025-10-30 21:02:04 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q10
+2025-10-30 21:02:05 - mmlu_logger - INFO - Question 10/100: pred: C, label: C (AI time: 0.93s)
+2025-10-30 21:02:05 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q11
+2025-10-30 21:02:09 - mmlu_logger - INFO - Question 11/100: pred: D, label: C (AI time: 3.96s)
+2025-10-30 21:02:09 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q12
+2025-10-30 21:02:10 - mmlu_logger - INFO - Question 12/100: pred: C, label: C (AI time: 1.49s)
+2025-10-30 21:02:10 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q13
+2025-10-30 21:02:12 - mmlu_logger - INFO - Question 13/100: pred: C, label: A (AI time: 1.60s)
+2025-10-30 21:02:12 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q14
+2025-10-30 21:02:15 - mmlu_logger - INFO - Question 14/100: pred: B, label: C (AI time: 3.32s)
+2025-10-30 21:02:15 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q15
+2025-10-30 21:02:17 - mmlu_logger - INFO - Question 15/100: pred: C, label: C (AI time: 1.68s)
+2025-10-30 21:02:17 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q16
+2025-10-30 21:02:18 - mmlu_logger - INFO - Question 16/100: pred: C, label: B (AI time: 1.37s)
+2025-10-30 21:02:18 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q17
+2025-10-30 21:02:19 - mmlu_logger - INFO - Question 17/100: pred: C, label: C (AI time: 0.78s)
+2025-10-30 21:02:19 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q18
+2025-10-30 21:02:20 - mmlu_logger - INFO - Question 18/100: pred: A, label: C (AI time: 1.07s)
+2025-10-30 21:02:20 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q19
+2025-10-30 21:02:21 - mmlu_logger - INFO - Question 19/100: pred: D, label: D (AI time: 0.71s)
+2025-10-30 21:02:21 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q20
+2025-10-30 21:02:22 - mmlu_logger - INFO - Question 20/100: pred: B, label: A (AI time: 1.07s)
+2025-10-30 21:02:22 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q21
+2025-10-30 21:02:24 - mmlu_logger - INFO - Question 21/100: pred: B, label: A (AI time: 1.41s)
+2025-10-30 21:02:24 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q22
+2025-10-30 21:02:25 - mmlu_logger - INFO - Question 22/100: pred: B, label: A (AI time: 1.09s)
+2025-10-30 21:02:25 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q23
+2025-10-30 21:02:26 - mmlu_logger - INFO - Question 23/100: pred: D, label: D (AI time: 1.04s)
+2025-10-30 21:02:26 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q24
+2025-10-30 21:02:26 - mmlu_logger - INFO - Question 24/100: pred: D, label: D (AI time: 0.81s)
+2025-10-30 21:02:26 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q25
+2025-10-30 21:02:27 - mmlu_logger - INFO - Question 25/100: pred: C, label: B (AI time: 0.99s)
+2025-10-30 21:02:27 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q26
+2025-10-30 21:02:28 - mmlu_logger - INFO - Question 26/100: pred: C, label: C (AI time: 1.01s)
+2025-10-30 21:02:28 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q27
+2025-10-30 21:02:30 - mmlu_logger - INFO - Question 27/100: pred: B, label: C (AI time: 1.04s)
+2025-10-30 21:02:30 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q28
+2025-10-30 21:02:31 - mmlu_logger - INFO - Question 28/100: pred: D, label: B (AI time: 1.18s)
+2025-10-30 21:02:31 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q29
+2025-10-30 21:02:32 - mmlu_logger - INFO - Question 29/100: pred: B, label: D (AI time: 1.66s)
+2025-10-30 21:02:32 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q30
+2025-10-30 21:02:33 - mmlu_logger - INFO - Question 30/100: pred: A, label: A (AI time: 0.96s)
+2025-10-30 21:02:33 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q31
+2025-10-30 21:02:35 - mmlu_logger - INFO - Question 31/100: pred: D, label: B (AI time: 1.30s)
+2025-10-30 21:02:35 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q32
+2025-10-30 21:02:37 - mmlu_logger - INFO - Question 32/100: pred: B, label: B (AI time: 2.72s)
+2025-10-30 21:02:37 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q33
+2025-10-30 21:02:38 - mmlu_logger - INFO - Question 33/100: pred: A, label: A (AI time: 1.11s)
+2025-10-30 21:02:38 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q34
+2025-10-30 21:02:40 - mmlu_logger - INFO - Question 34/100: pred: D, label: C (AI time: 1.26s)
+2025-10-30 21:02:40 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q35
+2025-10-30 21:02:41 - mmlu_logger - INFO - Question 35/100: pred: C, label: A (AI time: 1.59s)
+2025-10-30 21:02:41 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q36
+2025-10-30 21:02:42 - mmlu_logger - INFO - Question 36/100: pred: B, label: B (AI time: 0.79s)
+2025-10-30 21:02:42 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q37
+2025-10-30 21:02:43 - mmlu_logger - INFO - Question 37/100: pred: B, label: D (AI time: 0.80s)
+2025-10-30 21:02:43 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q38
+2025-10-30 21:02:44 - mmlu_logger - INFO - Question 38/100: pred: D, label: B (AI time: 1.07s)
+2025-10-30 21:02:44 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q39
+2025-10-30 21:02:45 - mmlu_logger - INFO - Question 39/100: pred: C, label: C (AI time: 1.15s)
+2025-10-30 21:02:45 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q40
+2025-10-30 21:02:46 - mmlu_logger - INFO - Question 40/100: pred: D, label: D (AI time: 0.81s)
+2025-10-30 21:02:46 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q41
+2025-10-30 21:02:47 - mmlu_logger - INFO - Question 41/100: pred: C, label: C (AI time: 0.94s)
+2025-10-30 21:02:47 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q42
+2025-10-30 21:02:49 - mmlu_logger - INFO - Question 42/100: pred: D, label: A (AI time: 1.85s)
+2025-10-30 21:02:49 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q43
+2025-10-30 21:02:50 - mmlu_logger - INFO - Question 43/100: pred: B, label: B (AI time: 1.49s)
+2025-10-30 21:02:50 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q44
+2025-10-30 21:02:51 - mmlu_logger - INFO - Question 44/100: pred: A, label: C (AI time: 1.20s)
+2025-10-30 21:02:51 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q45
+2025-10-30 21:02:53 - mmlu_logger - INFO - Question 45/100: pred: C, label: C (AI time: 1.22s)
+2025-10-30 21:02:53 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q46
+2025-10-30 21:02:54 - mmlu_logger - INFO - Question 46/100: pred: B, label: C (AI time: 1.37s)
+2025-10-30 21:02:54 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q47
+2025-10-30 21:02:56 - mmlu_logger - INFO - Question 47/100: pred: D, label: B (AI time: 1.49s)
+2025-10-30 21:02:56 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q48
+2025-10-30 21:02:57 - mmlu_logger - INFO - Question 48/100: pred: C, label: B (AI time: 1.08s)
+2025-10-30 21:02:57 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q49
+2025-10-30 21:02:58 - mmlu_logger - INFO - Question 49/100: pred: C, label: C (AI time: 1.26s)
+2025-10-30 21:02:58 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q50
+2025-10-30 21:02:59 - mmlu_logger - INFO - Question 50/100: pred: C, label: B (AI time: 0.86s)
+2025-10-30 21:02:59 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q51
+2025-10-30 21:03:00 - mmlu_logger - INFO - Question 51/100: pred: B, label: D (AI time: 0.95s)
+2025-10-30 21:03:00 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q52
+2025-10-30 21:03:01 - mmlu_logger - INFO - Question 52/100: pred: B, label: B (AI time: 1.37s)
+2025-10-30 21:03:01 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q53
+2025-10-30 21:03:02 - mmlu_logger - INFO - Question 53/100: pred: D, label: A (AI time: 0.99s)
+2025-10-30 21:03:02 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q54
+2025-10-30 21:03:07 - mmlu_logger - INFO - Question 54/100: pred: A, label: C (AI time: 5.11s)
+2025-10-30 21:03:07 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q55
+2025-10-30 21:03:08 - mmlu_logger - INFO - Question 55/100: pred: B, label: B (AI time: 0.76s)
+2025-10-30 21:03:08 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q56
+2025-10-30 21:03:09 - mmlu_logger - INFO - Question 56/100: pred: C, label: A (AI time: 1.01s)
+2025-10-30 21:03:09 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q57
+2025-10-30 21:03:10 - mmlu_logger - INFO - Question 57/100: pred: A, label: D (AI time: 1.29s)
+2025-10-30 21:03:10 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q58
+2025-10-30 21:03:11 - mmlu_logger - INFO - Question 58/100: pred: B, label: B (AI time: 1.02s)
+2025-10-30 21:03:11 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q59
+2025-10-30 21:03:14 - mmlu_logger - INFO - Question 59/100: pred: A, label: A (AI time: 2.61s)
+2025-10-30 21:03:14 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q60
+2025-10-30 21:03:15 - mmlu_logger - INFO - Question 60/100: pred: C, label: A (AI time: 1.10s)
+2025-10-30 21:03:15 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q61
+2025-10-30 21:03:16 - mmlu_logger - INFO - Question 61/100: pred: C, label: D (AI time: 1.05s)
+2025-10-30 21:03:16 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q62
+2025-10-30 21:03:17 - mmlu_logger - INFO - Question 62/100: pred: C, label: D (AI time: 1.28s)
+2025-10-30 21:03:17 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q63
+2025-10-30 21:03:19 - mmlu_logger - INFO - Question 63/100: pred: D, label: C (AI time: 1.20s)
+2025-10-30 21:03:19 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q64
+2025-10-30 21:03:20 - mmlu_logger - INFO - Question 64/100: pred: B, label: B (AI time: 1.50s)
+2025-10-30 21:03:20 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q65
+2025-10-30 21:03:21 - mmlu_logger - INFO - Question 65/100: pred: B, label: B (AI time: 0.92s)
+2025-10-30 21:03:21 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q66
+2025-10-30 21:03:22 - mmlu_logger - INFO - Question 66/100: pred: C, label: C (AI time: 1.05s)
+2025-10-30 21:03:22 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q67
+2025-10-30 21:03:23 - mmlu_logger - INFO - Question 67/100: pred: C, label: D (AI time: 1.26s)
+2025-10-30 21:03:23 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q68
+2025-10-30 21:03:24 - mmlu_logger - INFO - Question 68/100: pred: C, label: C (AI time: 0.91s)
+2025-10-30 21:03:24 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q69
+2025-10-30 21:03:28 - mmlu_logger - INFO - Question 69/100: pred: A, label: A (AI time: 3.33s)
+2025-10-30 21:03:28 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q70
+2025-10-30 21:03:30 - mmlu_logger - INFO - Question 70/100: pred: B, label: A (AI time: 2.13s)
+2025-10-30 21:03:30 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q71
+2025-10-30 21:03:31 - mmlu_logger - INFO - Question 71/100: pred: B, label: D (AI time: 1.65s)
+2025-10-30 21:03:31 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q72
+2025-10-30 21:03:32 - mmlu_logger - INFO - Question 72/100: pred: C, label: C (AI time: 0.93s)
+2025-10-30 21:03:32 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q73
+2025-10-30 21:03:33 - mmlu_logger - INFO - Question 73/100: pred: C, label: D (AI time: 0.75s)
+2025-10-30 21:03:33 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q74
+2025-10-30 21:03:34 - mmlu_logger - INFO - Question 74/100: pred: B, label: B (AI time: 0.74s)
+2025-10-30 21:03:34 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q75
+2025-10-30 21:03:35 - mmlu_logger - INFO - Question 75/100: pred: C, label: D (AI time: 1.47s)
+2025-10-30 21:03:35 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q76
+2025-10-30 21:03:37 - mmlu_logger - INFO - Question 76/100: pred: B, label: B (AI time: 1.41s)
+2025-10-30 21:03:37 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q77
+2025-10-30 21:03:38 - mmlu_logger - INFO - Question 77/100: pred: C, label: C (AI time: 1.50s)
+2025-10-30 21:03:38 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q78
+2025-10-30 21:03:39 - mmlu_logger - INFO - Question 78/100: pred: A, label: A (AI time: 0.88s)
+2025-10-30 21:03:39 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q79
+2025-10-30 21:03:41 - mmlu_logger - INFO - Question 79/100: pred: C, label: D (AI time: 1.62s)
+2025-10-30 21:03:41 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q80
+2025-10-30 21:03:43 - mmlu_logger - INFO - Question 80/100: pred: A, label: C (AI time: 1.72s)
+2025-10-30 21:03:43 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q81
+2025-10-30 21:03:44 - mmlu_logger - INFO - Question 81/100: pred: D, label: B (AI time: 1.18s)
+2025-10-30 21:03:44 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q82
+2025-10-30 21:03:45 - mmlu_logger - INFO - Question 82/100: pred: C, label: D (AI time: 1.39s)
+2025-10-30 21:03:45 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q83
+2025-10-30 21:03:46 - mmlu_logger - INFO - Question 83/100: pred: A, label: A (AI time: 0.90s)
+2025-10-30 21:03:46 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q84
+2025-10-30 21:03:48 - mmlu_logger - INFO - Question 84/100: pred: C, label: C (AI time: 1.69s)
+2025-10-30 21:03:48 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q85
+2025-10-30 21:03:49 - mmlu_logger - INFO - Question 85/100: pred: C, label: D (AI time: 1.44s)
+2025-10-30 21:03:49 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q86
+2025-10-30 21:03:51 - mmlu_logger - INFO - Question 86/100: pred: C, label: C (AI time: 1.36s)
+2025-10-30 21:03:51 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q87
+2025-10-30 21:03:54 - mmlu_logger - INFO - Question 87/100: pred: D, label: A (AI time: 3.75s)
+2025-10-30 21:03:54 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q88
+2025-10-30 21:03:55 - mmlu_logger - INFO - Question 88/100: pred: C, label: A (AI time: 0.92s)
+2025-10-30 21:03:55 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q89
+2025-10-30 21:03:56 - mmlu_logger - INFO - Question 89/100: pred: D, label: A (AI time: 0.85s)
+2025-10-30 21:03:56 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q90
+2025-10-30 21:03:58 - mmlu_logger - INFO - Question 90/100: pred: D, label: C (AI time: 1.77s)
+2025-10-30 21:03:58 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q91
+2025-10-30 21:03:59 - mmlu_logger - INFO - Question 91/100: pred: B, label: D (AI time: 1.49s)
+2025-10-30 21:03:59 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q92
+2025-10-30 21:04:01 - mmlu_logger - INFO - Question 92/100: pred: B, label: B (AI time: 1.97s)
+2025-10-30 21:04:01 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q93
+2025-10-30 21:04:04 - mmlu_logger - INFO - Question 93/100: pred: B, label: B (AI time: 2.17s)
+2025-10-30 21:04:04 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q94
+2025-10-30 21:04:05 - mmlu_logger - INFO - Question 94/100: pred: B, label: A (AI time: 1.63s)
+2025-10-30 21:04:05 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q95
+2025-10-30 21:04:07 - mmlu_logger - INFO - Question 95/100: pred: D, label: D (AI time: 1.74s)
+2025-10-30 21:04:07 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q96
+2025-10-30 21:04:09 - mmlu_logger - INFO - Question 96/100: pred: C, label: C (AI time: 1.85s)
+2025-10-30 21:04:09 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q97
+2025-10-30 21:04:10 - mmlu_logger - INFO - Question 97/100: pred: C, label: B (AI time: 0.88s)
+2025-10-30 21:04:10 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q98
+2025-10-30 21:04:11 - mmlu_logger - INFO - Question 98/100: pred: B, label: C (AI time: 0.81s)
+2025-10-30 21:04:11 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q99
+2025-10-30 21:04:11 - mmlu_logger - INFO - Question 99/100: pred: D, label: C (AI time: 0.91s)
+2025-10-30 21:04:11 - mmlu_logger - INFO - Using original analysis for abstract_algebra Q100
+2025-10-30 21:04:13 - mmlu_logger - INFO - Question 100/100: pred: A, label: C (AI time: 1.33s)
+2025-10-30 21:04:13 - mmlu_logger - INFO - Average accuracy 0.420 - abstract_algebra
+2025-10-30 21:04:13 - mmlu_logger - INFO - Subject total time: 153.35s, Average AI time: 1.53s, Total questions: 100
+2025-10-30 21:04:13 - mmlu_logger - INFO - 
+============================================================
+2025-10-30 21:04:13 - mmlu_logger - INFO - EARLY ANSWER SUMMARY
+2025-10-30 21:04:13 - mmlu_logger - INFO - ============================================================
+2025-10-30 21:04:13 - mmlu_logger - INFO - Average accuracy: 0.420
+2025-10-30 21:04:13 - mmlu_logger - INFO - Total execution time: 153.37s (2.56min)
+2025-10-30 21:04:13 - mmlu_logger - INFO - Average time per subject: 153.35s
+2025-10-30 21:04:13 - mmlu_logger - INFO - Average time per AI call: 1.53s
+2025-10-30 21:04:13 - mmlu_logger - INFO - Total AI calls: 100
+2025-10-30 21:04:13 - mmlu_logger - INFO - ============================================================
+2025-10-30 21:04:13 - mmlu_logger - INFO - Results saved to: results/mmlu_early_answer_20251030_210139.jsonl

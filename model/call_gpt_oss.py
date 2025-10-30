@@ -143,5 +143,19 @@ def generate(prompt: str):
     return parse_llm_output(raw)
 
 
+def generate_from_prompt(harmony_prompt: str):
+    """
+    既に構築されたHarmony形式のプロンプトから答えを生成
+
+    Args:
+        harmony_prompt: Harmony形式のプロンプト（generate_early_answer_promptなどで作成済み）
+
+    Returns:
+        dict: parse_llm_outputの結果
+    """
+    raw = run_llm(harmony_prompt)
+    return parse_llm_output(raw)
+
+
 if __name__ == "__main__":
     print(generate("What is the weather in Tokyo?"))
