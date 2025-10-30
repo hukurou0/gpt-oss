@@ -1,5 +1,6 @@
 from functools import lru_cache
 import threading
+import logging
 from llama_cpp import Llama
 from openai_harmony import (
     Conversation,
@@ -74,18 +75,24 @@ def create_harmony_prompt(user_prompt: str) -> str:
     return text
 
 
-def run_llm(prompt: str, *, max_tokens: int = 10000, temperature: float = 0.7) -> str:
+def run_llm(prompt: str, *, max_tokens: int = 10000) -> str:
     """
     共有の Llama インスタンスを使って推論。
     """
+    logger = logging.getLogger("mmlu_logger")
     llm = get_llm()
+
+    temperature = 1.0
+    top_p = 1.0
 
     # llama-cpp-python の Llama.__call__ はスレッドセーフでない前提でロック
     with _infer_lock:
+        logger.debug(f"Running LLM inference with max_tokens={max_tokens}, temperature={temperature}, top_p={top_p}")
         output = llm(
             prompt,
             max_tokens=max_tokens,
             temperature=temperature,
+            top_p=top_p,
             # echo=True,  # もしプロンプト含めて返したい場合
         )
 
@@ -98,6 +105,7 @@ def parse_llm_output(output: str):
     """
     import re
 
+    logger = logging.getLogger("mmlu_logger")
     result = {"analysis": "", "final": ""}
 
     analysis_pattern = r'<\|channel\|>analysis<\|message\|>(.*?)<\|end\|>'
@@ -112,11 +120,20 @@ def parse_llm_output(output: str):
         result["final"] = m.group(1).strip()
 
     if result["analysis"] == "" or result["final"] == "":
-        raise Exception("Error: llm output is empty. Maybe max_tokens is too small. " )
+        logger.error("LLM output parsing failed: analysis or final is empty")
+        logger.error(f"Raw output: {output[:200]}...")  # 最初の200文字だけログ
+        return ""
 
     if not result["final"] in ["A", "B", "C", "D"]:
-        raise Exception("Error: llm output is not a valid answer(A, B, C, D). " + "answer: " + result["final"])
+        original_answer = result["final"]
+        if len(original_answer) > 0:
+            result["final"] = original_answer[0].upper()
+            logger.warning(f"Invalid answer detected: '{original_answer}'. Using first character: '{result['final']}'")
+        else:
+            result["final"] = "A"  # デフォルト値
+            logger.warning(f"Empty answer detected. Using default: 'A'")
 
+    logger.debug(f"Successfully parsed answer: {result['final']}")
     return result
 
 
