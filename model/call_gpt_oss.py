@@ -59,7 +59,7 @@ def create_harmony_prompt(user_prompt: str) -> str:
 
     developer_message = (
         DeveloperContent.new()
-        .with_instructions("Please answer only with a single character.")
+        .with_instructions("Please answer the last question with a single character.")
     )
 
     convo = Conversation.from_messages(
