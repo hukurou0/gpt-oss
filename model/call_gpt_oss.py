@@ -75,7 +75,7 @@ def create_harmony_prompt(user_prompt: str) -> str:
     return text
 
 
-def run_llm(prompt: str, *, max_tokens: int = 10000) -> str:
+def run_llm(prompt: str, *, max_tokens: int = 1000000) -> str:
     """
     共有の Llama インスタンスを使って推論。
     """
