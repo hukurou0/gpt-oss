@@ -1,17 +1,7 @@
-uvのインストール
-
-mkdir -p $HOME/local
-cd $HOME/local
-wget https://ftp.gnu.org/gnu/gcc/gcc-12.3.0/gcc-12.3.0.tar.gz
-tar xf gcc-12.3.0.tar.gz
-cd gcc-12.3.0
-./configure --prefix=$HOME/local/gcc-12.3.0 --disable-multilib
-make -j$(nproc)
-make install
-
-export PATH=$HOME/local/gcc-12.3.0/bin:$PATH
-export LD_LIBRARY_PATH=$HOME/local/gcc-12.3.0/lib64:$LD_LIBRARY_PATH
-export CC=gcc
-export CXX=g++
-
+git clone https://github.com/hukurou0/gpt-oss
+cd gpt-oss
 uv sync
+cd model
+wget -O gpt-oss-20b-F16.gguf "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-F16.gguf"
+cd ../
+uv run xxxx
