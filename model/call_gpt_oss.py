@@ -122,7 +122,10 @@ def parse_llm_output(output: str):
     if result["analysis"] == "" or result["final"] == "":
         logger.error("LLM output parsing failed: analysis or final is empty")
         logger.error(f"Raw output: {output[:200]}...")  # 最初の200文字だけログ
-        return ""
+        return {
+            "analysis": "",
+            "final": "",
+        }
 
     if not result["final"] in ["A", "B", "C", "D"]:
         original_answer = result["final"]
