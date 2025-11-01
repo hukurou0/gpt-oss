@@ -150,10 +150,10 @@ def main(generate, start_from=None, start_index=None, output_dir="results/origin
         all_subject_times.append(subject_time)
         all_ai_times.extend(ai_times)
 
-        # subjectごとの結果をCSVとして保存
-        csv_path = result_saver.save_subject_csv(subject, output_dir=output_dir)
-        logger.info(f"Saved results for {subject} to: {csv_path}")
-        print(f"Saved results for {subject} to: {csv_path}")
+        # subjectごとの結果をJSONLとして保存
+        jsonl_path = result_saver.save_subject_jsonl(subject, output_dir=output_dir)
+        logger.info(f"Saved results for {subject} to: {jsonl_path}")
+        print(f"Saved results for {subject} to: {jsonl_path}")
 
     total_elapsed_time = time.time() - total_start_time
 
