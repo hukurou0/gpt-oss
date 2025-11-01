@@ -105,7 +105,7 @@ def eval(generate, subject, dev_df, test_df, result_saver=None):
 
     return cors, acc, subject_elapsed_time, ai_times
 
-def main(generate):
+def main(generate, start_from=None, start_index=None, output_dir="results/original/mmlu"):
     # ロガーの初期化
     logger = setup_logger()
 
@@ -117,16 +117,31 @@ def main(generate):
 
     logger.info(f"Found {len(subjects)} subjects to evaluate")
 
+    # 開始位置の決定
+    start_idx = 0
+    if start_index is not None:
+        start_idx = start_index
+        logger.info(f"Starting from index {start_idx}")
+    elif start_from is not None:
+        if start_from in subjects:
+            start_idx = subjects.index(start_from)
+            logger.info(f"Starting from subject '{start_from}' (index {start_idx})")
+        else:
+            logger.warning(f"Subject '{start_from}' not found. Starting from beginning.")
+
     all_cors = []
     all_subject_times = []
     all_ai_times = []
 
     total_start_time = time.time()
 
-    n = 0
+    for i, subject in enumerate(subjects):
+        # 開始インデックスより前はスキップ
+        if i < start_idx:
+            logger.info(f"Skipping {subject} (before start index)")
+            continue
 
-    for subject in subjects:
-        logger.info(f"Loading data for subject: {subject}")
+        logger.info(f"Loading data for subject: {subject} ({i+1}/{len(subjects)})")
         dev_df = pd.read_csv(os.path.join("dataset/mmlu/data", "dev", subject + "_dev.csv"), header=None)[:5]
         test_df = pd.read_csv(os.path.join("dataset/mmlu/data", "test", subject + "_test.csv"), header=None)
 
@@ -134,35 +149,46 @@ def main(generate):
         all_cors.append(cors)
         all_subject_times.append(subject_time)
         all_ai_times.extend(ai_times)
-        n += 1
-        if n >= 1:
-            break
+
+        # subjectごとの結果をCSVとして保存
+        csv_path = result_saver.save_subject_csv(subject, output_dir=output_dir)
+        logger.info(f"Saved results for {subject} to: {csv_path}")
+        print(f"Saved results for {subject} to: {csv_path}")
 
     total_elapsed_time = time.time() - total_start_time
-
-    weighted_acc = np.mean(np.concatenate(all_cors))
 
     # サマリーの出力
     separator = "="*60
     logger.info("\n" + separator)
     logger.info("SUMMARY")
     logger.info(separator)
-    logger.info("Average accuracy: {:.3f}".format(weighted_acc))
+
+    if all_cors:
+        weighted_acc = np.mean(np.concatenate(all_cors))
+        logger.info("Average accuracy: {:.3f}".format(weighted_acc))
+        logger.info("Average time per subject: {:.2f}s".format(np.mean(all_subject_times)))
+        logger.info("Average time per AI call: {:.2f}s".format(np.mean(all_ai_times)))
+        logger.info("Total AI calls: {}".format(len(all_ai_times)))
+    else:
+        logger.info("No subjects were processed")
+
     logger.info("Total execution time: {:.2f}s ({:.2f}min)".format(total_elapsed_time, total_elapsed_time/60))
-    logger.info("Average time per subject: {:.2f}s".format(np.mean(all_subject_times)))
-    logger.info("Average time per AI call: {:.2f}s".format(np.mean(all_ai_times)))
-    logger.info("Total AI calls: {}".format(len(all_ai_times)))
     logger.info(separator)
 
     # コンソールにも出力
     print("\n" + separator)
     print("SUMMARY")
     print(separator)
-    print("Average accuracy: {:.3f}".format(weighted_acc))
+
+    if all_cors:
+        print("Average accuracy: {:.3f}".format(weighted_acc))
+        print("Average time per subject: {:.2f}s".format(np.mean(all_subject_times)))
+        print("Average time per AI call: {:.2f}s".format(np.mean(all_ai_times)))
+        print("Total AI calls: {}".format(len(all_ai_times)))
+    else:
+        print("No subjects were processed")
+
     print("Total execution time: {:.2f}s ({:.2f}min)".format(total_elapsed_time, total_elapsed_time/60))
-    print("Average time per subject: {:.2f}s".format(np.mean(all_subject_times)))
-    print("Average time per AI call: {:.2f}s".format(np.mean(all_ai_times)))
-    print("Total AI calls: {}".format(len(all_ai_times)))
     print(separator)
 
     # 結果をCSVに保存

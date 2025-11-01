@@ -1,5 +1,6 @@
 import json
 import os
+import pandas as pd
 from datetime import datetime
 from typing import List, Dict, Any
 
@@ -25,6 +26,9 @@ class ResultSaver:
         # JSON Linesファイルを作成（空ファイルとして初期化）
         with open(self.filepath, 'w', encoding='utf-8') as f:
             pass  # 空ファイルを作成
+
+        # subjectごとの結果を保持する辞書
+        self.subject_results = {}
 
     def add_result(
         self,
@@ -67,12 +71,47 @@ class ResultSaver:
             json.dump(result, f, ensure_ascii=False)
             f.write('\n')
 
+        # subjectごとの結果も保持
+        if subject not in self.subject_results:
+            self.subject_results[subject] = []
+
+        self.subject_results[subject].append(result)
+
     def save(self):
         """
         互換性のために残しているメソッド。
         逐次書き込みされているため、このメソッドは何もしない。
         """
         return self.filepath
+
+    def save_subject_csv(self, subject: str, output_dir: str = "results/original/mmlu"):
+        """
+        特定のsubjectの結果をCSVファイルとして保存し、メモリから削除
+
+        Args:
+            subject: サブジェクト名
+            output_dir: 保存先ディレクトリ
+
+        Returns:
+            保存したCSVファイルのパス
+        """
+        if subject not in self.subject_results:
+            raise ValueError(f"Subject '{subject}' has no results")
+
+        # 出力ディレクトリを作成
+        os.makedirs(output_dir, exist_ok=True)
+
+        # CSVファイルのパス
+        csv_filepath = os.path.join(output_dir, f"{subject}.csv")
+
+        # DataFrameに変換して保存
+        df = pd.DataFrame(self.subject_results[subject])
+        df.to_csv(csv_filepath, index=False, encoding='utf-8')
+
+        # メモリから削除
+        del self.subject_results[subject]
+
+        return csv_filepath
 
     def get_filepath(self) -> str:
         """保存先のファイルパスを取得"""
