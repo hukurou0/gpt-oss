@@ -1,7 +1,11 @@
-git clone https://github.com/hukurou0/gpt-oss
+# git clone https://github.com/hukurou0/gpt-oss
 cd gpt-oss
 uv sync
 cd model
 wget -O gpt-oss-20b-F16.gguf "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/main/gpt-oss-20b-F16.gguf"
 cd ../
+
+git config --global user.name xxxxx
+git config --global user.email xxxxx
+
 uv run xxxx
