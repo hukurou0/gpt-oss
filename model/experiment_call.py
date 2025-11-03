@@ -1,19 +1,4 @@
-from model.call_gpt_oss import create_harmony_prompt, run_llm, parse_llm_output
-
-
-# グローバル変数でanalysis_percentageを保持
-_global_analysis_percentage = 0.5
-
-
-def set_analysis_percentage(percentage: float):
-    """
-    グローバルなanalysis_percentageを設定
-
-    Args:
-        percentage: 使用する割合（0.0 ~ 1.0）
-    """
-    global _global_analysis_percentage
-    _global_analysis_percentage = percentage
+from model.call_gpt_oss import create_harmony_prompt, run_llm
 
 
 def _truncate_analysis(analysis: str, percentage: float) -> str:
@@ -50,8 +35,14 @@ def _add_cut_assistant_message(prompt: str, analysis: str):
     """
     return prompt + "<|end|><|start|>assistant<|channel|>analysis<|message|>" + analysis + "<|end|><|start|>assistant<|channel|>final<|message|>"
 
+def _add_filler_tokens(prompt: str, analysis: str):
+    """
+    プロンプトにanalysisを追加してfillerチャンネルに続くようにする
+    """
+    filler_tokens = "..." * len(analysis)
+    return prompt + "<|end|><|start|>assistant<|channel|>filler<|message|>" + filler_tokens + "<|end|><|start|>assistant<|channel|>final<|message|>"
 
-def generate_early_answer(prompt: str, analysis: str, analysis_percentage: float = None) -> dict:
+def generate_early_answer(prompt: str, analysis: str, analysis_percentage: float) -> dict:
     """
     analysisの一部を使って答えを生成する
 
@@ -65,14 +56,32 @@ def generate_early_answer(prompt: str, analysis: str, analysis_percentage: float
     Returns:
         dict: parse_llm_outputの結果
     """
-    # percentageが指定されていない場合はグローバル設定を使用
-    if analysis_percentage is None:
-        analysis_percentage = _global_analysis_percentage
-
     # analysisを指定された割合で切り出し
     truncated_analysis = _truncate_analysis(analysis, analysis_percentage)
 
     harmony_prompt = create_harmony_prompt(prompt)
     input_prompt = _add_cut_assistant_message(harmony_prompt, truncated_analysis)
+    output = run_llm(input_prompt)
+    return output[0]
+
+def generate_filler_tokens(prompt: str, analysis: str, analysis_percentage: float) -> dict:
+    """
+    analysisの一部を使って答えを生成する
+
+    Args:
+        prompt: ユーザープロンプト
+        analysis: 既存のanalysis
+        analysis_percentage: analysisの前半何%を使用するか（0.0 ~ 1.0）
+                           Noneの場合はグローバル設定を使用
+                           例: 0.5 = 50%, 1.0 = 100%
+
+    Returns:
+        dict: parse_llm_outputの結果
+    """
+    # analysisを指定された割合で切り出し
+    truncated_analysis = _truncate_analysis(analysis, analysis_percentage)
+
+    harmony_prompt = create_harmony_prompt(prompt)
+    input_prompt = _add_filler_tokens(harmony_prompt, truncated_analysis)
     output = run_llm(input_prompt)
     return output[0]

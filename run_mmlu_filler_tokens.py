@@ -1,8 +1,8 @@
 """
-run_mmlu.pyで生成された結果を使ってearly_answerで再評価するスクリプト
+run_mmlu.pyで生成された結果を使ってfiller_tokensで再評価するスクリプト
 
 使用例:
-    python run_mmlu_early_answer.py
+    python run_mmlu_filler_tokens.py
 """
 
 import os
@@ -10,14 +10,14 @@ import time
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from model.experiment_call import generate_early_answer
+from model.experiment_call import generate_filler_tokens
 from dataset.mmlu.experiment_evaluate import eval, load_analysis_map
 from utils.logger import setup_logger
 from utils.result_saver import ResultSaver
 
 # -------- パラメータ設定 --------
 ORIGINAL_RESULTS_DIR = "results/original/mmlu"  # 入力結果ディレクトリ
-OUTPUT_BASE_DIR = "results/early_answer/mmlu"  # 出力ベースディレクトリ
+OUTPUT_BASE_DIR = "results/filler_tokens/mmlu"  # 出力ベースディレクトリ
 ANALYSIS_PERCENTAGES = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]  # 使用するanalysisの割合リスト
 DATA_DIR = "dataset/mmlu/data"  # MMLUデータディレクトリ
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
         # generate関数をラップしてanalysis_percentageを渡す
         def generate_wrapper(prompt: str, analysis: str):
-            return generate_early_answer(prompt, analysis, analysis_percentage)
+            return generate_filler_tokens(prompt, analysis, analysis_percentage)
 
         # 全体の統計を記録
         all_cors = []
