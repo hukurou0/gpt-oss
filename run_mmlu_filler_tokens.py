@@ -18,8 +18,9 @@ from utils.result_saver import ResultSaver
 # -------- パラメータ設定 --------
 ORIGINAL_RESULTS_DIR = "results/original/mmlu"  # 入力結果ディレクトリ
 OUTPUT_BASE_DIR = "results/filler_tokens/mmlu"  # 出力ベースディレクトリ
-ANALYSIS_PERCENTAGES = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]  # 使用するanalysisの割合リスト
+ANALYSIS_PERCENTAGES = [0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0.0]  # 使用するanalysisの割合リスト
 DATA_DIR = "dataset/mmlu/data"  # MMLUデータディレクトリ
+START_SUBJECT = "electrical_engineering"  # 開始するsubject名（Noneの場合は最初から、例: "abstract_algebra"）
 
 def process_subject(subject: str, results_file: str, generate_func, output_dir: str, logger):
     """
@@ -70,6 +71,8 @@ if __name__ == "__main__":
     logger.info(f"Original results directory: {ORIGINAL_RESULTS_DIR}")
     logger.info(f"Output base directory: {OUTPUT_BASE_DIR}")
     logger.info(f"Analysis percentages: {ANALYSIS_PERCENTAGES}")
+    if START_SUBJECT:
+        logger.info(f"Starting from subject: {START_SUBJECT}")
 
     # results/original/mmlu ディレクトリ内の全.jsonlファイルを取得
     results_dir = Path(ORIGINAL_RESULTS_DIR)
@@ -111,9 +114,21 @@ if __name__ == "__main__":
 
         total_start_time = time.time()
 
+        # START_SUBJECTが指定されている場合の処理用フラグ
+        should_process = START_SUBJECT is None  # START_SUBJECTが未指定ならすぐ処理開始
+
         # 各ファイルを処理
         for jsonl_file in jsonl_files:
             subject = jsonl_file.stem  # ファイル名から拡張子を除いた部分
+
+            # START_SUBJECTが指定されている場合、それに到達するまでスキップ
+            if not should_process:
+                if subject == START_SUBJECT:
+                    should_process = True
+                    logger.info(f"Reached start subject: {subject}, starting processing...")
+                else:
+                    logger.info(f"Skipping subject: {subject}")
+                    continue
 
             try:
                 cors, acc, subject_time, ai_times, output_file = process_subject(
