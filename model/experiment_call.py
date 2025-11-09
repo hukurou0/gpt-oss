@@ -35,12 +35,12 @@ def _add_cut_assistant_message(prompt: str, analysis: str):
     """
     return prompt + "<|end|><|start|>assistant<|channel|>analysis<|message|>" + analysis + "<|end|><|start|>assistant<|channel|>final<|message|>"
 
-def _add_filler_tokens(prompt: str, analysis: str):
+def _add_filler_tokens(prompt: str, analysis: str, truncated_analysis: str):
     """
     プロンプトにanalysisを追加してfillerチャンネルに続くようにする
     """
-    filler_tokens = "..." * len(analysis)
-    return prompt + "<|end|><|start|>assistant<|channel|>filler<|message|>" + filler_tokens + "<|end|><|start|>assistant<|channel|>final<|message|>"
+    filler_tokens = "..." * len(truncated_analysis)
+    return prompt + "<|end|><|start|>assistant<|channel|>filler<|message|>" + analysis + filler_tokens + "<|end|><|start|>assistant<|channel|>final<|message|>"
 
 def generate_early_answer(prompt: str, analysis: str, analysis_percentage: float) -> dict:
     """
@@ -82,6 +82,6 @@ def generate_filler_tokens(prompt: str, analysis: str, analysis_percentage: floa
     truncated_analysis = _truncate_analysis(analysis, analysis_percentage)
 
     harmony_prompt = create_harmony_prompt(prompt)
-    input_prompt = _add_filler_tokens(harmony_prompt, truncated_analysis)
+    input_prompt = _add_filler_tokens(harmony_prompt, analysis, truncated_analysis)
     output = run_llm(input_prompt)
     return output[0]
