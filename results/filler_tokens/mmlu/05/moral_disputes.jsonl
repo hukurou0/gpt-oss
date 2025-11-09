@@ -142,15 +142,15 @@
 {"subject": "moral_disputes", "question_number": 142, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 143, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 144, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.11}
-{"subject": "moral_disputes", "question_number": 145, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
+{"subject": "moral_disputes", "question_number": 145, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "moral_disputes", "question_number": 146, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "moral_disputes", "question_number": 147, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "moral_disputes", "question_number": 147, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 148, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.18}
 {"subject": "moral_disputes", "question_number": 149, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.13}
 {"subject": "moral_disputes", "question_number": 150, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 151, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "moral_disputes", "question_number": 152, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.09}
-{"subject": "moral_disputes", "question_number": 153, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "moral_disputes", "question_number": 153, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "moral_disputes", "question_number": 154, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 155, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 156, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.11}
@@ -178,7 +178,7 @@
 {"subject": "moral_disputes", "question_number": 178, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 179, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "moral_disputes", "question_number": 180, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.13}
-{"subject": "moral_disputes", "question_number": 181, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.08}
+{"subject": "moral_disputes", "question_number": 181, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.09}
 {"subject": "moral_disputes", "question_number": 182, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.1}
 {"subject": "moral_disputes", "question_number": 183, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 184, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
@@ -254,7 +254,7 @@
 {"subject": "moral_disputes", "question_number": 254, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 255, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 256, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "moral_disputes", "question_number": 257, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.08}
+{"subject": "moral_disputes", "question_number": 257, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "moral_disputes", "question_number": 258, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 259, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.11}
 {"subject": "moral_disputes", "question_number": 260, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.11}
@@ -264,7 +264,7 @@
 {"subject": "moral_disputes", "question_number": 264, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 265, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "moral_disputes", "question_number": 266, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "moral_disputes", "question_number": 267, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "moral_disputes", "question_number": 267, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "moral_disputes", "question_number": 268, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 269, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 270, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
@@ -296,7 +296,7 @@
 {"subject": "moral_disputes", "question_number": 296, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "moral_disputes", "question_number": 297, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "moral_disputes", "question_number": 298, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "moral_disputes", "question_number": 299, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.15}
+{"subject": "moral_disputes", "question_number": 299, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.16}
 {"subject": "moral_disputes", "question_number": 300, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 301, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "moral_disputes", "question_number": 302, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
@@ -310,7 +310,7 @@
 {"subject": "moral_disputes", "question_number": 310, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 311, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 312, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "moral_disputes", "question_number": 313, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "moral_disputes", "question_number": 313, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 314, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 315, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 316, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.08}
@@ -323,7 +323,7 @@
 {"subject": "moral_disputes", "question_number": 323, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 324, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 325, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "moral_disputes", "question_number": 326, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "moral_disputes", "question_number": 326, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 327, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 328, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "moral_disputes", "question_number": 329, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
@@ -339,7 +339,7 @@
 {"subject": "moral_disputes", "question_number": 339, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 340, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "moral_disputes", "question_number": 341, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.1}
-{"subject": "moral_disputes", "question_number": 342, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "moral_disputes", "question_number": 342, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "moral_disputes", "question_number": 343, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "moral_disputes", "question_number": 344, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.17}
 {"subject": "moral_disputes", "question_number": 345, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}

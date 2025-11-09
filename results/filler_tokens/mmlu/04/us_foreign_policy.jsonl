@@ -1,8 +1,8 @@
 {"subject": "us_foreign_policy", "question_number": 1, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
-{"subject": "us_foreign_policy", "question_number": 2, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 2, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 3, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 4, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "us_foreign_policy", "question_number": 5, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.05}
+{"subject": "us_foreign_policy", "question_number": 5, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 6, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 7, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 8, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.06}
@@ -20,7 +20,7 @@
 {"subject": "us_foreign_policy", "question_number": 20, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 21, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 22, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "us_foreign_policy", "question_number": 23, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "us_foreign_policy", "question_number": 23, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 24, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 25, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 26, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
@@ -32,7 +32,7 @@
 {"subject": "us_foreign_policy", "question_number": 32, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 33, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 34, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.04}
-{"subject": "us_foreign_policy", "question_number": 35, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 35, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 36, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 37, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 38, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
@@ -52,7 +52,7 @@
 {"subject": "us_foreign_policy", "question_number": 52, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 53, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 54, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "us_foreign_policy", "question_number": 55, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 55, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 56, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 57, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.08}
 {"subject": "us_foreign_policy", "question_number": 58, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
@@ -68,8 +68,8 @@
 {"subject": "us_foreign_policy", "question_number": 68, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 69, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 70, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "us_foreign_policy", "question_number": 71, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "us_foreign_policy", "question_number": 72, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 71, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "us_foreign_policy", "question_number": 72, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 73, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 74, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 75, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
@@ -78,12 +78,12 @@
 {"subject": "us_foreign_policy", "question_number": 78, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "us_foreign_policy", "question_number": 79, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 80, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "us_foreign_policy", "question_number": 81, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "us_foreign_policy", "question_number": 81, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "us_foreign_policy", "question_number": 82, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "us_foreign_policy", "question_number": 83, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 83, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 84, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 85, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "us_foreign_policy", "question_number": 86, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "us_foreign_policy", "question_number": 86, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 87, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "us_foreign_policy", "question_number": 88, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "us_foreign_policy", "question_number": 89, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.1}

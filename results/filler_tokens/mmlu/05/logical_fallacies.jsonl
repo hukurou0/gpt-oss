@@ -140,7 +140,7 @@
 {"subject": "logical_fallacies", "question_number": 140, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "logical_fallacies", "question_number": 141, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "logical_fallacies", "question_number": 142, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "logical_fallacies", "question_number": 143, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "logical_fallacies", "question_number": 143, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "logical_fallacies", "question_number": 144, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "logical_fallacies", "question_number": 145, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.09}
 {"subject": "logical_fallacies", "question_number": 146, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}

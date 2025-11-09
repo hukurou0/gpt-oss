@@ -9,7 +9,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 9, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 10, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 11, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_macroeconomics", "question_number": 12, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
+{"subject": "high_school_macroeconomics", "question_number": 12, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.11}
 {"subject": "high_school_macroeconomics", "question_number": 13, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 14, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 15, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
@@ -25,7 +25,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 25, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 26, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 27, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.07}
-{"subject": "high_school_macroeconomics", "question_number": 28, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_macroeconomics", "question_number": 28, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 29, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 30, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 31, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
@@ -113,7 +113,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 113, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 114, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 115, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
-{"subject": "high_school_macroeconomics", "question_number": 116, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "high_school_macroeconomics", "question_number": 116, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 117, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 118, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 119, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
@@ -175,7 +175,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 175, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 176, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 177, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_macroeconomics", "question_number": 178, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_macroeconomics", "question_number": 178, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 179, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "high_school_macroeconomics", "question_number": 180, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 181, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.1}
@@ -284,7 +284,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 285, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 286, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 287, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "high_school_macroeconomics", "question_number": 288, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.06}
+{"subject": "high_school_macroeconomics", "question_number": 288, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 289, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 290, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 291, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
@@ -299,7 +299,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 300, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 301, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 302, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_macroeconomics", "question_number": 303, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_macroeconomics", "question_number": 303, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 304, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 305, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 306, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
@@ -308,7 +308,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 309, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 310, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "high_school_macroeconomics", "question_number": 311, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_macroeconomics", "question_number": 312, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.12}
+{"subject": "high_school_macroeconomics", "question_number": 312, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.13}
 {"subject": "high_school_macroeconomics", "question_number": 313, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_macroeconomics", "question_number": 314, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 315, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
@@ -356,7 +356,7 @@
 {"subject": "high_school_macroeconomics", "question_number": 357, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "high_school_macroeconomics", "question_number": 358, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.22}
 {"subject": "high_school_macroeconomics", "question_number": 359, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_macroeconomics", "question_number": 360, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "high_school_macroeconomics", "question_number": 360, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 361, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_macroeconomics", "question_number": 362, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_macroeconomics", "question_number": 363, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}

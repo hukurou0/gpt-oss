@@ -6,7 +6,7 @@
 {"subject": "high_school_physics", "question_number": 6, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.12}
 {"subject": "high_school_physics", "question_number": 7, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.27}
 {"subject": "high_school_physics", "question_number": 8, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "high_school_physics", "question_number": 9, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_physics", "question_number": 9, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_physics", "question_number": 10, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_physics", "question_number": 11, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.1}
 {"subject": "high_school_physics", "question_number": 12, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.11}
@@ -97,7 +97,7 @@
 {"subject": "high_school_physics", "question_number": 97, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "high_school_physics", "question_number": 98, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.16}
 {"subject": "high_school_physics", "question_number": 99, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.04}
-{"subject": "high_school_physics", "question_number": 100, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.34}
+{"subject": "high_school_physics", "question_number": 100, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.34}
 {"subject": "high_school_physics", "question_number": 101, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "high_school_physics", "question_number": 102, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_physics", "question_number": 103, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
@@ -125,8 +125,8 @@
 {"subject": "high_school_physics", "question_number": 125, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_physics", "question_number": 126, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_physics", "question_number": 127, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "high_school_physics", "question_number": 128, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.11}
-{"subject": "high_school_physics", "question_number": 129, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
+{"subject": "high_school_physics", "question_number": 128, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.12}
+{"subject": "high_school_physics", "question_number": 129, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "high_school_physics", "question_number": 130, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_physics", "question_number": 131, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_physics", "question_number": 132, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}

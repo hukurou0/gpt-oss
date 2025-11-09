@@ -94,12 +94,12 @@
 {"subject": "human_sexuality", "question_number": 94, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "human_sexuality", "question_number": 95, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "human_sexuality", "question_number": 96, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "human_sexuality", "question_number": 97, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.09}
+{"subject": "human_sexuality", "question_number": 97, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "human_sexuality", "question_number": 98, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "human_sexuality", "question_number": 99, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "human_sexuality", "question_number": 100, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "human_sexuality", "question_number": 101, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "human_sexuality", "question_number": 102, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "human_sexuality", "question_number": 102, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "human_sexuality", "question_number": 103, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "human_sexuality", "question_number": 104, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "human_sexuality", "question_number": 105, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
@@ -127,5 +127,5 @@
 {"subject": "human_sexuality", "question_number": 127, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "human_sexuality", "question_number": 128, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "human_sexuality", "question_number": 129, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "human_sexuality", "question_number": 130, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "human_sexuality", "question_number": 130, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "human_sexuality", "question_number": 131, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}

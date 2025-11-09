@@ -20,7 +20,7 @@
 {"subject": "professional_medicine", "question_number": 20, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 21, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.12}
 {"subject": "professional_medicine", "question_number": 22, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.09}
-{"subject": "professional_medicine", "question_number": 23, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.06}
+{"subject": "professional_medicine", "question_number": 23, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 24, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 25, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 26, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
@@ -35,7 +35,7 @@
 {"subject": "professional_medicine", "question_number": 35, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.12}
 {"subject": "professional_medicine", "question_number": 36, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 37, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.11}
-{"subject": "professional_medicine", "question_number": 38, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "professional_medicine", "question_number": 38, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 39, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 40, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 41, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
@@ -43,7 +43,7 @@
 {"subject": "professional_medicine", "question_number": 43, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.11}
 {"subject": "professional_medicine", "question_number": 44, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 45, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "professional_medicine", "question_number": 46, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "professional_medicine", "question_number": 46, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 47, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 48, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 49, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
@@ -79,10 +79,10 @@
 {"subject": "professional_medicine", "question_number": 79, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.12}
 {"subject": "professional_medicine", "question_number": 80, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.13}
 {"subject": "professional_medicine", "question_number": 81, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "professional_medicine", "question_number": 82, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.07}
-{"subject": "professional_medicine", "question_number": 83, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.23}
+{"subject": "professional_medicine", "question_number": 82, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "professional_medicine", "question_number": 83, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.22}
 {"subject": "professional_medicine", "question_number": 84, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "professional_medicine", "question_number": 85, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "professional_medicine", "question_number": 85, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 86, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 87, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.11}
 {"subject": "professional_medicine", "question_number": 88, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
@@ -94,12 +94,12 @@
 {"subject": "professional_medicine", "question_number": 94, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 95, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "professional_medicine", "question_number": 96, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.24}
-{"subject": "professional_medicine", "question_number": 97, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
+{"subject": "professional_medicine", "question_number": 97, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 98, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 99, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 100, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 101, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.1}
-{"subject": "professional_medicine", "question_number": 102, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "professional_medicine", "question_number": 102, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 103, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 104, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 105, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
@@ -143,11 +143,11 @@
 {"subject": "professional_medicine", "question_number": 143, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.11}
 {"subject": "professional_medicine", "question_number": 144, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 145, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "professional_medicine", "question_number": 146, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "professional_medicine", "question_number": 146, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 147, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 148, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 149, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
-{"subject": "professional_medicine", "question_number": 150, "analysis": "tmp", "predicted_answer": "N", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.2}
+{"subject": "professional_medicine", "question_number": 150, "analysis": "tmp", "predicted_answer": "E", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.18}
 {"subject": "professional_medicine", "question_number": 151, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 152, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 153, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.11}
@@ -177,7 +177,7 @@
 {"subject": "professional_medicine", "question_number": 177, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 178, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 179, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.11}
-{"subject": "professional_medicine", "question_number": 180, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "professional_medicine", "question_number": 180, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 181, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.17}
 {"subject": "professional_medicine", "question_number": 182, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 183, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
@@ -187,7 +187,7 @@
 {"subject": "professional_medicine", "question_number": 187, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.12}
 {"subject": "professional_medicine", "question_number": 188, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.17}
 {"subject": "professional_medicine", "question_number": 189, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
-{"subject": "professional_medicine", "question_number": 190, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "professional_medicine", "question_number": 190, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 191, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 192, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 193, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
@@ -234,7 +234,7 @@
 {"subject": "professional_medicine", "question_number": 234, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.11}
 {"subject": "professional_medicine", "question_number": 235, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 236, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.13}
-{"subject": "professional_medicine", "question_number": 237, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.1}
+{"subject": "professional_medicine", "question_number": 237, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "professional_medicine", "question_number": 238, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 239, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 240, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.12}
@@ -254,7 +254,7 @@
 {"subject": "professional_medicine", "question_number": 254, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 255, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "professional_medicine", "question_number": 256, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
-{"subject": "professional_medicine", "question_number": 257, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "professional_medicine", "question_number": 257, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "professional_medicine", "question_number": 258, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "professional_medicine", "question_number": 259, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 260, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.07}
@@ -267,6 +267,6 @@
 {"subject": "professional_medicine", "question_number": 267, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 268, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "professional_medicine", "question_number": 269, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.1}
-{"subject": "professional_medicine", "question_number": 270, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "professional_medicine", "question_number": 270, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "professional_medicine", "question_number": 271, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.11}
 {"subject": "professional_medicine", "question_number": 272, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.08}

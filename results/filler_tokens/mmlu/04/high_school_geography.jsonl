@@ -2,13 +2,13 @@
 {"subject": "high_school_geography", "question_number": 2, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 3, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 4, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.05}
-{"subject": "high_school_geography", "question_number": 5, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.09}
+{"subject": "high_school_geography", "question_number": 5, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.08}
 {"subject": "high_school_geography", "question_number": 6, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 7, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_geography", "question_number": 8, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 9, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 10, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_geography", "question_number": 11, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_geography", "question_number": 11, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 12, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 13, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 14, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
@@ -28,7 +28,7 @@
 {"subject": "high_school_geography", "question_number": 28, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.07}
 {"subject": "high_school_geography", "question_number": 29, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 30, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "high_school_geography", "question_number": 31, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_geography", "question_number": 31, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 32, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.08}
 {"subject": "high_school_geography", "question_number": 33, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 34, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
@@ -46,7 +46,7 @@
 {"subject": "high_school_geography", "question_number": 46, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 47, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 48, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.04}
-{"subject": "high_school_geography", "question_number": 49, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.09}
+{"subject": "high_school_geography", "question_number": 49, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.08}
 {"subject": "high_school_geography", "question_number": 50, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 51, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 52, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
@@ -55,7 +55,7 @@
 {"subject": "high_school_geography", "question_number": 55, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 56, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 57, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_geography", "question_number": 58, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_geography", "question_number": 58, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 59, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 60, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 61, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.05}
@@ -81,7 +81,7 @@
 {"subject": "high_school_geography", "question_number": 81, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 82, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 83, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "high_school_geography", "question_number": 84, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "high_school_geography", "question_number": 84, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 85, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_geography", "question_number": 86, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_geography", "question_number": 87, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.09}

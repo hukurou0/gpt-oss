@@ -7,14 +7,14 @@
 {"subject": "prehistory", "question_number": 7, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 8, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 9, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.11}
-{"subject": "prehistory", "question_number": 10, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.12}
+{"subject": "prehistory", "question_number": 10, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.11}
 {"subject": "prehistory", "question_number": 11, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "prehistory", "question_number": 12, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 13, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 14, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 15, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 16, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.05}
-{"subject": "prehistory", "question_number": 17, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.31}
+{"subject": "prehistory", "question_number": 17, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.3}
 {"subject": "prehistory", "question_number": 18, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 19, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 20, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
@@ -23,7 +23,7 @@
 {"subject": "prehistory", "question_number": 23, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 24, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 25, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "prehistory", "question_number": 26, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.04}
+{"subject": "prehistory", "question_number": 26, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 27, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 28, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 29, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
@@ -61,8 +61,8 @@
 {"subject": "prehistory", "question_number": 61, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 62, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 63, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "prehistory", "question_number": 64, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "prehistory", "question_number": 65, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "prehistory", "question_number": 64, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "prehistory", "question_number": 65, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 66, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 67, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 68, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.06}
@@ -147,10 +147,10 @@
 {"subject": "prehistory", "question_number": 147, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 148, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 149, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.16}
-{"subject": "prehistory", "question_number": 150, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "prehistory", "question_number": 150, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 151, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 152, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "prehistory", "question_number": 153, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
+{"subject": "prehistory", "question_number": 153, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 154, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "prehistory", "question_number": 155, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "prehistory", "question_number": 156, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
@@ -164,7 +164,7 @@
 {"subject": "prehistory", "question_number": 164, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 165, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 166, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
-{"subject": "prehistory", "question_number": 167, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.05}
+{"subject": "prehistory", "question_number": 167, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 168, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 169, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 170, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.05}
@@ -178,7 +178,7 @@
 {"subject": "prehistory", "question_number": 178, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 179, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 180, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "prehistory", "question_number": 181, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
+{"subject": "prehistory", "question_number": 181, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 182, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 183, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 184, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
@@ -235,7 +235,7 @@
 {"subject": "prehistory", "question_number": 235, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 236, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 237, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
-{"subject": "prehistory", "question_number": 238, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "prehistory", "question_number": 238, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "prehistory", "question_number": 239, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 240, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 241, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.09}
@@ -288,7 +288,7 @@
 {"subject": "prehistory", "question_number": 288, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 289, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 290, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.09}
-{"subject": "prehistory", "question_number": 291, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.07}
+{"subject": "prehistory", "question_number": 291, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 292, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "prehistory", "question_number": 293, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "prehistory", "question_number": 294, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}

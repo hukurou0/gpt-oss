@@ -85,13 +85,13 @@
 {"subject": "high_school_chemistry", "question_number": 85, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "high_school_chemistry", "question_number": 86, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.15}
 {"subject": "high_school_chemistry", "question_number": 87, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "high_school_chemistry", "question_number": 88, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.05}
+{"subject": "high_school_chemistry", "question_number": 88, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "high_school_chemistry", "question_number": 89, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_chemistry", "question_number": 90, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.19}
 {"subject": "high_school_chemistry", "question_number": 91, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_chemistry", "question_number": 92, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_chemistry", "question_number": 93, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "high_school_chemistry", "question_number": 94, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.2}
+{"subject": "high_school_chemistry", "question_number": 94, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.19}
 {"subject": "high_school_chemistry", "question_number": 95, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.25}
 {"subject": "high_school_chemistry", "question_number": 96, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_chemistry", "question_number": 97, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
@@ -111,7 +111,7 @@
 {"subject": "high_school_chemistry", "question_number": 111, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "high_school_chemistry", "question_number": 112, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.09}
 {"subject": "high_school_chemistry", "question_number": 113, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.13}
-{"subject": "high_school_chemistry", "question_number": 114, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "high_school_chemistry", "question_number": 114, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_chemistry", "question_number": 115, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.08}
 {"subject": "high_school_chemistry", "question_number": 116, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "high_school_chemistry", "question_number": 117, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}

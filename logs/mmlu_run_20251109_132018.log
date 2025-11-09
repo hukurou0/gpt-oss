@@ -1,0 +1,553 @@
+2025-11-09 13:20:18 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251109_132018.log
+2025-11-09 13:20:18 - mmlu_logger - INFO - Original results directory: results/original/mmlu
+2025-11-09 13:20:18 - mmlu_logger - INFO - Output base directory: results/filler_tokens/mmlu
+2025-11-09 13:20:18 - mmlu_logger - INFO - Analysis percentages: [0.7, 0.8, 0.9]
+2025-11-09 13:20:18 - mmlu_logger - INFO - Starting from subject: professional_law
+2025-11-09 13:20:18 - mmlu_logger - INFO - Found 57 subject files to process
+2025-11-09 13:20:18 - mmlu_logger - INFO - 
+################################################################################
+2025-11-09 13:20:18 - mmlu_logger - INFO - Starting processing with analysis_percentage=0.7 (07)
+2025-11-09 13:20:18 - mmlu_logger - INFO - Output directory: results/filler_tokens/mmlu/07
+2025-11-09 13:20:18 - mmlu_logger - INFO - ################################################################################
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: abstract_algebra
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: anatomy
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: astronomy
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: business_ethics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: clinical_knowledge
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_biology
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_chemistry
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_computer_science
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_mathematics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_medicine
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: college_physics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: computer_security
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: conceptual_physics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: econometrics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: electrical_engineering
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: elementary_mathematics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: formal_logic
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: global_facts
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_biology
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_chemistry
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_computer_science
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_european_history
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_geography
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_government_and_politics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_macroeconomics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_mathematics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_microeconomics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_physics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_psychology
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_statistics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_us_history
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: high_school_world_history
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: human_aging
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: human_sexuality
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: international_law
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: jurisprudence
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: logical_fallacies
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: machine_learning
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: management
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: marketing
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: medical_genetics
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: miscellaneous
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: moral_disputes
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: moral_scenarios
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: nutrition
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: philosophy
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: prehistory
+2025-11-09 13:20:18 - mmlu_logger - INFO - Skipping subject: professional_accounting
+2025-11-09 13:20:18 - mmlu_logger - INFO - Reached start subject: professional_law, starting processing...
+2025-11-09 13:20:18 - mmlu_logger - INFO - 
+============================================================
+2025-11-09 13:20:18 - mmlu_logger - INFO - Processing subject: professional_law
+2025-11-09 13:20:18 - mmlu_logger - INFO - ============================================================
+2025-11-09 13:20:18 - mmlu_logger - INFO - Loading analysis from: results/original/mmlu/professional_law.jsonl
+2025-11-09 13:20:18 - mmlu_logger - INFO - Loaded 1534 analyses
+2025-11-09 13:20:18 - mmlu_logger - INFO - Results will be saved to: results/filler_tokens/mmlu/07/professional_law.jsonl
+2025-11-09 13:20:18 - mmlu_logger - INFO - Starting evaluation for subject: professional_law
+2025-11-09 13:20:18 - mmlu_logger - INFO - Using original analysis for professional_law Q1
+2025-11-09 13:20:20 - mmlu_logger - INFO - Question 1/1534: pred: B, label: C (AI time: 2.07s)
+2025-11-09 13:20:20 - mmlu_logger - INFO - Using original analysis for professional_law Q2
+2025-11-09 13:20:20 - mmlu_logger - INFO - Question 2/1534: pred: C, label: B (AI time: 0.16s)
+2025-11-09 13:20:20 - mmlu_logger - INFO - Using original analysis for professional_law Q3
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 3/1534: pred: C, label: D (AI time: 0.38s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q4
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 4/1534: pred: C, label: C (AI time: 0.12s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q5
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 5/1534: pred: A, label: B (AI time: 0.19s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q6
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 6/1534: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q7
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 7/1534: pred: C, label: B (AI time: 0.20s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q8
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 8/1534: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q9
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 9/1534: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q10
+2025-11-09 13:20:21 - mmlu_logger - INFO - Question 10/1534: pred: A, label: C (AI time: 0.12s)
+2025-11-09 13:20:21 - mmlu_logger - INFO - Using original analysis for professional_law Q11
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 11/1534: pred: A, label: A (AI time: 0.38s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q12
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 12/1534: pred: A, label: A (AI time: 0.14s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q13
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 13/1534: pred: C, label: A (AI time: 0.11s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q14
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 14/1534: pred: A, label: B (AI time: 0.15s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q15
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 15/1534: pred: D, label: D (AI time: 0.11s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q16
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 16/1534: pred: C, label: C (AI time: 0.07s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q17
+2025-11-09 13:20:22 - mmlu_logger - INFO - Question 17/1534: pred: C, label: C (AI time: 0.12s)
+2025-11-09 13:20:22 - mmlu_logger - INFO - Using original analysis for professional_law Q18
+2025-11-09 13:20:23 - mmlu_logger - INFO - Question 18/1534: pred: D, label: A (AI time: 0.25s)
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_law Q19
+2025-11-09 13:20:23 - mmlu_logger - INFO - Question 19/1534: pred: C, label: C (AI time: 0.15s)
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_law Q20
+2025-11-09 13:20:23 - mmlu_logger - INFO - Question 20/1534: pred: D, label: A (AI time: 0.14s)
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_law Q21
+2025-11-09 13:20:23 - mmlu_logger - INFO - Question 21/1534: pred: C, label: C (AI time: 0.19s)
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_law Q22
+2025-11-09 13:20:23 - mmlu_logger - ERROR - Error processing question 22: Requested tokens (4470) exceed context window of 4096
+2025-11-09 13:20:23 - mmlu_logger - ERROR - Prompt: The following are multiple choice questions (with answers) about  professional law.
+
+A state legislature has recently enacted a statute making it a misdemeanor to curse or revile or use obscene or opprobrious language toward or in reference to a police officer perfonning his duties. A student at a state university organized a demonstration on campus to protest the war. The rally was attended by a group of 50 students who shouted anti-war messages at cars passing by. To show his contempt for the United States, the student sewed the American flag to the rear of his jeans. When a police officer saw the flag sown on the student's jeans, he approached and told him to remove the flag or he would be placed under arrest. The student became angered and shouted at the police officer, "Listen, you bastard, I'll wear this rag anywhere I please. " The student was subsequently placed under arrest and charged with violating the state statute. The student subsequently brings suit in state court challenging the constitutionality of the statute. The strongest constitutional argument for the student is that
+A. the statute is void for vagueness under the Fourteenth Amendment's due process clause.
+B. the statute is invalid because it violates the petitioner's freedom of speech under the First Amendment.
+C. the statute is an abridgment of freedom of speech under the First Amendment because less restrictive means are available for achieving the same purpose.
+D. the statute is overbroad and consequently invalid under the First and FourteenthAmendments.
+Answer: D
+
+A state has recently enacted a statute prohibiting the disposal of any nuclear wastes within the state. This law does not contravene or conflict with any federal statutes. A man operates a company in the state that is engaged in the disposal of nuclear wastes. Subsequent to the passage of the state statute, the man, not yet aware of the new law, entered into contracts with many out-of-state firms to dispose of their nuclear wastes in the state. On account of this new law, however, the man will be unable to perform these contracts. Assume that the man has standing to challenge this state law. Which of the following presents his strongest constitutional grounds to challenge the state law prohibiting the disposal of nuclear wastes within the state?
+A. The commerce clause.
+B. The equal protection clause of the Fourteenth Amendment.
+C. The privileges and immunities clause of Article IV, Section 2. 
+D. The contract clause.
+Answer: A
+
+Judge took judicial notice of some facts at the beginning of the trial. Which of the following is not an appropriate kind of fact for judicial notice?
+A. Indisputable facts.
+B. Facts that have been asserted by individual political organizations.
+C. Facts recognized to be true by common knowledge.
+D. Facts capable of scientific verification.
+Answer: B
+
+On October 1, 1980, a developer, owner of several hundred acres in a rural county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. In 2000, a retiree purchased one of the lots, built a house, and erected a fence in the rear of his property within the restricted area. In 2004, a teacher purchased a lot adjacent to the retiree's property and built a new house. Two years later, a librarian purchased the lot that adjoined the teacher's property. The three deeds to those properties each contained references to the deed book where the general plan was recorded. In 2008, the librarian began the construction of a seven-foot post-and-rail fence along the line dividing his lot with the teacher's, and along the center of the area subject to the franchise right. Although the teacher objected to its construction, the fence was completed. If the teacher seeks a mandatory injunction to compel removal of the librarian's fence, the court will most likely
+A. grant relief, because the fence was in violation of the easement restriction. 
+B. grant relief, because the encroachment of the fence violated the restriction in the original plan. 
+C. deny relief, because the teacher failed to enforce the restriction against the retiree. 
+D. deny relief, because the fence would not be construed as "a structure" within the terms of the restriction. 
+Answer: B
+
+A son owed a creditor $5,000. The son's father contacted the creditor and told him that he wanted to pay the son's debt. The father signed a document that stated the father would pay the son's debt at a rate of $500 a month for 10 months. The creditor made no written or oral commitment to forbear to sue the son to collect the $5,000 debt, and the father made no oral or written request for any such forbearance. For the next five months, the father made and the creditor accepted the $500 monthly payments as agreed. During that period, the creditor, in fact, did forbear to take any legal action against the son. However, the father then informed the creditor that he would make no further payments on the debt. Which of the following is the most persuasive argument that the father is liable to the creditor under the terms of their agreement?
+A. The father's promise and the creditor's reliance thereon, if proved, gave rise to a valid claim by the creditor against the father based on the doctrine of promissory estoppel. 
+B. Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. 
+C. The father's five payments to the creditor totaling $2,500 manifested a serious intent on the father's part to be contractually bound, and such manifestation is generally recognized as an effective substitute for consideration. 
+D. By assuming the antecedent debt obligation that the son owed to the creditor, the father became a surety whose promise to the creditor was enforceable, since it was in writing and supported by adequate consideration. 
+Answer: A
+
+A resident of a state was the owner of a large tract of virgin forest. The resident conveyed the tract "to the people of the state in fee simple; provided, however, that if any portion of said tract shall ever be used or developed for any commercial purpose or otherwise converted from its natural state (with exception for recreational, scientific, or educational purposes), then the grantor or his successors in interest may reenter as of the grantor's former estate. "Under state law, conveyances of real property to "the people" of the state are deemed to vest title in the state regarded as a legal entity, and custody over such property resides in an appointed official known as the director of environmental resources. The director granted a logging company the privilege to cut timber on a remote portion of the tract, together with incidental easements of way. The section that the logging company was to clear would be used for the development of a state recreational area. After the privilege was granted, the logging company proceeded to clear the timber, which he later sold for $10,000. When the resident learned that the logging company was cutting the timber and selling it, he notified the director to desist further exploitation of the land. In an ejectment action instituted by the resident against the state to recover the tract, what result would be expected?
+A. The resident would succeed, because the logging company's selling of the timber would entitle the resident to re-enter and terminate the grant to the state.
+B. The resident would succeed, because the logging company's selling of the timber would constitute an automatic termination of the state's fee interest.
+C. The resident would not succeed, because the director approved the clearing of the timber in order to develop the area for recreational purposes.
+D. The resident would not succeed, because the reservation of the resident's right to terminate would be violative of the rule against perpetuities.
+Answer:
+2025-11-09 13:20:23 - mmlu_logger - ERROR - Error processing subject professional_law: Error: The following are multiple choice questions (with answers) about  professional law.
+
+A state legislature has recently enacted a statute making it a misdemeanor to curse or revile or use obscene or opprobrious language toward or in reference to a police officer perfonning his duties. A student at a state university organized a demonstration on campus to protest the war. The rally was attended by a group of 50 students who shouted anti-war messages at cars passing by. To show his contempt for the United States, the student sewed the American flag to the rear of his jeans. When a police officer saw the flag sown on the student's jeans, he approached and told him to remove the flag or he would be placed under arrest. The student became angered and shouted at the police officer, "Listen, you bastard, I'll wear this rag anywhere I please. " The student was subsequently placed under arrest and charged with violating the state statute. The student subsequently brings suit in state court challenging the constitutionality of the statute. The strongest constitutional argument for the student is that
+A. the statute is void for vagueness under the Fourteenth Amendment's due process clause.
+B. the statute is invalid because it violates the petitioner's freedom of speech under the First Amendment.
+C. the statute is an abridgment of freedom of speech under the First Amendment because less restrictive means are available for achieving the same purpose.
+D. the statute is overbroad and consequently invalid under the First and FourteenthAmendments.
+Answer: D
+
+A state has recently enacted a statute prohibiting the disposal of any nuclear wastes within the state. This law does not contravene or conflict with any federal statutes. A man operates a company in the state that is engaged in the disposal of nuclear wastes. Subsequent to the passage of the state statute, the man, not yet aware of the new law, entered into contracts with many out-of-state firms to dispose of their nuclear wastes in the state. On account of this new law, however, the man will be unable to perform these contracts. Assume that the man has standing to challenge this state law. Which of the following presents his strongest constitutional grounds to challenge the state law prohibiting the disposal of nuclear wastes within the state?
+A. The commerce clause.
+B. The equal protection clause of the Fourteenth Amendment.
+C. The privileges and immunities clause of Article IV, Section 2. 
+D. The contract clause.
+Answer: A
+
+Judge took judicial notice of some facts at the beginning of the trial. Which of the following is not an appropriate kind of fact for judicial notice?
+A. Indisputable facts.
+B. Facts that have been asserted by individual political organizations.
+C. Facts recognized to be true by common knowledge.
+D. Facts capable of scientific verification.
+Answer: B
+
+On October 1, 1980, a developer, owner of several hundred acres in a rural county, drafted a general development plan for the area. The duly recorded plan imposed elaborate limitations and restrictions upon the land in the plan, which was to be developed as a residential district. The restrictions were to extend to all persons acquiring any of the lots and to their heirs, assigns, and lessees. It was further provided that all subsequent owners would be charged with due notice of the restrictions. Among those restrictions in the general plan were the following:(22) A franchise right is created in a strip of land 10 feet in width along the rear of each lot for the use of public utility companies with right of ingress and egress. (23) No house or structure of any kind shall be built on the aforementioned strip of land running through the said blocks. In 2000, a retiree purchased one of the lots, built a house, and erected a fence in the rear of his property within the restricted area. In 2004, a teacher purchased a lot adjacent to the retiree's property and built a new house. Two years later, a librarian purchased the lot that adjoined the teacher's property. The three deeds to those properties each contained references to the deed book where the general plan was recorded. In 2008, the librarian began the construction of a seven-foot post-and-rail fence along the line dividing his lot with the teacher's, and along the center of the area subject to the franchise right. Although the teacher objected to its construction, the fence was completed. If the teacher seeks a mandatory injunction to compel removal of the librarian's fence, the court will most likely
+A. grant relief, because the fence was in violation of the easement restriction. 
+B. grant relief, because the encroachment of the fence violated the restriction in the original plan. 
+C. deny relief, because the teacher failed to enforce the restriction against the retiree. 
+D. deny relief, because the fence would not be construed as "a structure" within the terms of the restriction. 
+Answer: B
+
+A son owed a creditor $5,000. The son's father contacted the creditor and told him that he wanted to pay the son's debt. The father signed a document that stated the father would pay the son's debt at a rate of $500 a month for 10 months. The creditor made no written or oral commitment to forbear to sue the son to collect the $5,000 debt, and the father made no oral or written request for any such forbearance. For the next five months, the father made and the creditor accepted the $500 monthly payments as agreed. During that period, the creditor, in fact, did forbear to take any legal action against the son. However, the father then informed the creditor that he would make no further payments on the debt. Which of the following is the most persuasive argument that the father is liable to the creditor under the terms of their agreement?
+A. The father's promise and the creditor's reliance thereon, if proved, gave rise to a valid claim by the creditor against the father based on the doctrine of promissory estoppel. 
+B. Because it was foreseeable that the father's promise would induce the creditor to forbear taking any action against the son, such forbearance was, as a matter of law, a bargained-for consideration for the father's promise. 
+C. The father's five payments to the creditor totaling $2,500 manifested a serious intent on the father's part to be contractually bound, and such manifestation is generally recognized as an effective substitute for consideration. 
+D. By assuming the antecedent debt obligation that the son owed to the creditor, the father became a surety whose promise to the creditor was enforceable, since it was in writing and supported by adequate consideration. 
+Answer: A
+
+A resident of a state was the owner of a large tract of virgin forest. The resident conveyed the tract "to the people of the state in fee simple; provided, however, that if any portion of said tract shall ever be used or developed for any commercial purpose or otherwise converted from its natural state (with exception for recreational, scientific, or educational purposes), then the grantor or his successors in interest may reenter as of the grantor's former estate. "Under state law, conveyances of real property to "the people" of the state are deemed to vest title in the state regarded as a legal entity, and custody over such property resides in an appointed official known as the director of environmental resources. The director granted a logging company the privilege to cut timber on a remote portion of the tract, together with incidental easements of way. The section that the logging company was to clear would be used for the development of a state recreational area. After the privilege was granted, the logging company proceeded to clear the timber, which he later sold for $10,000. When the resident learned that the logging company was cutting the timber and selling it, he notified the director to desist further exploitation of the land. In an ejectment action instituted by the resident against the state to recover the tract, what result would be expected?
+A. The resident would succeed, because the logging company's selling of the timber would entitle the resident to re-enter and terminate the grant to the state.
+B. The resident would succeed, because the logging company's selling of the timber would constitute an automatic termination of the state's fee interest.
+C. The resident would not succeed, because the director approved the clearing of the timber in order to develop the area for recreational purposes.
+D. The resident would not succeed, because the reservation of the resident's right to terminate would be violative of the rule against perpetuities.
+Answer:
+2025-11-09 13:20:23 - mmlu_logger - INFO - 
+============================================================
+2025-11-09 13:20:23 - mmlu_logger - INFO - Processing subject: professional_medicine
+2025-11-09 13:20:23 - mmlu_logger - INFO - ============================================================
+2025-11-09 13:20:23 - mmlu_logger - INFO - Loading analysis from: results/original/mmlu/professional_medicine.jsonl
+2025-11-09 13:20:23 - mmlu_logger - INFO - Loaded 272 analyses
+2025-11-09 13:20:23 - mmlu_logger - INFO - Results will be saved to: results/filler_tokens/mmlu/07/professional_medicine.jsonl
+2025-11-09 13:20:23 - mmlu_logger - INFO - Starting evaluation for subject: professional_medicine
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_medicine Q1
+2025-11-09 13:20:23 - mmlu_logger - INFO - Question 1/272: pred: C, label: C (AI time: 0.23s)
+2025-11-09 13:20:23 - mmlu_logger - INFO - Using original analysis for professional_medicine Q2
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 2/272: pred: C, label: C (AI time: 0.13s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q3
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 3/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q4
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 4/272: pred: C, label: C (AI time: 0.11s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q5
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 5/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q6
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 6/272: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q7
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 7/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q8
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 8/272: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q9
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 9/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q10
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 10/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q11
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 11/272: pred: C, label: D (AI time: 0.12s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q12
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 12/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q13
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 13/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q14
+2025-11-09 13:20:24 - mmlu_logger - INFO - Question 14/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:24 - mmlu_logger - INFO - Using original analysis for professional_medicine Q15
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 15/272: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q16
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 16/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q17
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 17/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q18
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 18/272: pred: B, label: B (AI time: 0.05s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q19
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 19/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q20
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 20/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q21
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 21/272: pred: D, label: D (AI time: 0.12s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q22
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 22/272: pred: D, label: D (AI time: 0.09s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q23
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 23/272: pred: D, label: A (AI time: 0.07s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q24
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 24/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q25
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 25/272: pred: B, label: D (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q26
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 26/272: pred: A, label: A (AI time: 0.08s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q27
+2025-11-09 13:20:25 - mmlu_logger - INFO - Question 27/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:25 - mmlu_logger - INFO - Using original analysis for professional_medicine Q28
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 28/272: pred: B, label: D (AI time: 0.13s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q29
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 29/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q30
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 30/272: pred: C, label: D (AI time: 0.07s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q31
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 31/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q32
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 32/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q33
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 33/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q34
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 34/272: pred: A, label: A (AI time: 0.17s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q35
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 35/272: pred: B, label: B (AI time: 0.12s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q36
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 36/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q37
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 37/272: pred: C, label: A (AI time: 0.11s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q38
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 38/272: pred: A, label: A (AI time: 0.07s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q39
+2025-11-09 13:20:26 - mmlu_logger - INFO - Question 39/272: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:26 - mmlu_logger - INFO - Using original analysis for professional_medicine Q40
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 40/272: pred: C, label: C (AI time: 0.07s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q41
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 41/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q42
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 42/272: pred: B, label: B (AI time: 0.10s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q43
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 43/272: pred: C, label: A (AI time: 0.11s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q44
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 44/272: pred: A, label: A (AI time: 0.07s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q45
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 45/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q46
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 46/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q47
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 47/272: pred: A, label: B (AI time: 0.07s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q48
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 48/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q49
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 49/272: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q50
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 50/272: pred: C, label: C (AI time: 0.05s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q51
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 51/272: pred: A, label: D (AI time: 0.08s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q52
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 52/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q53
+2025-11-09 13:20:27 - mmlu_logger - INFO - Question 53/272: pred: C, label: C (AI time: 0.07s)
+2025-11-09 13:20:27 - mmlu_logger - INFO - Using original analysis for professional_medicine Q54
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 54/272: pred: D, label: D (AI time: 0.10s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q55
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 55/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q56
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 56/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q57
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 57/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q58
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 58/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q59
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 59/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q60
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 60/272: pred: C, label: C (AI time: 0.10s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q61
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 61/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q62
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 62/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q63
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 63/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q64
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 64/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q65
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 65/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q66
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 66/272: pred: A, label: A (AI time: 0.07s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q67
+2025-11-09 13:20:28 - mmlu_logger - INFO - Question 67/272: pred: C, label: C (AI time: 0.10s)
+2025-11-09 13:20:28 - mmlu_logger - INFO - Using original analysis for professional_medicine Q68
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 68/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q69
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 69/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q70
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 70/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q71
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 71/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q72
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 72/272: pred: B, label: B (AI time: 0.08s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q73
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 73/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q74
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 74/272: pred: A, label: C (AI time: 0.08s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q75
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 75/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q76
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 76/272: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q77
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 77/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q78
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 78/272: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q79
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 79/272: pred: D, label: D (AI time: 0.13s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q80
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 80/272: pred: D, label: D (AI time: 0.13s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q81
+2025-11-09 13:20:29 - mmlu_logger - INFO - Question 81/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:29 - mmlu_logger - INFO - Using original analysis for professional_medicine Q82
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 82/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q83
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 83/272: pred: B, label: A (AI time: 0.24s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q84
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 84/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q85
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 85/272: pred: A, label: A (AI time: 0.07s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q86
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 86/272: pred: B, label: B (AI time: 0.05s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q87
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 87/272: pred: B, label: B (AI time: 0.11s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q88
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 88/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q89
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 89/272: pred: B, label: B (AI time: 0.08s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q90
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 90/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q91
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 91/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q92
+2025-11-09 13:20:30 - mmlu_logger - INFO - Question 92/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:30 - mmlu_logger - INFO - Using original analysis for professional_medicine Q93
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 93/272: pred: B, label: B (AI time: 0.12s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q94
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 94/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q95
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 95/272: pred: A, label: A (AI time: 0.10s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q96
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 96/272: pred: C, label: D (AI time: 0.25s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q97
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 97/272: pred: A, label: A (AI time: 0.08s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q98
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 98/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q99
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 99/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q100
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 100/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q101
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 101/272: pred: B, label: B (AI time: 0.10s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q102
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 102/272: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q103
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 103/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q104
+2025-11-09 13:20:31 - mmlu_logger - INFO - Question 104/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:31 - mmlu_logger - INFO - Using original analysis for professional_medicine Q105
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 105/272: pred: C, label: C (AI time: 0.08s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q106
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 106/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q107
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 107/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q108
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 108/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q109
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 109/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q110
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 110/272: pred: A, label: A (AI time: 0.08s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q111
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 111/272: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q112
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 112/272: pred: C, label: C (AI time: 0.10s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q113
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 113/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q114
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 114/272: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q115
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 115/272: pred: B, label: B (AI time: 0.16s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q116
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 116/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q117
+2025-11-09 13:20:32 - mmlu_logger - INFO - Question 117/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:32 - mmlu_logger - INFO - Using original analysis for professional_medicine Q118
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 118/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q119
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 119/272: pred: C, label: C (AI time: 0.10s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q120
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 120/272: pred: C, label: C (AI time: 0.07s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q121
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 121/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q122
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 122/272: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q123
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 123/272: pred: C, label: C (AI time: 0.09s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q124
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 124/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q125
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 125/272: pred: A, label: A (AI time: 0.05s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q126
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 126/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q127
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 127/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q128
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 128/272: pred: C, label: D (AI time: 0.11s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q129
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 129/272: pred: A, label: A (AI time: 0.08s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q130
+2025-11-09 13:20:33 - mmlu_logger - INFO - Question 130/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:33 - mmlu_logger - INFO - Using original analysis for professional_medicine Q131
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 131/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q132
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 132/272: pred: A, label: A (AI time: 0.12s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q133
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 133/272: pred: B, label: B (AI time: 0.08s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q134
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 134/272: pred: D, label: D (AI time: 0.05s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q135
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 135/272: pred: D, label: A (AI time: 0.12s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q136
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 136/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q137
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 137/272: pred: D, label: D (AI time: 0.11s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q138
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 138/272: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q139
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 139/272: pred: D, label: D (AI time: 0.11s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q140
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 140/272: pred: C, label: C (AI time: 0.06s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q141
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 141/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q142
+2025-11-09 13:20:34 - mmlu_logger - INFO - Question 142/272: pred: D, label: A (AI time: 0.07s)
+2025-11-09 13:20:34 - mmlu_logger - INFO - Using original analysis for professional_medicine Q143
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 143/272: pred: A, label: D (AI time: 0.11s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q144
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 144/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q145
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 145/272: pred: A, label: A (AI time: 0.06s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q146
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 146/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q147
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 147/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q148
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 148/272: pred: C, label: C (AI time: 0.07s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q149
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 149/272: pred: D, label: D (AI time: 0.08s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q150
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 150/272: pred: C, label: D (AI time: 0.19s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q151
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 151/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q152
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 152/272: pred: B, label: B (AI time: 0.07s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q153
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 153/272: pred: A, label: A (AI time: 0.11s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q154
+2025-11-09 13:20:35 - mmlu_logger - INFO - Question 154/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q155
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 155/272: pred: B, label: B (AI time: 0.10s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q156
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 156/272: pred: D, label: D (AI time: 0.09s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q157
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 157/272: pred: D, label: D (AI time: 0.11s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q158
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 158/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q159
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 159/272: pred: C, label: C (AI time: 0.10s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q160
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 160/272: pred: D, label: D (AI time: 0.07s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q161
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 161/272: pred: B, label: B (AI time: 0.10s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q162
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 162/272: pred: B, label: B (AI time: 0.05s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q163
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 163/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q164
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 164/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q165
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 165/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q166
+2025-11-09 13:20:36 - mmlu_logger - INFO - Question 166/272: pred: D, label: D (AI time: 0.15s)
+2025-11-09 13:20:36 - mmlu_logger - INFO - Using original analysis for professional_medicine Q167
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 167/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q168
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 168/272: pred: D, label: D (AI time: 0.11s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q169
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 169/272: pred: D, label: D (AI time: 0.06s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q170
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 170/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q171
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 171/272: pred: B, label: B (AI time: 0.06s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q172
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 172/272: pred: C, label: C (AI time: 0.05s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q173
+2025-11-09 13:20:37 - mmlu_logger - INFO - Question 173/272: pred: C, label: C (AI time: 0.28s)
+2025-11-09 13:20:37 - mmlu_logger - INFO - Using original analysis for professional_medicine Q174

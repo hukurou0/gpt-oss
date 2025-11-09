@@ -21,7 +21,7 @@
 {"subject": "electrical_engineering", "question_number": 21, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "electrical_engineering", "question_number": 22, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "electrical_engineering", "question_number": 23, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.06}
-{"subject": "electrical_engineering", "question_number": 24, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "electrical_engineering", "question_number": 24, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 25, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 26, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 27, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
@@ -47,7 +47,7 @@
 {"subject": "electrical_engineering", "question_number": 47, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 48, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 49, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "electrical_engineering", "question_number": 50, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.1}
+{"subject": "electrical_engineering", "question_number": 50, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.11}
 {"subject": "electrical_engineering", "question_number": 51, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.09}
 {"subject": "electrical_engineering", "question_number": 52, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "electrical_engineering", "question_number": 53, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
@@ -59,7 +59,7 @@
 {"subject": "electrical_engineering", "question_number": 59, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 60, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 61, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "electrical_engineering", "question_number": 62, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "electrical_engineering", "question_number": 62, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 63, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 64, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 65, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.06}
@@ -94,7 +94,7 @@
 {"subject": "electrical_engineering", "question_number": 94, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 95, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "electrical_engineering", "question_number": 96, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "electrical_engineering", "question_number": 97, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.05}
+{"subject": "electrical_engineering", "question_number": 97, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 98, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "electrical_engineering", "question_number": 99, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 100, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
@@ -118,7 +118,7 @@
 {"subject": "electrical_engineering", "question_number": 118, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 119, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.07}
 {"subject": "electrical_engineering", "question_number": 120, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.04}
-{"subject": "electrical_engineering", "question_number": 121, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.07}
+{"subject": "electrical_engineering", "question_number": 121, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.06}
 {"subject": "electrical_engineering", "question_number": 122, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "A", "is_correct": true, "ai_time_seconds": 0.06}
 {"subject": "electrical_engineering", "question_number": 123, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "electrical_engineering", "question_number": 124, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time_seconds": 0.05}

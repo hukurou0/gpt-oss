@@ -142,4 +142,4 @@
 {"subject": "electrical_engineering", "question_number": 142, "analysis": "tmp", "predicted_answer": "A", "correct_answer": "C", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "electrical_engineering", "question_number": 143, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.1}
 {"subject": "electrical_engineering", "question_number": 144, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.05}
-{"subject": "electrical_engineering", "question_number": 145, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.1}
+{"subject": "electrical_engineering", "question_number": 145, "analysis": "tmp", "predicted_answer": "D", "correct_answer": "A", "is_correct": false, "ai_time_seconds": 0.11}
