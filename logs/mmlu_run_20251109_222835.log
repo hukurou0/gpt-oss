@@ -1,0 +1,56 @@
+2025-11-09 22:28:35 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251109_222835.log
+2025-11-09 22:28:35 - mmlu_logger - INFO - Original results directory: results/original/mmlu
+2025-11-09 22:28:35 - mmlu_logger - INFO - Output base directory: results/filler_tokens/mmlu
+2025-11-09 22:28:35 - mmlu_logger - INFO - Analysis percentage: 0.7
+2025-11-09 22:28:35 - mmlu_logger - INFO - Found 8 missing subjects: ['professional_medicine', 'professional_psychology', 'public_relations', 'security_studies', 'sociology', 'us_foreign_policy', 'virology', 'world_religions']
+2025-11-09 22:28:35 - mmlu_logger - INFO - 
+################################################################################
+2025-11-09 22:28:35 - mmlu_logger - INFO - Processing missing subjects with analysis_percentage=0.7 (07)
+2025-11-09 22:28:35 - mmlu_logger - INFO - Output directory: results/filler_tokens/mmlu/07
+2025-11-09 22:28:35 - mmlu_logger - INFO - ################################################################################
+2025-11-09 22:28:35 - mmlu_logger - INFO - 
+[1/8] Starting subject: professional_medicine
+2025-11-09 22:28:35 - mmlu_logger - INFO - 
+============================================================
+2025-11-09 22:28:35 - mmlu_logger - INFO - Processing subject: professional_medicine
+2025-11-09 22:28:35 - mmlu_logger - INFO - ============================================================
+2025-11-09 22:28:35 - mmlu_logger - INFO - Loading analysis from: results/original/mmlu/professional_medicine.jsonl
+2025-11-09 22:28:35 - mmlu_logger - INFO - Loaded 272 analyses
+2025-11-09 22:28:35 - mmlu_logger - INFO - Results will be saved to: results/filler_tokens/mmlu/07/professional_medicine.jsonl
+2025-11-09 22:28:35 - mmlu_logger - INFO - Starting evaluation for subject: professional_medicine
+2025-11-09 22:28:35 - mmlu_logger - INFO - Using original analysis for professional_medicine Q1
+2025-11-09 22:29:00 - mmlu_logger - INFO - Question 1/272: pred: C, label: C (AI time: 24.08s)
+2025-11-09 22:29:00 - mmlu_logger - INFO - Using original analysis for professional_medicine Q2
+2025-11-09 22:29:03 - mmlu_logger - INFO - Question 2/272: pred: C, label: C (AI time: 3.29s)
+2025-11-09 22:29:03 - mmlu_logger - INFO - Using original analysis for professional_medicine Q3
+2025-11-09 22:29:04 - mmlu_logger - INFO - Question 3/272: pred: B, label: B (AI time: 1.38s)
+2025-11-09 22:29:04 - mmlu_logger - INFO - Using original analysis for professional_medicine Q4
+2025-11-09 22:29:07 - mmlu_logger - INFO - Question 4/272: pred: C, label: C (AI time: 2.40s)
+2025-11-09 22:29:07 - mmlu_logger - INFO - Using original analysis for professional_medicine Q5
+2025-11-09 22:29:08 - mmlu_logger - INFO - Question 5/272: pred: D, label: D (AI time: 1.63s)
+2025-11-09 22:29:08 - mmlu_logger - INFO - Using original analysis for professional_medicine Q6
+2025-11-09 22:29:09 - mmlu_logger - INFO - Question 6/272: pred: A, label: A (AI time: 1.12s)
+2025-11-09 22:29:09 - mmlu_logger - INFO - Using original analysis for professional_medicine Q7
+2025-11-09 22:29:11 - mmlu_logger - INFO - Question 7/272: pred: B, label: B (AI time: 1.54s)
+2025-11-09 22:29:11 - mmlu_logger - INFO - Using original analysis for professional_medicine Q8
+2025-11-09 22:29:13 - mmlu_logger - INFO - Question 8/272: pred: C, label: C (AI time: 1.75s)
+2025-11-09 22:29:13 - mmlu_logger - INFO - Using original analysis for professional_medicine Q9
+2025-11-09 22:29:14 - mmlu_logger - INFO - Question 9/272: pred: D, label: D (AI time: 1.68s)
+2025-11-09 22:29:14 - mmlu_logger - INFO - Using original analysis for professional_medicine Q10
+2025-11-09 22:29:16 - mmlu_logger - INFO - Question 10/272: pred: B, label: B (AI time: 1.29s)
+2025-11-09 22:29:16 - mmlu_logger - INFO - Using original analysis for professional_medicine Q11
+2025-11-09 22:29:17 - mmlu_logger - INFO - 
+
+Interrupted by user. Saving summary of processed subjects...
+2025-11-09 22:29:17 - mmlu_logger - INFO - 
+======================================================================
+2025-11-09 22:29:17 - mmlu_logger - INFO - SUMMARY
+2025-11-09 22:29:17 - mmlu_logger - INFO - ======================================================================
+2025-11-09 22:29:17 - mmlu_logger - INFO - Total subjects to process: 8
+2025-11-09 22:29:17 - mmlu_logger - INFO - Successfully processed: 0
+2025-11-09 22:29:17 - mmlu_logger - INFO - Failed: 0
+2025-11-09 22:29:17 - mmlu_logger - INFO - Total execution time: 42.02s (0.70min)
+2025-11-09 22:29:17 - mmlu_logger - INFO - ======================================================================
+2025-11-09 22:29:17 - mmlu_logger - INFO - Results saved to: results/filler_tokens/mmlu/07/
+2025-11-09 22:29:17 - mmlu_logger - INFO - ======================================================================
+2025-11-09 22:29:17 - mmlu_logger - ERROR - ✗ No subjects were successfully processed.

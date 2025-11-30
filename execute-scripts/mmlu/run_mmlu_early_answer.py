@@ -16,8 +16,8 @@ from utils.logger import setup_logger
 from utils.result_saver import ResultSaver
 
 # -------- パラメータ設定 --------
-ORIGINAL_RESULTS_DIR = "results/original/mmlu"  # 入力結果ディレクトリ
-OUTPUT_BASE_DIR = "results/early_answer/mmlu"  # 出力ベースディレクトリ
+ORIGINAL_RESULTS_DIR = "results/mmlu/original"  # 入力結果ディレクトリ
+OUTPUT_BASE_DIR = "results/mmlu/early_answer"  # 出力ベースディレクトリ
 ANALYSIS_PERCENTAGES = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]  # 使用するanalysisの割合リスト
 DATA_DIR = "dataset/mmlu/data"  # MMLUデータディレクトリ
 
