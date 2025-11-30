@@ -30,13 +30,18 @@ OUTPUT_DIR = "results/mmlu/original"
 # }
 
 # 残り9問（第1回実行で失敗）
-MISSING_TASKS = {
+""" MISSING_TASKS = {
     "professional_law": [52, 482, 919, 1122, 1210, 1293],
     "college_computer_science": [49],
     "college_chemistry": [35],
     "college_mathematics": [92],
-}
+} """
 # ==========================
+
+MISSING_TASKS = {
+    "professional_law": [52, 1122, 1293],
+    "college_computer_science": [49],
+}
 
 choices = ["A", "B", "C", "D"]
 
