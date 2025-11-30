@@ -10,18 +10,18 @@ from model.call_gpt_oss import generate
 # ========== 設定 ==========
 # 特定のsubjectから開始する（None の場合は最初から）
 # 例: "anatomy", "college_chemistry" など
-START_FROM = None
+START_SUBJECT = "college_biology"
 
-# 特定のインデックスから開始する（0ベース、None の場合は最初から）
-# 例: 10 → 11番目のsubjectから開始
-START_INDEX = None
+# 特定の問題番号から開始する（1ベース、1 の場合は最初から）
+# 例: 145 → 145問目から開始
+START_QUESTION = 145
 
 # 結果を保存するディレクトリ
-OUTPUT_DIR = "results/original/mmlu"
+OUTPUT_DIR = "results/mmlu/original"
 # ==========================
 
 if __name__ == "__main__":
     main(generate,
-         start_from=START_FROM,
-         start_index=START_INDEX,
+         start_subject=START_SUBJECT,
+         start_question=START_QUESTION,
          output_dir=OUTPUT_DIR)

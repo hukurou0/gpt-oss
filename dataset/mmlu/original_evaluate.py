@@ -39,15 +39,23 @@ def gen_prompt(train_df, subject, k=-1):
         prompt += format_example(train_df, i)
     return prompt
 
-def eval(generate, subject, dev_df, test_df, result_saver=None):
+def eval(generate, subject, dev_df, test_df, result_saver=None, start_question=1):
     logger = get_logger()
     cors = []
     ai_times = []
 
     subject_start_time = time.time()
     logger.info(f"Starting evaluation for subject: {subject}")
+    if start_question > 1:
+        logger.info(f"Starting from question {start_question}")
 
     for i in range(test_df.shape[0]):
+        question_num = i + 1
+        
+        # Skip questions before start_question
+        if question_num < start_question:
+            logger.debug(f"Skipping question {question_num} (before start_question)")
+            continue
         # get prompt and make sure it fits
         k = 5
         prompt_end = format_example(test_df, i, include_answer=False)
@@ -111,7 +119,7 @@ def eval(generate, subject, dev_df, test_df, result_saver=None):
 
     return cors, acc, subject_elapsed_time, ai_times
 
-def main(generate, start_from=None, start_index=None, output_dir="results/original/mmlu"):
+def main(generate, start_subject=None, start_question=1, output_dir="results/mmlu/original"):
     # ロガーの初期化
     logger = setup_logger()
 
@@ -125,15 +133,12 @@ def main(generate, start_from=None, start_index=None, output_dir="results/origin
 
     # 開始位置の決定
     start_idx = 0
-    if start_index is not None:
-        start_idx = start_index
-        logger.info(f"Starting from index {start_idx}")
-    elif start_from is not None:
-        if start_from in subjects:
-            start_idx = subjects.index(start_from)
-            logger.info(f"Starting from subject '{start_from}' (index {start_idx})")
+    if start_subject is not None:
+        if start_subject in subjects:
+            start_idx = subjects.index(start_subject)
+            logger.info(f"Starting from subject '{start_subject}' (index {start_idx})")
         else:
-            logger.warning(f"Subject '{start_from}' not found. Starting from beginning.")
+            logger.warning(f"Subject '{start_subject}' not found. Starting from beginning.")
 
     all_cors = []
     all_subject_times = []
@@ -151,7 +156,9 @@ def main(generate, start_from=None, start_index=None, output_dir="results/origin
         dev_df = pd.read_csv(os.path.join("dataset/mmlu/data", "dev", subject + "_dev.csv"), header=None)[:5]
         test_df = pd.read_csv(os.path.join("dataset/mmlu/data", "test", subject + "_test.csv"), header=None)
 
-        cors, _, subject_time, ai_times = eval(generate, subject, dev_df, test_df, result_saver)
+        # Only apply start_question to the first subject being processed
+        question_start = start_question if i == start_idx else 1
+        cors, _, subject_time, ai_times = eval(generate, subject, dev_df, test_df, result_saver, start_question=question_start)
         all_cors.append(cors)
         all_subject_times.append(subject_time)
         all_ai_times.extend(ai_times)
