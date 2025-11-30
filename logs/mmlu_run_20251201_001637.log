@@ -1,0 +1,28 @@
+2025-12-01 00:16:37 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251201_001637.log
+2025-12-01 00:16:37 - mmlu_logger - INFO - ================================================================================
+2025-12-01 00:16:37 - mmlu_logger - INFO - RUNNING MISSING RECORDS RECOVERY
+2025-12-01 00:16:37 - mmlu_logger - INFO - ================================================================================
+2025-12-01 00:16:37 - mmlu_logger - INFO - Original results directory: results/mmlu/original
+2025-12-01 00:16:37 - mmlu_logger - INFO - Output base directory: results/mmlu/early_answer
+2025-12-01 00:16:37 - mmlu_logger - INFO - Missing tasks: ['professional_law', 'college_computer_science']
+2025-12-01 00:16:37 - mmlu_logger - INFO - Total missing records per directory: 2
+2025-12-01 00:16:37 - mmlu_logger - INFO - 
+################################################################################
+2025-12-01 00:16:37 - mmlu_logger - INFO - Processing analysis_percentage=0.9 (09)
+2025-12-01 00:16:37 - mmlu_logger - INFO - ################################################################################
+2025-12-01 00:16:37 - mmlu_logger - INFO - 
+--- professional_law: 1 missing records ---
+2025-12-01 00:17:16 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 38.93s)
+2025-12-01 00:17:16 - mmlu_logger - INFO - 
+--- college_computer_science: 1 missing records ---
+2025-12-01 00:17:35 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 19.55s)
+2025-12-01 00:17:35 - mmlu_logger - INFO - 
+Percentage 09 completed: 2 records processed
+2025-12-01 00:17:35 - mmlu_logger - INFO - Accuracy for recovered records: 1.000
+2025-12-01 00:17:35 - mmlu_logger - INFO - 
+================================================================================
+2025-12-01 00:17:35 - mmlu_logger - INFO - MISSING RECORDS RECOVERY COMPLETE
+2025-12-01 00:17:35 - mmlu_logger - INFO - ================================================================================
+2025-12-01 00:17:35 - mmlu_logger - INFO - Total records processed: 2
+2025-12-01 00:17:35 - mmlu_logger - INFO - Total execution time: 58.60s (0.98min)
+2025-12-01 00:17:35 - mmlu_logger - INFO - ================================================================================

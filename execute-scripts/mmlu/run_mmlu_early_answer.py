@@ -1,3 +1,10 @@
+import sys
+import os
+import json
+
+# Add project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 """
 run_mmlu.pyで生成された結果を使ってearly_answerで再評価するスクリプト
 
@@ -12,8 +19,8 @@ import pandas as pd
 from pathlib import Path
 from model.experiment_call import generate_early_answer
 from dataset.mmlu.experiment_evaluate import eval, load_analysis_map
-from utils.logger import setup_logger
-from utils.result_saver import ResultSaver
+from logs.utils.logger import setup_logger, get_logger
+from logs.utils.result_saver import ResultSaver
 
 # -------- パラメータ設定 --------
 ORIGINAL_RESULTS_DIR = "results/mmlu/original"  # 入力結果ディレクトリ

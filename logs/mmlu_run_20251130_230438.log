@@ -1,0 +1,585 @@
+2025-11-30 23:04:38 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251130_230438.log
+2025-11-30 23:04:38 - mmlu_logger - INFO - ================================================================================
+2025-11-30 23:04:38 - mmlu_logger - INFO - RUNNING MISSING RECORDS RECOVERY
+2025-11-30 23:04:38 - mmlu_logger - INFO - ================================================================================
+2025-11-30 23:04:38 - mmlu_logger - INFO - Original results directory: results/mmlu/original
+2025-11-30 23:04:38 - mmlu_logger - INFO - Output base directory: results/mmlu/early_answer
+2025-11-30 23:04:38 - mmlu_logger - INFO - Missing tasks: ['professional_law', 'college_computer_science', 'miscellaneous', 'college_chemistry', 'college_mathematics', 'college_medicine', 'high_school_macroeconomics', 'high_school_mathematics', 'high_school_us_history', 'professional_accounting']
+2025-11-30 23:04:38 - mmlu_logger - INFO - Total missing records per directory: 30
+2025-11-30 23:04:38 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:04:38 - mmlu_logger - INFO - Processing analysis_percentage=0.0 (00)
+2025-11-30 23:04:38 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:04:38 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:05:04 - mmlu_logger - INFO - professional_law Q52: pred: E, label: C (AI time: 26.03s)
+2025-11-30 23:05:07 - mmlu_logger - INFO - professional_law Q246: pred: D, label: C (AI time: 3.16s)
+2025-11-30 23:05:09 - mmlu_logger - INFO - professional_law Q284: pred: C, label: D (AI time: 1.82s)
+2025-11-30 23:05:10 - mmlu_logger - INFO - professional_law Q433: pred: B, label: D (AI time: 1.49s)
+2025-11-30 23:05:12 - mmlu_logger - INFO - professional_law Q460: pred: C, label: D (AI time: 1.68s)
+2025-11-30 23:05:14 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 1.78s)
+2025-11-30 23:05:14 - mmlu_logger - INFO - professional_law Q596: pred: D, label: C (AI time: 0.88s)
+2025-11-30 23:05:16 - mmlu_logger - INFO - professional_law Q886: pred: B, label: A (AI time: 1.57s)
+2025-11-30 23:05:17 - mmlu_logger - INFO - professional_law Q919: pred: A, label: A (AI time: 0.67s)
+2025-11-30 23:05:19 - mmlu_logger - INFO - professional_law Q1024: pred: B, label: D (AI time: 1.97s)
+2025-11-30 23:05:20 - mmlu_logger - INFO - professional_law Q1122: pred: D, label: D (AI time: 1.39s)
+2025-11-30 23:05:21 - mmlu_logger - INFO - professional_law Q1159: pred: D, label: A (AI time: 1.11s)
+2025-11-30 23:05:22 - mmlu_logger - INFO - professional_law Q1210: pred: D, label: C (AI time: 0.87s)
+2025-11-30 23:05:25 - mmlu_logger - INFO - professional_law Q1293: pred: C, label: C (AI time: 3.20s)
+2025-11-30 23:05:27 - mmlu_logger - INFO - professional_law Q1515: pred: C, label: A (AI time: 1.78s)
+2025-11-30 23:05:27 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:05:30 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 3.10s)
+2025-11-30 23:05:31 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 1.15s)
+2025-11-30 23:05:32 - mmlu_logger - INFO - college_computer_science Q78: pred: C, label: B (AI time: 1.04s)
+2025-11-30 23:05:32 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:05:33 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.11s)
+2025-11-30 23:05:34 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.48s)
+2025-11-30 23:05:34 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 0.49s)
+2025-11-30 23:05:34 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:05:37 - mmlu_logger - INFO - college_chemistry Q18: pred: B, label: D (AI time: 2.28s)
+2025-11-30 23:05:37 - mmlu_logger - INFO - college_chemistry Q35: pred: A, label: A (AI time: 0.67s)
+2025-11-30 23:05:37 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:05:40 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 2.37s)
+2025-11-30 23:05:40 - mmlu_logger - INFO - college_mathematics Q92: pred: D, label: C (AI time: 0.66s)
+2025-11-30 23:05:40 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:05:42 - mmlu_logger - INFO - college_medicine Q74: pred: B, label: D (AI time: 1.78s)
+2025-11-30 23:05:42 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:05:44 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: C, label: D (AI time: 1.40s)
+2025-11-30 23:05:44 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:05:46 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 2.00s)
+2025-11-30 23:05:46 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:05:56 - mmlu_logger - INFO - high_school_us_history Q41: pred: C, label: A (AI time: 10.01s)
+2025-11-30 23:05:56 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:05:59 - mmlu_logger - INFO - professional_accounting Q7: pred: B, label: D (AI time: 2.82s)
+2025-11-30 23:05:59 - mmlu_logger - INFO - 
+Percentage 00 completed: 30 records processed
+2025-11-30 23:05:59 - mmlu_logger - INFO - Accuracy for recovered records: 0.300
+2025-11-30 23:05:59 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:05:59 - mmlu_logger - INFO - Processing analysis_percentage=0.1 (01)
+2025-11-30 23:05:59 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:05:59 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:06:09 - mmlu_logger - INFO - professional_law Q52: pred: B, label: C (AI time: 10.03s)
+2025-11-30 23:06:15 - mmlu_logger - INFO - professional_law Q246: pred: A, label: C (AI time: 6.36s)
+2025-11-30 23:06:19 - mmlu_logger - INFO - professional_law Q284: pred: A, label: D (AI time: 4.27s)
+2025-11-30 23:06:26 - mmlu_logger - INFO - professional_law Q433: pred: T, label: D (AI time: 6.62s)
+2025-11-30 23:06:30 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 3.89s)
+2025-11-30 23:06:35 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 5.22s)
+2025-11-30 23:06:37 - mmlu_logger - INFO - professional_law Q596: pred: C, label: C (AI time: 2.33s)
+2025-11-30 23:06:41 - mmlu_logger - INFO - professional_law Q886: pred: C, label: A (AI time: 4.04s)
+2025-11-30 23:06:45 - mmlu_logger - INFO - professional_law Q919: pred: A, label: A (AI time: 3.38s)
+2025-11-30 23:06:52 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 7.01s)
+2025-11-30 23:06:58 - mmlu_logger - INFO - professional_law Q1122: pred: B, label: D (AI time: 5.69s)
+2025-11-30 23:07:01 - mmlu_logger - INFO - professional_law Q1159: pred: C, label: A (AI time: 3.09s)
+2025-11-30 23:07:03 - mmlu_logger - INFO - professional_law Q1210: pred: B, label: C (AI time: 2.22s)
+2025-11-30 23:07:10 - mmlu_logger - INFO - professional_law Q1293: pred: A, label: C (AI time: 7.12s)
+2025-11-30 23:07:14 - mmlu_logger - INFO - professional_law Q1515: pred: B, label: A (AI time: 3.82s)
+2025-11-30 23:07:14 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:07:21 - mmlu_logger - INFO - college_computer_science Q6: pred: C, label: C (AI time: 6.93s)
+2025-11-30 23:07:25 - mmlu_logger - INFO - college_computer_science Q49: pred: B, label: A (AI time: 4.37s)
+2025-11-30 23:07:28 - mmlu_logger - INFO - college_computer_science Q78: pred: D, label: B (AI time: 2.26s)
+2025-11-30 23:07:28 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:07:29 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.87s)
+2025-11-30 23:07:30 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.84s)
+2025-11-30 23:07:31 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 0.90s)
+2025-11-30 23:07:31 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:07:35 - mmlu_logger - INFO - college_chemistry Q18: pred: B, label: D (AI time: 4.30s)
+2025-11-30 23:07:37 - mmlu_logger - INFO - college_chemistry Q35: pred: B, label: A (AI time: 1.70s)
+2025-11-30 23:07:37 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:07:42 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 4.66s)
+2025-11-30 23:07:44 - mmlu_logger - INFO - college_mathematics Q92: pred: A, label: C (AI time: 2.02s)
+2025-11-30 23:07:44 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:07:47 - mmlu_logger - INFO - college_medicine Q74: pred: B, label: D (AI time: 3.42s)
+2025-11-30 23:07:47 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:07:49 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: D, label: D (AI time: 2.12s)
+2025-11-30 23:07:49 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:07:53 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 4.01s)
+2025-11-30 23:07:53 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:08:07 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 13.27s)
+2025-11-30 23:08:07 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:08:12 - mmlu_logger - INFO - professional_accounting Q7: pred: B, label: D (AI time: 4.81s)
+2025-11-30 23:08:12 - mmlu_logger - INFO - 
+Percentage 01 completed: 30 records processed
+2025-11-30 23:08:12 - mmlu_logger - INFO - Accuracy for recovered records: 0.300
+2025-11-30 23:08:12 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:08:12 - mmlu_logger - INFO - Processing analysis_percentage=0.2 (02)
+2025-11-30 23:08:12 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:08:12 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:08:25 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 13.64s)
+2025-11-30 23:08:33 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 7.71s)
+2025-11-30 23:08:38 - mmlu_logger - INFO - professional_law Q284: pred: C, label: D (AI time: 5.16s)
+2025-11-30 23:08:46 - mmlu_logger - INFO - professional_law Q433: pred: D, label: D (AI time: 7.73s)
+2025-11-30 23:08:52 - mmlu_logger - INFO - professional_law Q460: pred: A, label: D (AI time: 5.92s)
+2025-11-30 23:08:58 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 5.64s)
+2025-11-30 23:09:00 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 2.48s)
+2025-11-30 23:09:10 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 9.79s)
+2025-11-30 23:09:13 - mmlu_logger - INFO - professional_law Q919: pred: D, label: A (AI time: 2.81s)
+2025-11-30 23:09:18 - mmlu_logger - INFO - professional_law Q1024: pred: B, label: D (AI time: 5.09s)
+2025-11-30 23:09:23 - mmlu_logger - INFO - professional_law Q1122: pred: A, label: D (AI time: 5.11s)
+2025-11-30 23:09:28 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 4.59s)
+2025-11-30 23:09:30 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 2.36s)
+2025-11-30 23:09:37 - mmlu_logger - INFO - professional_law Q1293: pred: A, label: C (AI time: 7.41s)
+2025-11-30 23:09:42 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 4.27s)
+2025-11-30 23:09:42 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:09:49 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 7.51s)
+2025-11-30 23:09:56 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 7.17s)
+2025-11-30 23:09:59 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 3.09s)
+2025-11-30 23:09:59 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:10:01 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.88s)
+2025-11-30 23:10:02 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.86s)
+2025-11-30 23:10:03 - mmlu_logger - INFO - miscellaneous Q388: pred: D, label: C (AI time: 1.00s)
+2025-11-30 23:10:03 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:10:09 - mmlu_logger - INFO - college_chemistry Q18: pred: B, label: D (AI time: 6.31s)
+2025-11-30 23:10:12 - mmlu_logger - INFO - college_chemistry Q35: pred: A, label: A (AI time: 2.79s)
+2025-11-30 23:10:12 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:10:19 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 7.13s)
+2025-11-30 23:10:23 - mmlu_logger - INFO - college_mathematics Q92: pred: B, label: C (AI time: 3.87s)
+2025-11-30 23:10:23 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:10:27 - mmlu_logger - INFO - college_medicine Q74: pred: B, label: D (AI time: 3.99s)
+2025-11-30 23:10:27 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:10:30 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: C, label: D (AI time: 2.47s)
+2025-11-30 23:10:30 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:10:35 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 5.12s)
+2025-11-30 23:10:35 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:10:50 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 15.25s)
+2025-11-30 23:10:50 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:10:56 - mmlu_logger - INFO - professional_accounting Q7: pred: C, label: D (AI time: 5.88s)
+2025-11-30 23:10:56 - mmlu_logger - INFO - 
+Percentage 02 completed: 30 records processed
+2025-11-30 23:10:56 - mmlu_logger - INFO - Accuracy for recovered records: 0.367
+2025-11-30 23:10:56 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:10:56 - mmlu_logger - INFO - Processing analysis_percentage=0.3 (03)
+2025-11-30 23:10:56 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:10:56 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:11:12 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 15.88s)
+2025-11-30 23:11:21 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 9.04s)
+2025-11-30 23:11:27 - mmlu_logger - INFO - professional_law Q284: pred: C, label: D (AI time: 5.73s)
+2025-11-30 23:11:35 - mmlu_logger - INFO - professional_law Q433: pred: A, label: D (AI time: 8.03s)
+2025-11-30 23:11:42 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 6.87s)
+2025-11-30 23:11:48 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 5.89s)
+2025-11-30 23:11:51 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 2.92s)
+2025-11-30 23:11:56 - mmlu_logger - INFO - professional_law Q886: pred: C, label: A (AI time: 5.55s)
+2025-11-30 23:12:05 - mmlu_logger - INFO - professional_law Q919: pred: N, label: A (AI time: 8.40s)
+2025-11-30 23:12:10 - mmlu_logger - INFO - professional_law Q1024: pred: D, label: D (AI time: 5.87s)
+2025-11-30 23:12:17 - mmlu_logger - INFO - professional_law Q1122: pred: A, label: D (AI time: 6.15s)
+2025-11-30 23:12:21 - mmlu_logger - INFO - professional_law Q1159: pred: D, label: A (AI time: 4.11s)
+2025-11-30 23:12:23 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 2.27s)
+2025-11-30 23:12:32 - mmlu_logger - INFO - professional_law Q1293: pred: D, label: C (AI time: 8.51s)
+2025-11-30 23:12:36 - mmlu_logger - INFO - professional_law Q1515: pred: B, label: A (AI time: 4.94s)
+2025-11-30 23:12:36 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:12:46 - mmlu_logger - INFO - college_computer_science Q6: pred: *, label: C (AI time: 9.75s)
+2025-11-30 23:12:56 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 9.48s)
+2025-11-30 23:13:00 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 4.37s)
+2025-11-30 23:13:00 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:13:02 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.89s)
+2025-11-30 23:13:03 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.88s)
+2025-11-30 23:13:04 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 0.99s)
+2025-11-30 23:13:04 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:13:11 - mmlu_logger - INFO - college_chemistry Q18: pred: D, label: D (AI time: 7.09s)
+2025-11-30 23:13:15 - mmlu_logger - INFO - college_chemistry Q35: pred: B, label: A (AI time: 3.94s)
+2025-11-30 23:13:15 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:13:23 - mmlu_logger - INFO - college_mathematics Q14: pred: D, label: B (AI time: 7.83s)
+2025-11-30 23:13:28 - mmlu_logger - INFO - college_mathematics Q92: pred: A, label: C (AI time: 5.46s)
+2025-11-30 23:13:28 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:13:33 - mmlu_logger - INFO - college_medicine Q74: pred: D, label: D (AI time: 4.46s)
+2025-11-30 23:13:33 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:13:36 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 3.06s)
+2025-11-30 23:13:36 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:13:42 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 6.11s)
+2025-11-30 23:13:42 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:13:58 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 16.33s)
+2025-11-30 23:13:58 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:14:05 - mmlu_logger - INFO - professional_accounting Q7: pred: A, label: D (AI time: 7.04s)
+2025-11-30 23:14:05 - mmlu_logger - INFO - 
+Percentage 03 completed: 30 records processed
+2025-11-30 23:14:05 - mmlu_logger - INFO - Accuracy for recovered records: 0.333
+2025-11-30 23:14:05 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:14:05 - mmlu_logger - INFO - Processing analysis_percentage=0.4 (04)
+2025-11-30 23:14:05 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:14:05 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:14:23 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 18.00s)
+2025-11-30 23:14:34 - mmlu_logger - INFO - professional_law Q246: pred: C, label: C (AI time: 10.31s)
+2025-11-30 23:14:40 - mmlu_logger - INFO - professional_law Q284: pred: C, label: D (AI time: 6.59s)
+2025-11-30 23:14:50 - mmlu_logger - INFO - professional_law Q433: pred: D, label: D (AI time: 9.84s)
+2025-11-30 23:14:55 - mmlu_logger - INFO - professional_law Q460: pred: B, label: D (AI time: 4.84s)
+2025-11-30 23:15:02 - mmlu_logger - INFO - professional_law Q482: pred: B, label: B (AI time: 6.69s)
+2025-11-30 23:15:05 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 3.34s)
+2025-11-30 23:15:11 - mmlu_logger - INFO - professional_law Q886: pred: C, label: A (AI time: 5.61s)
+2025-11-30 23:15:15 - mmlu_logger - INFO - professional_law Q919: pred: *, label: A (AI time: 4.74s)
+2025-11-30 23:15:23 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 7.14s)
+2025-11-30 23:15:31 - mmlu_logger - INFO - professional_law Q1122: pred: B, label: D (AI time: 8.07s)
+2025-11-30 23:15:38 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 6.87s)
+2025-11-30 23:15:41 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 3.56s)
+2025-11-30 23:15:52 - mmlu_logger - INFO - professional_law Q1293: pred: D, label: C (AI time: 10.64s)
+2025-11-30 23:15:58 - mmlu_logger - INFO - professional_law Q1515: pred: D, label: A (AI time: 5.88s)
+2025-11-30 23:15:58 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:16:09 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 11.16s)
+2025-11-30 23:17:09 - mmlu_logger - INFO - college_computer_science Q49: pred: *, label: A (AI time: 60.46s)
+2025-11-30 23:17:14 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 4.81s)
+2025-11-30 23:17:14 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:17:16 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.81s)
+2025-11-30 23:17:17 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.83s)
+2025-11-30 23:17:18 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.06s)
+2025-11-30 23:17:18 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:17:26 - mmlu_logger - INFO - college_chemistry Q18: pred: D, label: D (AI time: 8.12s)
+2025-11-30 23:17:31 - mmlu_logger - INFO - college_chemistry Q35: pred: D, label: A (AI time: 4.93s)
+2025-11-30 23:17:31 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:17:40 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 9.08s)
+2025-11-30 23:17:47 - mmlu_logger - INFO - college_mathematics Q92: pred: B, label: C (AI time: 7.05s)
+2025-11-30 23:17:47 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:17:52 - mmlu_logger - INFO - college_medicine Q74: pred: D, label: D (AI time: 4.81s)
+2025-11-30 23:17:52 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:17:55 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 2.68s)
+2025-11-30 23:17:55 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:18:02 - mmlu_logger - INFO - high_school_mathematics Q82: pred: B, label: A (AI time: 7.10s)
+2025-11-30 23:18:02 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:18:21 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 18.77s)
+2025-11-30 23:18:21 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:18:29 - mmlu_logger - INFO - professional_accounting Q7: pred: A, label: D (AI time: 8.67s)
+2025-11-30 23:18:29 - mmlu_logger - INFO - 
+Percentage 04 completed: 30 records processed
+2025-11-30 23:18:29 - mmlu_logger - INFO - Accuracy for recovered records: 0.400
+2025-11-30 23:18:29 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:18:29 - mmlu_logger - INFO - Processing analysis_percentage=0.5 (05)
+2025-11-30 23:18:29 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:18:29 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:18:52 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 22.68s)
+2025-11-30 23:19:07 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 14.28s)
+2025-11-30 23:19:16 - mmlu_logger - INFO - professional_law Q284: pred: B, label: D (AI time: 9.34s)
+2025-11-30 23:19:29 - mmlu_logger - INFO - professional_law Q433: pred: A, label: D (AI time: 12.43s)
+2025-11-30 23:19:36 - mmlu_logger - INFO - professional_law Q460: pred: A, label: D (AI time: 7.50s)
+2025-11-30 23:19:44 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 8.12s)
+2025-11-30 23:19:48 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 4.32s)
+2025-11-30 23:19:55 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 6.76s)
+2025-11-30 23:20:01 - mmlu_logger - INFO - professional_law Q919: pred: B, label: A (AI time: 5.26s)
+2025-11-30 23:20:09 - mmlu_logger - INFO - professional_law Q1024: pred: B, label: D (AI time: 8.17s)
+2025-11-30 23:20:18 - mmlu_logger - INFO - professional_law Q1122: pred: A, label: D (AI time: 9.18s)
+2025-11-30 23:20:24 - mmlu_logger - INFO - professional_law Q1159: pred: B, label: A (AI time: 5.87s)
+2025-11-30 23:20:27 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 3.34s)
+2025-11-30 23:20:40 - mmlu_logger - INFO - professional_law Q1293: pred: B, label: C (AI time: 12.82s)
+2025-11-30 23:20:48 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 7.59s)
+2025-11-30 23:20:48 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:21:01 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 13.41s)
+2025-11-30 23:21:18 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 17.35s)
+2025-11-30 23:21:25 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 7.03s)
+2025-11-30 23:21:25 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:21:28 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 2.26s)
+2025-11-30 23:21:29 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 1.03s)
+2025-11-30 23:21:30 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.16s)
+2025-11-30 23:21:30 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:21:41 - mmlu_logger - INFO - college_chemistry Q18: pred: C, label: D (AI time: 11.10s)
+2025-11-30 23:21:48 - mmlu_logger - INFO - college_chemistry Q35: pred: C, label: A (AI time: 7.22s)
+2025-11-30 23:21:48 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:22:01 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 12.13s)
+2025-11-30 23:22:09 - mmlu_logger - INFO - college_mathematics Q92: pred: C, label: C (AI time: 8.91s)
+2025-11-30 23:22:09 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:22:21 - mmlu_logger - INFO - college_medicine Q74: pred: N, label: D (AI time: 11.34s)
+2025-11-30 23:22:21 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:22:24 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 3.38s)
+2025-11-30 23:22:24 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:22:32 - mmlu_logger - INFO - high_school_mathematics Q82: pred: B, label: A (AI time: 8.22s)
+2025-11-30 23:22:32 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:22:49 - mmlu_logger - INFO - high_school_us_history Q41: pred: C, label: A (AI time: 16.62s)
+2025-11-30 23:22:49 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:22:58 - mmlu_logger - INFO - professional_accounting Q7: pred: A, label: D (AI time: 8.67s)
+2025-11-30 23:22:58 - mmlu_logger - INFO - 
+Percentage 05 completed: 30 records processed
+2025-11-30 23:22:58 - mmlu_logger - INFO - Accuracy for recovered records: 0.333
+2025-11-30 23:22:58 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:22:58 - mmlu_logger - INFO - Processing analysis_percentage=0.6 (06)
+2025-11-30 23:22:58 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:22:58 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:23:20 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 22.10s)
+2025-11-30 23:23:33 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 13.04s)
+2025-11-30 23:23:42 - mmlu_logger - INFO - professional_law Q284: pred: D, label: D (AI time: 9.20s)
+2025-11-30 23:23:53 - mmlu_logger - INFO - professional_law Q433: pred: B, label: D (AI time: 11.10s)
+2025-11-30 23:24:00 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 6.15s)
+2025-11-30 23:24:09 - mmlu_logger - INFO - professional_law Q482: pred: C, label: B (AI time: 9.21s)
+2025-11-30 23:24:14 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 4.88s)
+2025-11-30 23:24:21 - mmlu_logger - INFO - professional_law Q886: pred: C, label: A (AI time: 7.82s)
+2025-11-30 23:24:28 - mmlu_logger - INFO - professional_law Q919: pred: B, label: A (AI time: 6.31s)
+2025-11-30 23:24:37 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 9.05s)
+2025-11-30 23:24:47 - mmlu_logger - INFO - professional_law Q1122: pred: B, label: D (AI time: 10.54s)
+2025-11-30 23:24:54 - mmlu_logger - INFO - professional_law Q1159: pred: B, label: A (AI time: 6.66s)
+2025-11-30 23:24:59 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 4.80s)
+2025-11-30 23:25:12 - mmlu_logger - INFO - professional_law Q1293: pred: C, label: C (AI time: 13.60s)
+2025-11-30 23:25:20 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 7.70s)
+2025-11-30 23:25:20 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:25:34 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 14.03s)
+2025-11-30 23:26:35 - mmlu_logger - INFO - college_computer_science Q49: pred: *, label: A (AI time: 60.53s)
+2025-11-30 23:26:42 - mmlu_logger - INFO - college_computer_science Q78: pred: D, label: B (AI time: 7.43s)
+2025-11-30 23:26:42 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:26:44 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.93s)
+2025-11-30 23:26:45 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.89s)
+2025-11-30 23:26:46 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.13s)
+2025-11-30 23:26:46 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:26:57 - mmlu_logger - INFO - college_chemistry Q18: pred: C, label: D (AI time: 10.94s)
+2025-11-30 23:27:05 - mmlu_logger - INFO - college_chemistry Q35: pred: C, label: A (AI time: 7.70s)
+2025-11-30 23:27:05 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:27:18 - mmlu_logger - INFO - college_mathematics Q14: pred: D, label: B (AI time: 12.65s)
+2025-11-30 23:27:28 - mmlu_logger - INFO - college_mathematics Q92: pred: B, label: C (AI time: 10.30s)
+2025-11-30 23:27:28 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:27:33 - mmlu_logger - INFO - college_medicine Q74: pred: C, label: D (AI time: 5.46s)
+2025-11-30 23:27:33 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:27:37 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 3.48s)
+2025-11-30 23:27:37 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:27:48 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 10.64s)
+2025-11-30 23:27:48 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:28:06 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 18.55s)
+2025-11-30 23:28:06 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:28:17 - mmlu_logger - INFO - professional_accounting Q7: pred: B, label: D (AI time: 10.67s)
+2025-11-30 23:28:17 - mmlu_logger - INFO - 
+Percentage 06 completed: 30 records processed
+2025-11-30 23:28:17 - mmlu_logger - INFO - Accuracy for recovered records: 0.267
+2025-11-30 23:28:17 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:28:17 - mmlu_logger - INFO - Processing analysis_percentage=0.7 (07)
+2025-11-30 23:28:17 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:28:17 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:28:43 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 25.53s)
+2025-11-30 23:28:57 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 14.18s)
+2025-11-30 23:29:06 - mmlu_logger - INFO - professional_law Q284: pred: B, label: D (AI time: 9.56s)
+2025-11-30 23:29:26 - mmlu_logger - INFO - professional_law Q433: pred: T, label: D (AI time: 19.60s)
+2025-11-30 23:29:32 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 6.02s)
+2025-11-30 23:29:41 - mmlu_logger - INFO - professional_law Q482: pred: B, label: B (AI time: 9.35s)
+2025-11-30 23:29:47 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 5.43s)
+2025-11-30 23:29:55 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 8.31s)
+2025-11-30 23:30:02 - mmlu_logger - INFO - professional_law Q919: pred: B, label: A (AI time: 7.04s)
+2025-11-30 23:30:12 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 9.57s)
+2025-11-30 23:30:24 - mmlu_logger - INFO - professional_law Q1122: pred: B, label: D (AI time: 12.30s)
+2025-11-30 23:30:39 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 15.13s)
+2025-11-30 23:30:43 - mmlu_logger - INFO - professional_law Q1210: pred: D, label: C (AI time: 4.24s)
+2025-11-30 23:30:58 - mmlu_logger - INFO - professional_law Q1293: pred: A, label: C (AI time: 15.20s)
+2025-11-30 23:31:07 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 8.32s)
+2025-11-30 23:31:07 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:31:23 - mmlu_logger - INFO - college_computer_science Q6: pred: B, label: C (AI time: 15.72s)
+2025-11-30 23:32:22 - mmlu_logger - INFO - college_computer_science Q49: pred: T, label: A (AI time: 59.08s)
+2025-11-30 23:32:30 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 8.45s)
+2025-11-30 23:32:30 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:32:32 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 1.99s)
+2025-11-30 23:32:33 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.97s)
+2025-11-30 23:32:34 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.13s)
+2025-11-30 23:32:34 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:32:47 - mmlu_logger - INFO - college_chemistry Q18: pred: D, label: D (AI time: 12.78s)
+2025-11-30 23:32:56 - mmlu_logger - INFO - college_chemistry Q35: pred: D, label: A (AI time: 8.96s)
+2025-11-30 23:32:56 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:33:12 - mmlu_logger - INFO - college_mathematics Q14: pred: C, label: B (AI time: 15.54s)
+2025-11-30 23:33:24 - mmlu_logger - INFO - college_mathematics Q92: pred: D, label: C (AI time: 12.53s)
+2025-11-30 23:33:24 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:33:31 - mmlu_logger - INFO - college_medicine Q74: pred: D, label: D (AI time: 6.54s)
+2025-11-30 23:33:31 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:33:34 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: D, label: D (AI time: 3.61s)
+2025-11-30 23:33:34 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:33:46 - mmlu_logger - INFO - high_school_mathematics Q82: pred: C, label: A (AI time: 11.90s)
+2025-11-30 23:33:46 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:34:06 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 19.69s)
+2025-11-30 23:34:06 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:34:18 - mmlu_logger - INFO - professional_accounting Q7: pred: C, label: D (AI time: 11.52s)
+2025-11-30 23:34:18 - mmlu_logger - INFO - 
+Percentage 07 completed: 30 records processed
+2025-11-30 23:34:18 - mmlu_logger - INFO - Accuracy for recovered records: 0.433
+2025-11-30 23:34:18 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:34:18 - mmlu_logger - INFO - Processing analysis_percentage=0.8 (08)
+2025-11-30 23:34:18 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:34:18 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:34:45 - mmlu_logger - INFO - professional_law Q52: pred: C, label: C (AI time: 27.60s)
+2025-11-30 23:35:01 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 15.78s)
+2025-11-30 23:35:12 - mmlu_logger - INFO - professional_law Q284: pred: B, label: D (AI time: 10.58s)
+2025-11-30 23:35:27 - mmlu_logger - INFO - professional_law Q433: pred: D, label: D (AI time: 15.30s)
+2025-11-30 23:35:33 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 6.52s)
+2025-11-30 23:35:44 - mmlu_logger - INFO - professional_law Q482: pred: A, label: B (AI time: 10.80s)
+2025-11-30 23:35:50 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 5.82s)
+2025-11-30 23:36:00 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 9.60s)
+2025-11-30 23:36:08 - mmlu_logger - INFO - professional_law Q919: pred: D, label: A (AI time: 8.44s)
+2025-11-30 23:36:20 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 11.79s)
+2025-11-30 23:36:34 - mmlu_logger - INFO - professional_law Q1122: pred: B, label: D (AI time: 14.04s)
+2025-11-30 23:36:43 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 8.88s)
+2025-11-30 23:36:48 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 4.83s)
+2025-11-30 23:37:05 - mmlu_logger - INFO - professional_law Q1293: pred: B, label: C (AI time: 17.43s)
+2025-11-30 23:37:15 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 9.49s)
+2025-11-30 23:37:15 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:37:33 - mmlu_logger - INFO - college_computer_science Q6: pred: D, label: C (AI time: 18.17s)
+2025-11-30 23:37:56 - mmlu_logger - INFO - college_computer_science Q49: pred: T, label: A (AI time: 22.87s)
+2025-11-30 23:38:06 - mmlu_logger - INFO - college_computer_science Q78: pred: C, label: B (AI time: 10.63s)
+2025-11-30 23:38:06 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:38:09 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 2.14s)
+2025-11-30 23:38:10 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 1.24s)
+2025-11-30 23:38:12 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.73s)
+2025-11-30 23:38:12 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:38:27 - mmlu_logger - INFO - college_chemistry Q18: pred: A, label: D (AI time: 14.87s)
+2025-11-30 23:38:37 - mmlu_logger - INFO - college_chemistry Q35: pred: D, label: A (AI time: 10.57s)
+2025-11-30 23:38:37 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:38:55 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 17.69s)
+2025-11-30 23:39:09 - mmlu_logger - INFO - college_mathematics Q92: pred: B, label: C (AI time: 13.72s)
+2025-11-30 23:39:09 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:39:15 - mmlu_logger - INFO - college_medicine Q74: pred: D, label: D (AI time: 6.82s)
+2025-11-30 23:39:15 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:39:20 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 4.18s)
+2025-11-30 23:39:20 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:39:34 - mmlu_logger - INFO - high_school_mathematics Q82: pred: D, label: A (AI time: 14.10s)
+2025-11-30 23:39:34 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:39:52 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 18.70s)
+2025-11-30 23:39:52 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:40:04 - mmlu_logger - INFO - professional_accounting Q7: pred: C, label: D (AI time: 11.55s)
+2025-11-30 23:40:04 - mmlu_logger - INFO - 
+Percentage 08 completed: 30 records processed
+2025-11-30 23:40:04 - mmlu_logger - INFO - Accuracy for recovered records: 0.367
+2025-11-30 23:40:04 - mmlu_logger - INFO - 
+################################################################################
+2025-11-30 23:40:04 - mmlu_logger - INFO - Processing analysis_percentage=0.9 (09)
+2025-11-30 23:40:04 - mmlu_logger - INFO - ################################################################################
+2025-11-30 23:40:04 - mmlu_logger - INFO - 
+--- professional_law: 15 missing records ---
+2025-11-30 23:40:04 - mmlu_logger - ERROR - Error processing professional_law Q52: Requested tokens (4330) exceed context window of 4096
+2025-11-30 23:40:29 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 24.75s)
+2025-11-30 23:40:41 - mmlu_logger - INFO - professional_law Q284: pred: D, label: D (AI time: 12.13s)
+2025-11-30 23:40:55 - mmlu_logger - INFO - professional_law Q433: pred: D, label: D (AI time: 13.66s)
+2025-11-30 23:41:03 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 8.40s)
+2025-11-30 23:41:15 - mmlu_logger - INFO - professional_law Q482: pred: A, label: B (AI time: 12.35s)
+2025-11-30 23:41:22 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 6.65s)
+2025-11-30 23:41:32 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 10.14s)
+2025-11-30 23:41:41 - mmlu_logger - INFO - professional_law Q919: pred: B, label: A (AI time: 9.14s)
+2025-11-30 23:41:54 - mmlu_logger - INFO - professional_law Q1024: pred: B, label: D (AI time: 12.89s)
+2025-11-30 23:42:11 - mmlu_logger - INFO - professional_law Q1122: pred: D, label: D (AI time: 16.79s)
+2025-11-30 23:42:21 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 9.66s)
+2025-11-30 23:42:26 - mmlu_logger - INFO - professional_law Q1210: pred: A, label: C (AI time: 5.10s)
+2025-11-30 23:42:44 - mmlu_logger - INFO - professional_law Q1293: pred: A, label: C (AI time: 18.06s)
+2025-11-30 23:42:54 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 10.27s)
+2025-11-30 23:42:54 - mmlu_logger - INFO - 
+--- college_computer_science: 3 missing records ---
+2025-11-30 23:43:14 - mmlu_logger - INFO - college_computer_science Q6: pred: C, label: C (AI time: 19.49s)
+2025-11-30 23:43:14 - mmlu_logger - ERROR - Error processing college_computer_science Q49: Requested tokens (4243) exceed context window of 4096
+2025-11-30 23:43:26 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 12.27s)
+2025-11-30 23:43:26 - mmlu_logger - INFO - 
+--- miscellaneous: 3 missing records ---
+2025-11-30 23:43:29 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 2.29s)
+2025-11-30 23:43:30 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 1.07s)
+2025-11-30 23:43:31 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.52s)
+2025-11-30 23:43:31 - mmlu_logger - INFO - 
+--- college_chemistry: 2 missing records ---
+2025-11-30 23:43:47 - mmlu_logger - INFO - college_chemistry Q18: pred: A, label: D (AI time: 15.95s)
+2025-11-30 23:43:59 - mmlu_logger - INFO - college_chemistry Q35: pred: D, label: A (AI time: 11.98s)
+2025-11-30 23:43:59 - mmlu_logger - INFO - 
+--- college_mathematics: 2 missing records ---
+2025-11-30 23:44:18 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 18.81s)
+2025-11-30 23:44:34 - mmlu_logger - INFO - college_mathematics Q92: pred: D, label: C (AI time: 15.34s)
+2025-11-30 23:44:34 - mmlu_logger - INFO - 
+--- college_medicine: 1 missing records ---
+2025-11-30 23:44:41 - mmlu_logger - INFO - college_medicine Q74: pred: B, label: D (AI time: 7.02s)
+2025-11-30 23:44:41 - mmlu_logger - INFO - 
+--- high_school_macroeconomics: 1 missing records ---
+2025-11-30 23:44:44 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 3.88s)
+2025-11-30 23:44:44 - mmlu_logger - INFO - 
+--- high_school_mathematics: 1 missing records ---
+2025-11-30 23:45:01 - mmlu_logger - INFO - high_school_mathematics Q82: pred: D, label: A (AI time: 16.19s)
+2025-11-30 23:45:01 - mmlu_logger - INFO - 
+--- high_school_us_history: 1 missing records ---
+2025-11-30 23:45:20 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 19.09s)
+2025-11-30 23:45:20 - mmlu_logger - INFO - 
+--- professional_accounting: 1 missing records ---
+2025-11-30 23:45:32 - mmlu_logger - INFO - professional_accounting Q7: pred: D, label: D (AI time: 12.58s)
+2025-11-30 23:45:32 - mmlu_logger - INFO - 
+Percentage 09 completed: 28 records processed
+2025-11-30 23:45:32 - mmlu_logger - INFO - Accuracy for recovered records: 0.500
+2025-11-30 23:45:32 - mmlu_logger - INFO - 
+================================================================================
+2025-11-30 23:45:32 - mmlu_logger - INFO - MISSING RECORDS RECOVERY COMPLETE
+2025-11-30 23:45:32 - mmlu_logger - INFO - ================================================================================
+2025-11-30 23:45:32 - mmlu_logger - INFO - Total records processed: 298
+2025-11-30 23:45:32 - mmlu_logger - INFO - Total execution time: 2454.91s (40.92min)
+2025-11-30 23:45:32 - mmlu_logger - INFO - ================================================================================

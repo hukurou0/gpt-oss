@@ -170,3 +170,4 @@
 {"subject": "college_medicine", "question_number": 171, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.04}
 {"subject": "college_medicine", "question_number": 172, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "C", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "college_medicine", "question_number": 173, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
+{"subject": "college_medicine", "question_number": 74, "question": "Mg(OH)2 is slowly dissolved in 500 mL of 25 oC water until the solution becomes fully saturated. Which of the following occurs when 10.0 mL of 0.1 M HCl is added?", "choices": ["MgCl2 precipitates", "Mg(OH)2 precipitates", "Ksp for Mg(OH)2 increases", "[H2O] increases"], "analysis": "tmp", "predicted_answer": "D", "correct_answer": "D", "is_correct": true, "ai_time": 4.462892055511475}

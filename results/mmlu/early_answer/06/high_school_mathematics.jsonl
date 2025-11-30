@@ -267,3 +267,4 @@
 {"subject": "high_school_mathematics", "question_number": 268, "analysis": "tmp", "predicted_answer": "B", "correct_answer": "B", "is_correct": true, "ai_time_seconds": 0.04}
 {"subject": "high_school_mathematics", "question_number": 269, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "D", "is_correct": false, "ai_time_seconds": 0.05}
 {"subject": "high_school_mathematics", "question_number": 270, "analysis": "tmp", "predicted_answer": "C", "correct_answer": "B", "is_correct": false, "ai_time_seconds": 0.04}
+{"subject": "high_school_mathematics", "question_number": 82, "question": "How many palindromes (arrangements reading the same forward as backward) of 2 letters or more, containing the letter M, can be formed by rearranging any subset of the letters MISSISSIPPI?", "choices": ["89", "66", "86", "2012"], "analysis": "tmp", "predicted_answer": "C", "correct_answer": "A", "is_correct": false, "ai_time": 10.640064001083374}
