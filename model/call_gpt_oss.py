@@ -15,7 +15,7 @@ from openai_harmony import (
 
 # -------- Settings --------
 LLM_FILE = "model/gpt-oss-20b-F16.gguf"
-N_CTX = 4096  # 0は無効。モデルに合わせて適切に
+N_CTX = 4096  # 0は無効。モデルに合わせて適切に # losalで10000にして実行した
 N_GPU_LAYERS = -1  # Metal/GPU を使うなら -1（全層）。CPUのみなら 0
 SEED = 0
 

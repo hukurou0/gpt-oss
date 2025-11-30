@@ -1,0 +1,27 @@
+2025-11-30 21:45:27 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251130_214527.log
+2025-11-30 21:45:27 - mmlu_logger - INFO - Starting missing tasks execution
+2025-11-30 21:45:27 - mmlu_logger - INFO - Total missing tasks: 4
+2025-11-30 21:45:27 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 21:45:27 - mmlu_logger - INFO - Processing subject: professional_law (3 missing)
+2025-11-30 21:45:27 - mmlu_logger - INFO - Existing results: 1534 questions
+2025-11-30 21:49:39 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 21:49:39 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We need to answer the last question, which is about builder contract. The options: A $3,000; B $10,000; C $14,000; D $15,000. Which is correct? Need to determine likely d...
+2025-11-30 21:49:39 - mmlu_logger - INFO - professional_law Q52: pred: , label: C (AI time: 251.59s)
+2025-11-30 21:49:39 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q52
+2025-11-30 21:52:50 - mmlu_logger - INFO - professional_law Q1122: pred: D, label: D (AI time: 191.00s)
+2025-11-30 21:56:09 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 21:56:09 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>The user says: "In 2008, what is the present state of title to the vineyard if the jurisdiction's recording act provides... ?" The options are A-D. The last line says "An...
+2025-11-30 21:56:09 - mmlu_logger - INFO - professional_law Q1293: pred: , label: C (AI time: 198.78s)
+2025-11-30 21:56:09 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q1293
+2025-11-30 21:56:09 - mmlu_logger - INFO - Updated results/mmlu/original/professional_law.jsonl with 1 new results
+2025-11-30 21:56:09 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 21:56:09 - mmlu_logger - INFO - Processing subject: college_computer_science (1 missing)
+2025-11-30 21:56:09 - mmlu_logger - INFO - Existing results: 100 questions
+2025-11-30 22:01:10 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 22:01:10 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We need to answer the last question about array caching, write-back. Determine number of writes to memory (bytes). We need to consider writes to A[i] and reads from B[2*i...
+2025-11-30 22:01:10 - mmlu_logger - INFO - college_computer_science Q49: pred: , label: A (AI time: 300.98s)
+2025-11-30 22:01:10 - mmlu_logger - WARNING - Failed to get valid answer for college_computer_science Q49
+2025-11-30 22:01:10 - mmlu_logger - INFO - 
+Completed: 1, Failed: 3

@@ -1,0 +1,11 @@
+2025-11-30 22:39:03 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251130_223903.log
+2025-11-30 22:39:03 - mmlu_logger - INFO - Starting missing tasks execution
+2025-11-30 22:39:03 - mmlu_logger - INFO - Total missing tasks: 1
+2025-11-30 22:39:03 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 22:39:03 - mmlu_logger - INFO - Processing subject: college_computer_science (1 missing)
+2025-11-30 22:39:03 - mmlu_logger - INFO - Existing results: 100 questions
+2025-11-30 22:45:20 - mmlu_logger - INFO - college_computer_science Q49: pred: A, label: A (AI time: 376.97s)
+2025-11-30 22:45:20 - mmlu_logger - INFO - Updated results/mmlu/original/college_computer_science.jsonl with 1 new results
+2025-11-30 22:45:20 - mmlu_logger - INFO - 
+Completed: 1, Failed: 0
