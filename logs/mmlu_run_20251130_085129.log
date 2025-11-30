@@ -1,0 +1,13 @@
+2025-11-30 08:51:29 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251130_085129.log
+2025-11-30 08:51:29 - mmlu_logger - INFO - Starting missing tasks execution
+2025-11-30 08:51:29 - mmlu_logger - INFO - Total missing tasks: 3
+2025-11-30 08:51:29 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 08:51:29 - mmlu_logger - INFO - Processing subject: miscellaneous (3 missing)
+2025-11-30 08:51:29 - mmlu_logger - INFO - Existing results: 783 questions
+2025-11-30 08:51:49 - mmlu_logger - INFO - miscellaneous Q316: pred: B, label: B (AI time: 19.71s)
+2025-11-30 08:51:50 - mmlu_logger - INFO - miscellaneous Q341: pred: B, label: B (AI time: 0.54s)
+2025-11-30 08:51:52 - mmlu_logger - INFO - miscellaneous Q388: pred: C, label: C (AI time: 1.99s)
+2025-11-30 08:51:52 - mmlu_logger - INFO - Updated results/mmlu/original/miscellaneous.jsonl with 3 new results
+2025-11-30 08:51:52 - mmlu_logger - INFO - 
+Completed: 3, Failed: 0
