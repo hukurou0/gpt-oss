@@ -1,0 +1,104 @@
+2025-11-30 08:55:27 - mmlu_logger - INFO - Logger initialized. Log file: logs/mmlu_run_20251130_085527.log
+2025-11-30 08:55:27 - mmlu_logger - INFO - Starting missing tasks execution
+2025-11-30 08:55:27 - mmlu_logger - INFO - Total missing tasks: 27
+2025-11-30 08:55:27 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 08:55:27 - mmlu_logger - INFO - Processing subject: professional_law (15 missing)
+2025-11-30 08:55:27 - mmlu_logger - INFO - Existing results: 1534 questions
+2025-11-30 08:55:45 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:55:45 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>The user has provided a list of multiple choice questions with answers. They ended with a builder contract question but didn't provide the answer. The instruction from de...
+2025-11-30 08:55:45 - mmlu_logger - INFO - professional_law Q52: pred: , label: C (AI time: 17.76s)
+2025-11-30 08:55:45 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q52
+2025-11-30 08:55:56 - mmlu_logger - INFO - professional_law Q246: pred: B, label: C (AI time: 11.16s)
+2025-11-30 08:56:04 - mmlu_logger - INFO - professional_law Q284: pred: D, label: D (AI time: 8.53s)
+2025-11-30 08:56:14 - mmlu_logger - INFO - professional_law Q433: pred: D, label: D (AI time: 10.09s)
+2025-11-30 08:56:19 - mmlu_logger - INFO - professional_law Q460: pred: D, label: D (AI time: 4.38s)
+2025-11-30 08:56:33 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:56:33 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We are told: "Please answer the last question with a single character." The last question is the one about the retiree property. The answers are options A, B, C, D. We mu...
+2025-11-30 08:56:33 - mmlu_logger - INFO - professional_law Q482: pred: , label: B (AI time: 14.57s)
+2025-11-30 08:56:33 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q482
+2025-11-30 08:56:39 - mmlu_logger - INFO - professional_law Q596: pred: B, label: C (AI time: 5.23s)
+2025-11-30 08:56:46 - mmlu_logger - INFO - professional_law Q886: pred: A, label: A (AI time: 7.18s)
+2025-11-30 08:57:03 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:57:03 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>The user has provided multiple choice questions and answers for a professional law exam. The last question: "Which of the following is not within the power of a federal s...
+2025-11-30 08:57:03 - mmlu_logger - INFO - professional_law Q919: pred: , label: A (AI time: 16.98s)
+2025-11-30 08:57:03 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q919
+2025-11-30 08:57:11 - mmlu_logger - INFO - professional_law Q1024: pred: C, label: D (AI time: 8.33s)
+2025-11-30 08:57:26 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:57:26 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>The user gave multiple questions with answers except last. They ended with a question about ownership after death. They want answer for last question. They say "Answer:" ...
+2025-11-30 08:57:26 - mmlu_logger - INFO - professional_law Q1122: pred: , label: D (AI time: 15.35s)
+2025-11-30 08:57:26 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q1122
+2025-11-30 08:57:34 - mmlu_logger - INFO - professional_law Q1159: pred: A, label: A (AI time: 7.85s)
+2025-11-30 08:57:51 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:57:51 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We have a list of MCQs with answers. The user says: "The following are multiple choice questions (with answers) about professional law." They list several Q/A pairs. The ...
+2025-11-30 08:57:51 - mmlu_logger - INFO - professional_law Q1210: pred: , label: C (AI time: 16.59s)
+2025-11-30 08:57:51 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q1210
+2025-11-30 08:58:03 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:58:03 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We need to answer the last question: it's the vineyard title scenario. We must choose correct answer letter. The question: "In 2008, what is the present state of title to...
+2025-11-30 08:58:03 - mmlu_logger - INFO - professional_law Q1293: pred: , label: C (AI time: 12.51s)
+2025-11-30 08:58:03 - mmlu_logger - WARNING - Failed to get valid answer for professional_law Q1293
+2025-11-30 08:58:11 - mmlu_logger - INFO - professional_law Q1515: pred: A, label: A (AI time: 7.79s)
+2025-11-30 08:58:11 - mmlu_logger - INFO - Updated results/mmlu/original/professional_law.jsonl with 9 new results
+2025-11-30 08:58:11 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 08:58:11 - mmlu_logger - INFO - Processing subject: college_computer_science (3 missing)
+2025-11-30 08:58:11 - mmlu_logger - INFO - Existing results: 100 questions
+2025-11-30 08:58:27 - mmlu_logger - INFO - college_computer_science Q6: pred: D, label: C (AI time: 16.35s)
+2025-11-30 08:58:49 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:58:49 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We have 8 MCQs. The last question about array cache. Need answer. Need compute how many bytes written to memory with write-back when loop executes. Need to analyze cachin...
+2025-11-30 08:58:49 - mmlu_logger - INFO - college_computer_science Q49: pred: , label: A (AI time: 21.69s)
+2025-11-30 08:58:49 - mmlu_logger - WARNING - Failed to get valid answer for college_computer_science Q49
+2025-11-30 08:59:01 - mmlu_logger - INFO - college_computer_science Q78: pred: B, label: B (AI time: 12.08s)
+2025-11-30 08:59:01 - mmlu_logger - INFO - Updated results/mmlu/original/college_computer_science.jsonl with 2 new results
+2025-11-30 08:59:01 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 08:59:01 - mmlu_logger - INFO - Processing subject: college_chemistry (2 missing)
+2025-11-30 08:59:01 - mmlu_logger - INFO - Existing results: 100 questions
+2025-11-30 08:59:15 - mmlu_logger - INFO - college_chemistry Q18: pred: A, label: D (AI time: 13.96s)
+2025-11-30 08:59:39 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 08:59:39 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>The user has given a series of multiple-choice questions with answers. The last question: "The X-band (9.5 GHz) EPR spectrum of a matrix isolated Na atom reveals four hyp...
+2025-11-30 08:59:39 - mmlu_logger - INFO - college_chemistry Q35: pred: , label: A (AI time: 23.73s)
+2025-11-30 08:59:39 - mmlu_logger - WARNING - Failed to get valid answer for college_chemistry Q35
+2025-11-30 08:59:39 - mmlu_logger - INFO - Updated results/mmlu/original/college_chemistry.jsonl with 1 new results
+2025-11-30 08:59:39 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 08:59:39 - mmlu_logger - INFO - Processing subject: college_mathematics (2 missing)
+2025-11-30 08:59:39 - mmlu_logger - INFO - Existing results: 100 questions
+2025-11-30 08:59:56 - mmlu_logger - INFO - college_mathematics Q14: pred: B, label: B (AI time: 16.66s)
+2025-11-30 09:00:19 - mmlu_logger - ERROR - LLM output parsing failed: analysis or final is empty
+2025-11-30 09:00:19 - mmlu_logger - ERROR - Raw output: <|channel|>analysis<|message|>We need to answer last question. The last question: "If f : (0, 1) → (0, 1], then which of the following could be TRUE? I. f is one-to-one and onto. II. The image of f is...
+2025-11-30 09:00:19 - mmlu_logger - INFO - college_mathematics Q92: pred: , label: C (AI time: 23.88s)
+2025-11-30 09:00:19 - mmlu_logger - WARNING - Failed to get valid answer for college_mathematics Q92
+2025-11-30 09:00:19 - mmlu_logger - INFO - Updated results/mmlu/original/college_mathematics.jsonl with 1 new results
+2025-11-30 09:00:19 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 09:00:19 - mmlu_logger - INFO - Processing subject: college_medicine (1 missing)
+2025-11-30 09:00:20 - mmlu_logger - INFO - Existing results: 173 questions
+2025-11-30 09:00:24 - mmlu_logger - INFO - college_medicine Q74: pred: D, label: D (AI time: 4.25s)
+2025-11-30 09:00:24 - mmlu_logger - INFO - Updated results/mmlu/original/college_medicine.jsonl with 1 new results
+2025-11-30 09:00:24 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 09:00:24 - mmlu_logger - INFO - Processing subject: high_school_macroeconomics (1 missing)
+2025-11-30 09:00:24 - mmlu_logger - INFO - Existing results: 390 questions
+2025-11-30 09:00:25 - mmlu_logger - INFO - high_school_macroeconomics Q216: pred: A, label: D (AI time: 1.56s)
+2025-11-30 09:00:25 - mmlu_logger - INFO - Updated results/mmlu/original/high_school_macroeconomics.jsonl with 1 new results
+2025-11-30 09:00:25 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 09:00:25 - mmlu_logger - INFO - Processing subject: high_school_mathematics (1 missing)
+2025-11-30 09:00:25 - mmlu_logger - INFO - Existing results: 270 questions
+2025-11-30 09:00:40 - mmlu_logger - INFO - high_school_mathematics Q82: pred: A, label: A (AI time: 14.96s)
+2025-11-30 09:00:40 - mmlu_logger - INFO - Updated results/mmlu/original/high_school_mathematics.jsonl with 1 new results
+2025-11-30 09:00:40 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 09:00:40 - mmlu_logger - INFO - Processing subject: high_school_us_history (1 missing)
+2025-11-30 09:00:40 - mmlu_logger - INFO - Existing results: 204 questions
+2025-11-30 09:00:45 - mmlu_logger - INFO - high_school_us_history Q41: pred: D, label: A (AI time: 4.76s)
+2025-11-30 09:00:45 - mmlu_logger - INFO - Updated results/mmlu/original/high_school_us_history.jsonl with 1 new results
+2025-11-30 09:00:45 - mmlu_logger - INFO - 
+============================================================
+2025-11-30 09:00:45 - mmlu_logger - INFO - Processing subject: professional_accounting (1 missing)
+2025-11-30 09:00:45 - mmlu_logger - INFO - Existing results: 282 questions
+2025-11-30 09:00:55 - mmlu_logger - INFO - professional_accounting Q7: pred: D, label: D (AI time: 9.66s)
+2025-11-30 09:00:55 - mmlu_logger - INFO - Updated results/mmlu/original/professional_accounting.jsonl with 1 new results
+2025-11-30 09:00:55 - mmlu_logger - INFO - 
+Completed: 18, Failed: 9
