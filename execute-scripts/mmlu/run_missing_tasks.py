@@ -15,18 +15,26 @@ from logs.utils.logger import setup_logger, get_logger
 # 結果を保存するディレクトリ
 OUTPUT_DIR = "results/mmlu/original"
 
-# 欠損タスクの定義
+# 欠損タスクの定義（第1回実行: 27問中18問成功）
+# MISSING_TASKS = {
+#     "professional_law": [52, 246, 284, 433, 460, 482, 596, 886, 919, 1024, 1122, 1159, 1210, 1293, 1515],
+#     "college_computer_science": [6, 49, 78],
+#     "miscellaneous": [316, 341, 388],
+#     "college_chemistry": [18, 35],
+#     "college_mathematics": [14, 92],
+#     "college_medicine": [74],
+#     "high_school_macroeconomics": [216],
+#     "high_school_mathematics": [82],
+#     "high_school_us_history": [41],
+#     "professional_accounting": [7],
+# }
+
+# 残り9問（第1回実行で失敗）
 MISSING_TASKS = {
-    #"professional_law": [52, 246, 284, 433, 460, 482, 596, 886, 919, 1024, 1122, 1159, 1210, 1293, 1515],
-    #"college_computer_science": [6, 49, 78],
-    "miscellaneous": [316, 341, 388],
-    #"college_chemistry": [18, 35],
-    #"college_mathematics": [14, 92],
-    #"college_medicine": [74],
-    #"high_school_macroeconomics": [216],
-    #"high_school_mathematics": [82],
-    #"high_school_us_history": [41],
-    #"professional_accounting": [7],
+    "professional_law": [52, 482, 919, 1122, 1210, 1293],
+    "college_computer_science": [49],
+    "college_chemistry": [35],
+    "college_mathematics": [92],
 }
 # ==========================
 
