@@ -123,9 +123,9 @@ def main(generate, start_subject=None, start_question=1, output_dir="results/mml
     # ロガーの初期化
     logger = setup_logger()
 
-    # 結果保存用のインスタンスを作成
-    result_saver = ResultSaver()
-    logger.info(f"Results will be saved to: {result_saver.get_filepath()}")
+    # 結果保存用のインスタンスを作成（科目ごとのファイルに逐次書き込み）
+    result_saver = ResultSaver(output_dir=output_dir)
+    logger.info(f"Results will be saved to: {output_dir}/<subject>.jsonl")
 
     subjects = sorted([f.split("_test.csv")[0] for f in os.listdir(os.path.join("dataset/mmlu/data", "test")) if "_test.csv" in f])
 
@@ -163,10 +163,10 @@ def main(generate, start_subject=None, start_question=1, output_dir="results/mml
         all_subject_times.append(subject_time)
         all_ai_times.extend(ai_times)
 
-        # subjectごとの結果をJSONLとして保存
-        jsonl_path = result_saver.save_subject_jsonl(subject, output_dir=output_dir)
-        logger.info(f"Saved results for {subject} to: {jsonl_path}")
-        print(f"Saved results for {subject} to: {jsonl_path}")
+        # 科目の結果は逐次書き込み済み
+        jsonl_path = result_saver.get_subject_filepath(subject)
+        logger.info(f"Results for {subject} saved to: {jsonl_path}")
+        print(f"Results for {subject} saved to: {jsonl_path}")
 
     total_elapsed_time = time.time() - total_start_time
 
@@ -203,11 +203,6 @@ def main(generate, start_subject=None, start_question=1, output_dir="results/mml
 
     print("Total execution time: {:.2f}s ({:.2f}min)".format(total_elapsed_time, total_elapsed_time/60))
     print(separator)
-
-    # 結果をCSVに保存
-    saved_path = result_saver.save()
-    logger.info(f"Results saved to: {saved_path}")
-    print(f"\nResults saved to: {saved_path}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

@@ -1,33 +1,21 @@
 import json
 import os
-from datetime import datetime
 from typing import List
 
 
 class ResultSaver:
-    """MMLU評価結果をJSON Lines形式で逐次保存するクラス"""
+    """MMLU評価結果を科目ごとのJSON Lines形式で逐次保存するクラス"""
 
-    def __init__(self, output_dir: str = "results", filename: str = None):
+    def __init__(self, output_dir: str = "results/mmlu/original"):
         """
         Args:
             output_dir: 結果を保存するディレクトリ
-            filename: JSON Linesファイル名（Noneの場合はタイムスタンプを使用）
         """
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
 
-        if filename is None:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"mmlu_results_{timestamp}.jsonl"
-
-        self.filepath = os.path.join(output_dir, filename)
-
-        # JSON Linesファイルを作成（空ファイルとして初期化）
-        with open(self.filepath, 'w', encoding='utf-8') as f:
-            pass  # 空ファイルを作成
-
-        # subjectごとの結果を保持する辞書
-        self.subject_results = {}
+        # 現在書き込み中の科目
+        self.current_subject = None
 
     def add_result(
         self,
@@ -42,7 +30,7 @@ class ResultSaver:
         ai_time: float
     ):
         """
-        1つの質問の結果をJSON Lines形式で即座に書き込む
+        1つの質問の結果を科目ごとのJSON Linesファイルに即座に書き込む
 
         Args:
             subject: サブジェクト名
@@ -65,55 +53,16 @@ class ResultSaver:
             "ai_time_seconds": round(ai_time, 2)
         }
 
+        # 科目ごとのJSONLファイルパス
+        subject_filepath = os.path.join(self.output_dir, f"{subject}.jsonl")
+
         # JSON Lines形式で追記（1行1JSON）
-        with open(self.filepath, 'a', encoding='utf-8') as f:
+        with open(subject_filepath, 'a', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False)
             f.write('\n')
 
-        # subjectごとの結果も保持
-        if subject not in self.subject_results:
-            self.subject_results[subject] = []
+        self.current_subject = subject
 
-        self.subject_results[subject].append(result)
-
-    def save(self):
-        """
-        互換性のために残しているメソッド。
-        逐次書き込みされているため、このメソッドは何もしない。
-        """
-        return self.filepath
-
-    def save_subject_jsonl(self, subject: str, output_dir: str = "results/original/mmlu"):
-        """
-        特定のsubjectの結果をJSONLファイルとして保存し、メモリから削除
-
-        Args:
-            subject: サブジェクト名
-            output_dir: 保存先ディレクトリ
-
-        Returns:
-            保存したJSONLファイルのパス
-        """
-        if subject not in self.subject_results:
-            raise ValueError(f"Subject '{subject}' has no results")
-
-        # 出力ディレクトリを作成
-        os.makedirs(output_dir, exist_ok=True)
-
-        # JSONLファイルのパス
-        jsonl_filepath = os.path.join(output_dir, f"{subject}.jsonl")
-
-        # JSON Lines形式で保存
-        with open(jsonl_filepath, 'w', encoding='utf-8') as f:
-            for result in self.subject_results[subject]:
-                json.dump(result, f, ensure_ascii=False)
-                f.write('\n')
-
-        # メモリから削除
-        del self.subject_results[subject]
-
-        return jsonl_filepath
-
-    def get_filepath(self) -> str:
-        """保存先のファイルパスを取得"""
-        return self.filepath
+    def get_subject_filepath(self, subject: str) -> str:
+        """科目のファイルパスを取得"""
+        return os.path.join(self.output_dir, f"{subject}.jsonl")
