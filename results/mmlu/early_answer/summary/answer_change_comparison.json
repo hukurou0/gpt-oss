@@ -1,0 +1,2926 @@
+{
+  "overall_by_folder": {
+    "00": {
+      "total": 14042,
+      "matched": 7306,
+      "match_rate": 52.029625409485824
+    },
+    "01": {
+      "total": 14042,
+      "matched": 7661,
+      "match_rate": 54.55775530551203
+    },
+    "02": {
+      "total": 14042,
+      "matched": 8138,
+      "match_rate": 57.95470730665148
+    },
+    "03": {
+      "total": 14042,
+      "matched": 8762,
+      "match_rate": 62.39851872952571
+    },
+    "04": {
+      "total": 14042,
+      "matched": 9138,
+      "match_rate": 65.07619997151403
+    },
+    "05": {
+      "total": 14042,
+      "matched": 9679,
+      "match_rate": 68.92892750320468
+    },
+    "06": {
+      "total": 14042,
+      "matched": 10264,
+      "match_rate": 73.09500071214927
+    },
+    "07": {
+      "total": 14042,
+      "matched": 11020,
+      "match_rate": 78.47884916678535
+    },
+    "08": {
+      "total": 14042,
+      "matched": 11996,
+      "match_rate": 85.4294260076912
+    },
+    "09": {
+      "total": 14042,
+      "matched": 13069,
+      "match_rate": 93.07078763708874
+    }
+  },
+  "by_subject": {
+    "00": {
+      "global_facts": {
+        "total": 100,
+        "matched": 23,
+        "match_rate": 23.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 172,
+        "match_rate": 49.71098265895954
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 68,
+        "match_rate": 68.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 257,
+        "match_rate": 28.71508379888268
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 25,
+        "match_rate": 25.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 571,
+        "match_rate": 37.222946544980445
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 144,
+        "match_rate": 52.94117647058824
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 571,
+        "match_rate": 72.92464878671775
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 66,
+        "match_rate": 45.51724137931035
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 196,
+        "match_rate": 60.49382716049383
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 53,
+        "match_rate": 48.18181818181818
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 206,
+        "match_rate": 52.820512820512825
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 129,
+        "match_rate": 63.23529411764706
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 142,
+        "match_rate": 59.91561181434599
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 57,
+        "match_rate": 45.23809523809524
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 263,
+        "match_rate": 42.97385620915033
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 114,
+        "match_rate": 56.71641791044776
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 130,
+        "match_rate": 58.29596412556054
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 44,
+        "match_rate": 44.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 47,
+        "match_rate": 47.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 147,
+        "match_rate": 60.0
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 102,
+        "match_rate": 36.17021276595745
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 134,
+        "match_rate": 57.02127659574469
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 181,
+        "match_rate": 58.387096774193544
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 33,
+        "match_rate": 33.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 174,
+        "match_rate": 65.66037735849056
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 100,
+        "match_rate": 57.80346820809249
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 392,
+        "match_rate": 71.92660550458716
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 131,
+        "match_rate": 67.87564766839378
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 49,
+        "match_rate": 45.370370370370374
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 114,
+        "match_rate": 75.0
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 133,
+        "match_rate": 67.17171717171718
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 165,
+        "match_rate": 69.32773109243698
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 172,
+        "match_rate": 55.30546623794213
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 51,
+        "match_rate": 33.77483443708609
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 118,
+        "match_rate": 71.51515151515152
+      },
+      "management": {
+        "total": 103,
+        "matched": 64,
+        "match_rate": 62.13592233009708
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 76,
+        "match_rate": 58.01526717557252
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 69,
+        "match_rate": 51.11111111111111
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 122,
+        "match_rate": 71.34502923976608
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 78,
+        "match_rate": 28.888888888888886
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 152,
+        "match_rate": 40.21164021164021
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 109,
+        "match_rate": 53.69458128078818
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 119,
+        "match_rate": 55.092592592592595
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 31,
+        "match_rate": 30.392156862745097
+      },
+      "virology": {
+        "total": 166,
+        "matched": 70,
+        "match_rate": 42.168674698795186
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 58,
+        "match_rate": 50.877192982456144
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 179,
+        "match_rate": 76.49572649572649
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 169,
+        "match_rate": 55.22875816993464
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 94,
+        "match_rate": 65.27777777777779
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 82,
+        "match_rate": 50.306748466257666
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 66,
+        "match_rate": 66.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 79,
+        "match_rate": 65.28925619834712
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 42,
+        "match_rate": 37.5
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 72,
+        "match_rate": 72.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 40,
+        "match_rate": 40.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 61,
+        "match_rate": 61.0
+      }
+    },
+    "01": {
+      "global_facts": {
+        "total": 100,
+        "matched": 29,
+        "match_rate": 28.999999999999996
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 197,
+        "match_rate": 56.936416184971094
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 68,
+        "match_rate": 68.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 270,
+        "match_rate": 30.16759776536313
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 31,
+        "match_rate": 31.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 638,
+        "match_rate": 41.59061277705345
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 169,
+        "match_rate": 62.13235294117647
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 526,
+        "match_rate": 67.17752234993614
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 70,
+        "match_rate": 48.275862068965516
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 224,
+        "match_rate": 69.1358024691358
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 53,
+        "match_rate": 48.18181818181818
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 212,
+        "match_rate": 54.35897435897436
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 140,
+        "match_rate": 68.62745098039215
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 163,
+        "match_rate": 68.77637130801688
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 58,
+        "match_rate": 46.03174603174603
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 306,
+        "match_rate": 50.0
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 122,
+        "match_rate": 60.69651741293532
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 138,
+        "match_rate": 61.88340807174888
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 46,
+        "match_rate": 46.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 51,
+        "match_rate": 51.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 154,
+        "match_rate": 62.857142857142854
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 103,
+        "match_rate": 36.52482269503546
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 127,
+        "match_rate": 54.04255319148936
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 189,
+        "match_rate": 60.967741935483865
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 36,
+        "match_rate": 36.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 181,
+        "match_rate": 68.30188679245282
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 106,
+        "match_rate": 61.27167630057804
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 385,
+        "match_rate": 70.64220183486239
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 131,
+        "match_rate": 67.87564766839378
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 58,
+        "match_rate": 53.70370370370371
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 113,
+        "match_rate": 74.3421052631579
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 145,
+        "match_rate": 73.23232323232324
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 154,
+        "match_rate": 64.70588235294117
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 177,
+        "match_rate": 56.91318327974276
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 58,
+        "match_rate": 38.41059602649007
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 111,
+        "match_rate": 67.27272727272727
+      },
+      "management": {
+        "total": 103,
+        "matched": 70,
+        "match_rate": 67.96116504854369
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 81,
+        "match_rate": 61.832061068702295
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 77,
+        "match_rate": 57.03703703703704
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 110,
+        "match_rate": 64.32748538011695
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 84,
+        "match_rate": 31.11111111111111
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 160,
+        "match_rate": 42.32804232804233
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 110,
+        "match_rate": 54.187192118226605
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 119,
+        "match_rate": 55.092592592592595
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 36,
+        "match_rate": 35.294117647058826
+      },
+      "virology": {
+        "total": 166,
+        "matched": 82,
+        "match_rate": 49.39759036144578
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 60,
+        "match_rate": 52.63157894736842
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 175,
+        "match_rate": 74.78632478632478
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 198,
+        "match_rate": 64.70588235294117
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 87,
+        "match_rate": 60.416666666666664
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 96,
+        "match_rate": 58.895705521472394
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 69,
+        "match_rate": 69.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 79,
+        "match_rate": 65.28925619834712
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 46,
+        "match_rate": 41.07142857142857
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 66,
+        "match_rate": 66.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 48,
+        "match_rate": 48.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 69,
+        "match_rate": 69.0
+      }
+    },
+    "02": {
+      "global_facts": {
+        "total": 100,
+        "matched": 32,
+        "match_rate": 32.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 197,
+        "match_rate": 56.936416184971094
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 77,
+        "match_rate": 77.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 272,
+        "match_rate": 30.391061452513966
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 36,
+        "match_rate": 36.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 662,
+        "match_rate": 43.15514993481095
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 181,
+        "match_rate": 66.54411764705883
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 549,
+        "match_rate": 70.11494252873564
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 79,
+        "match_rate": 54.48275862068965
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 223,
+        "match_rate": 68.82716049382715
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 57,
+        "match_rate": 51.81818181818182
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 246,
+        "match_rate": 63.07692307692307
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 147,
+        "match_rate": 72.05882352941177
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 180,
+        "match_rate": 75.9493670886076
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 56,
+        "match_rate": 44.44444444444444
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 340,
+        "match_rate": 55.55555555555556
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 146,
+        "match_rate": 72.636815920398
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 139,
+        "match_rate": 62.33183856502242
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 55,
+        "match_rate": 55.00000000000001
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 53,
+        "match_rate": 53.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 157,
+        "match_rate": 64.08163265306122
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 113,
+        "match_rate": 40.0709219858156
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 142,
+        "match_rate": 60.42553191489362
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 198,
+        "match_rate": 63.87096774193548
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 32,
+        "match_rate": 32.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 175,
+        "match_rate": 66.0377358490566
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 108,
+        "match_rate": 62.42774566473989
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 422,
+        "match_rate": 77.43119266055047
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 145,
+        "match_rate": 75.12953367875647
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 68,
+        "match_rate": 62.96296296296296
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 121,
+        "match_rate": 79.60526315789474
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 148,
+        "match_rate": 74.74747474747475
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 165,
+        "match_rate": 69.32773109243698
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 197,
+        "match_rate": 63.344051446945336
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 67,
+        "match_rate": 44.370860927152314
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 122,
+        "match_rate": 73.93939393939394
+      },
+      "management": {
+        "total": 103,
+        "matched": 69,
+        "match_rate": 66.99029126213593
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 88,
+        "match_rate": 67.17557251908397
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 82,
+        "match_rate": 60.74074074074074
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 120,
+        "match_rate": 70.17543859649122
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 90,
+        "match_rate": 33.33333333333333
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 166,
+        "match_rate": 43.91534391534391
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 110,
+        "match_rate": 54.187192118226605
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 124,
+        "match_rate": 57.407407407407405
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 48,
+        "match_rate": 47.05882352941176
+      },
+      "virology": {
+        "total": 166,
+        "matched": 99,
+        "match_rate": 59.63855421686747
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 58,
+        "match_rate": 50.877192982456144
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 179,
+        "match_rate": 76.49572649572649
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 209,
+        "match_rate": 68.30065359477125
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 98,
+        "match_rate": 68.05555555555556
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 104,
+        "match_rate": 63.80368098159509
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 71,
+        "match_rate": 71.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 78,
+        "match_rate": 64.46280991735537
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 53,
+        "match_rate": 47.32142857142857
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 65,
+        "match_rate": 65.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 49,
+        "match_rate": 49.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 71,
+        "match_rate": 71.0
+      }
+    },
+    "03": {
+      "global_facts": {
+        "total": 100,
+        "matched": 33,
+        "match_rate": 33.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 209,
+        "match_rate": 60.40462427745664
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 76,
+        "match_rate": 76.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 280,
+        "match_rate": 31.28491620111732
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 38,
+        "match_rate": 38.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 726,
+        "match_rate": 47.327249022164274
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 186,
+        "match_rate": 68.38235294117648
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 583,
+        "match_rate": 74.45721583652617
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 86,
+        "match_rate": 59.310344827586206
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 232,
+        "match_rate": 71.60493827160494
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 72,
+        "match_rate": 65.45454545454545
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 261,
+        "match_rate": 66.92307692307692
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 165,
+        "match_rate": 80.88235294117648
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 198,
+        "match_rate": 83.54430379746836
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 66,
+        "match_rate": 52.38095238095239
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 383,
+        "match_rate": 62.58169934640523
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 158,
+        "match_rate": 78.60696517412936
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 156,
+        "match_rate": 69.95515695067265
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 56,
+        "match_rate": 56.00000000000001
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 70,
+        "match_rate": 70.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 166,
+        "match_rate": 67.75510204081633
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 126,
+        "match_rate": 44.680851063829785
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 145,
+        "match_rate": 61.702127659574465
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 212,
+        "match_rate": 68.38709677419355
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 29,
+        "match_rate": 28.999999999999996
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 207,
+        "match_rate": 78.11320754716982
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 113,
+        "match_rate": 65.3179190751445
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 434,
+        "match_rate": 79.63302752293579
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 156,
+        "match_rate": 80.82901554404145
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 75,
+        "match_rate": 69.44444444444444
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 120,
+        "match_rate": 78.94736842105263
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 161,
+        "match_rate": 81.31313131313132
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 184,
+        "match_rate": 77.31092436974791
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 204,
+        "match_rate": 65.59485530546624
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 68,
+        "match_rate": 45.033112582781456
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 129,
+        "match_rate": 78.18181818181819
+      },
+      "management": {
+        "total": 103,
+        "matched": 80,
+        "match_rate": 77.66990291262135
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 96,
+        "match_rate": 73.2824427480916
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 83,
+        "match_rate": 61.48148148148148
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 132,
+        "match_rate": 77.19298245614034
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 79,
+        "match_rate": 29.259259259259256
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 176,
+        "match_rate": 46.56084656084656
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 135,
+        "match_rate": 66.50246305418719
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 130,
+        "match_rate": 60.18518518518518
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 42,
+        "match_rate": 41.17647058823529
+      },
+      "virology": {
+        "total": 166,
+        "matched": 113,
+        "match_rate": 68.07228915662651
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 70,
+        "match_rate": 61.40350877192983
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 183,
+        "match_rate": 78.2051282051282
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 227,
+        "match_rate": 74.18300653594771
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 102,
+        "match_rate": 70.83333333333334
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 119,
+        "match_rate": 73.00613496932516
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 75,
+        "match_rate": 75.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 97,
+        "match_rate": 80.16528925619835
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 60,
+        "match_rate": 53.57142857142857
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 75,
+        "match_rate": 75.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 47,
+        "match_rate": 47.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 78,
+        "match_rate": 78.0
+      }
+    },
+    "04": {
+      "global_facts": {
+        "total": 100,
+        "matched": 40,
+        "match_rate": 40.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 229,
+        "match_rate": 66.1849710982659
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 77,
+        "match_rate": 77.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 302,
+        "match_rate": 33.74301675977654
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 37,
+        "match_rate": 37.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 754,
+        "match_rate": 49.152542372881356
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 182,
+        "match_rate": 66.91176470588235
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 617,
+        "match_rate": 78.79948914431672
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 96,
+        "match_rate": 66.20689655172414
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 235,
+        "match_rate": 72.53086419753086
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 74,
+        "match_rate": 67.27272727272727
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 281,
+        "match_rate": 72.05128205128204
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 171,
+        "match_rate": 83.82352941176471
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 192,
+        "match_rate": 81.0126582278481
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 59,
+        "match_rate": 46.82539682539682
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 412,
+        "match_rate": 67.3202614379085
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 159,
+        "match_rate": 79.1044776119403
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 167,
+        "match_rate": 74.88789237668162
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 51,
+        "match_rate": 51.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 63,
+        "match_rate": 63.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 172,
+        "match_rate": 70.20408163265306
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 132,
+        "match_rate": 46.808510638297875
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 163,
+        "match_rate": 69.36170212765957
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 223,
+        "match_rate": 71.93548387096774
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 38,
+        "match_rate": 38.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 206,
+        "match_rate": 77.73584905660378
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 123,
+        "match_rate": 71.09826589595376
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 451,
+        "match_rate": 82.75229357798165
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 164,
+        "match_rate": 84.97409326424871
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 72,
+        "match_rate": 66.66666666666666
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 123,
+        "match_rate": 80.92105263157895
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 159,
+        "match_rate": 80.3030303030303
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 196,
+        "match_rate": 82.35294117647058
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 215,
+        "match_rate": 69.13183279742765
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 73,
+        "match_rate": 48.34437086092716
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 139,
+        "match_rate": 84.24242424242424
+      },
+      "management": {
+        "total": 103,
+        "matched": 84,
+        "match_rate": 81.55339805825243
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 92,
+        "match_rate": 70.22900763358778
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 88,
+        "match_rate": 65.18518518518519
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 147,
+        "match_rate": 85.96491228070175
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 99,
+        "match_rate": 36.666666666666664
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 194,
+        "match_rate": 51.32275132275132
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 124,
+        "match_rate": 61.083743842364534
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 133,
+        "match_rate": 61.57407407407407
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 43,
+        "match_rate": 42.15686274509804
+      },
+      "virology": {
+        "total": 166,
+        "matched": 116,
+        "match_rate": 69.87951807228916
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 72,
+        "match_rate": 63.1578947368421
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 191,
+        "match_rate": 81.62393162393163
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 225,
+        "match_rate": 73.52941176470588
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 110,
+        "match_rate": 76.38888888888889
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 122,
+        "match_rate": 74.84662576687117
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 78,
+        "match_rate": 78.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 97,
+        "match_rate": 80.16528925619835
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 64,
+        "match_rate": 57.14285714285714
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 71,
+        "match_rate": 71.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 62,
+        "match_rate": 62.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 79,
+        "match_rate": 79.0
+      }
+    },
+    "05": {
+      "global_facts": {
+        "total": 100,
+        "matched": 48,
+        "match_rate": 48.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 248,
+        "match_rate": 71.67630057803468
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 80,
+        "match_rate": 80.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 326,
+        "match_rate": 36.424581005586596
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 44,
+        "match_rate": 44.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 825,
+        "match_rate": 53.78096479791395
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 203,
+        "match_rate": 74.63235294117648
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 641,
+        "match_rate": 81.8646232439336
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 99,
+        "match_rate": 68.27586206896552
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 249,
+        "match_rate": 76.85185185185185
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 80,
+        "match_rate": 72.72727272727273
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 295,
+        "match_rate": 75.64102564102564
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 173,
+        "match_rate": 84.80392156862744
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 209,
+        "match_rate": 88.18565400843882
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 65,
+        "match_rate": 51.587301587301596
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 428,
+        "match_rate": 69.93464052287581
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 173,
+        "match_rate": 86.06965174129353
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 168,
+        "match_rate": 75.33632286995515
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 59,
+        "match_rate": 59.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 67,
+        "match_rate": 67.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 183,
+        "match_rate": 74.6938775510204
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 136,
+        "match_rate": 48.226950354609926
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 171,
+        "match_rate": 72.76595744680851
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 254,
+        "match_rate": 81.93548387096774
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 42,
+        "match_rate": 42.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 217,
+        "match_rate": 81.88679245283019
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 123,
+        "match_rate": 71.09826589595376
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 484,
+        "match_rate": 88.80733944954129
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 168,
+        "match_rate": 87.04663212435233
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 81,
+        "match_rate": 75.0
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 131,
+        "match_rate": 86.18421052631578
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 161,
+        "match_rate": 81.31313131313132
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 200,
+        "match_rate": 84.03361344537815
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 228,
+        "match_rate": 73.31189710610933
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 74,
+        "match_rate": 49.00662251655629
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 143,
+        "match_rate": 86.66666666666667
+      },
+      "management": {
+        "total": 103,
+        "matched": 86,
+        "match_rate": 83.49514563106796
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 98,
+        "match_rate": 74.80916030534351
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 104,
+        "match_rate": 77.03703703703704
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 151,
+        "match_rate": 88.30409356725146
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 93,
+        "match_rate": 34.44444444444444
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 218,
+        "match_rate": 57.67195767195767
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 128,
+        "match_rate": 63.05418719211823
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 145,
+        "match_rate": 67.12962962962963
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 45,
+        "match_rate": 44.11764705882353
+      },
+      "virology": {
+        "total": 166,
+        "matched": 127,
+        "match_rate": 76.50602409638554
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 72,
+        "match_rate": 63.1578947368421
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 203,
+        "match_rate": 86.75213675213675
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 241,
+        "match_rate": 78.75816993464052
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 115,
+        "match_rate": 79.86111111111111
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 133,
+        "match_rate": 81.59509202453987
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 79,
+        "match_rate": 79.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 95,
+        "match_rate": 78.51239669421489
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 63,
+        "match_rate": 56.25
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 75,
+        "match_rate": 75.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 52,
+        "match_rate": 52.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 80,
+        "match_rate": 80.0
+      }
+    },
+    "06": {
+      "global_facts": {
+        "total": 100,
+        "matched": 54,
+        "match_rate": 54.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 262,
+        "match_rate": 75.72254335260115
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 82,
+        "match_rate": 82.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 379,
+        "match_rate": 42.3463687150838
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 44,
+        "match_rate": 44.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 897,
+        "match_rate": 58.47457627118644
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 208,
+        "match_rate": 76.47058823529412
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 658,
+        "match_rate": 84.03575989782887
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 106,
+        "match_rate": 73.10344827586206
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 257,
+        "match_rate": 79.32098765432099
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 89,
+        "match_rate": 80.9090909090909
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 300,
+        "match_rate": 76.92307692307693
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 181,
+        "match_rate": 88.72549019607843
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 218,
+        "match_rate": 91.9831223628692
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 72,
+        "match_rate": 57.14285714285714
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 470,
+        "match_rate": 76.79738562091504
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 171,
+        "match_rate": 85.07462686567165
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 181,
+        "match_rate": 81.16591928251121
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 67,
+        "match_rate": 67.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 74,
+        "match_rate": 74.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 208,
+        "match_rate": 84.89795918367346
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 161,
+        "match_rate": 57.09219858156028
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 190,
+        "match_rate": 80.85106382978722
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 252,
+        "match_rate": 81.29032258064515
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 42,
+        "match_rate": 42.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 218,
+        "match_rate": 82.26415094339623
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 139,
+        "match_rate": 80.34682080924856
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 506,
+        "match_rate": 92.84403669724772
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 174,
+        "match_rate": 90.15544041450777
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 84,
+        "match_rate": 77.77777777777779
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 131,
+        "match_rate": 86.18421052631578
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 167,
+        "match_rate": 84.34343434343434
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 205,
+        "match_rate": 86.1344537815126
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 240,
+        "match_rate": 77.17041800643086
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 81,
+        "match_rate": 53.64238410596026
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 147,
+        "match_rate": 89.0909090909091
+      },
+      "management": {
+        "total": 103,
+        "matched": 91,
+        "match_rate": 88.3495145631068
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 105,
+        "match_rate": 80.1526717557252
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 102,
+        "match_rate": 75.55555555555556
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 155,
+        "match_rate": 90.64327485380117
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 111,
+        "match_rate": 41.11111111111111
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 234,
+        "match_rate": 61.904761904761905
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 138,
+        "match_rate": 67.98029556650246
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 155,
+        "match_rate": 71.75925925925925
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 46,
+        "match_rate": 45.09803921568628
+      },
+      "virology": {
+        "total": 166,
+        "matched": 137,
+        "match_rate": 82.53012048192771
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 76,
+        "match_rate": 66.66666666666666
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 207,
+        "match_rate": 88.46153846153845
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 255,
+        "match_rate": 83.33333333333334
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 125,
+        "match_rate": 86.80555555555556
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 134,
+        "match_rate": 82.20858895705521
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 83,
+        "match_rate": 83.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 98,
+        "match_rate": 80.99173553719008
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 67,
+        "match_rate": 59.82142857142857
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 80,
+        "match_rate": 80.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 65,
+        "match_rate": 65.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 85,
+        "match_rate": 85.0
+      }
+    },
+    "07": {
+      "global_facts": {
+        "total": 100,
+        "matched": 60,
+        "match_rate": 60.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 278,
+        "match_rate": 80.34682080924856
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 87,
+        "match_rate": 87.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 449,
+        "match_rate": 50.167597765363126
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 57,
+        "match_rate": 56.99999999999999
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 1009,
+        "match_rate": 65.77574967405477
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 235,
+        "match_rate": 86.39705882352942
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 704,
+        "match_rate": 89.91060025542784
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 107,
+        "match_rate": 73.79310344827587
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 273,
+        "match_rate": 84.25925925925925
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 93,
+        "match_rate": 84.54545454545455
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 321,
+        "match_rate": 82.3076923076923
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 181,
+        "match_rate": 88.72549019607843
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 224,
+        "match_rate": 94.51476793248945
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 78,
+        "match_rate": 61.904761904761905
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 501,
+        "match_rate": 81.86274509803921
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 190,
+        "match_rate": 94.5273631840796
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 191,
+        "match_rate": 85.65022421524664
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 75,
+        "match_rate": 75.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 79,
+        "match_rate": 79.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 214,
+        "match_rate": 87.34693877551021
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 179,
+        "match_rate": 63.47517730496454
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 204,
+        "match_rate": 86.80851063829788
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 279,
+        "match_rate": 90.0
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 46,
+        "match_rate": 46.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 230,
+        "match_rate": 86.79245283018868
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 142,
+        "match_rate": 82.08092485549133
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 519,
+        "match_rate": 95.22935779816514
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 178,
+        "match_rate": 92.2279792746114
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 94,
+        "match_rate": 87.03703703703704
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 138,
+        "match_rate": 90.78947368421053
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 177,
+        "match_rate": 89.39393939393939
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 217,
+        "match_rate": 91.17647058823529
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 247,
+        "match_rate": 79.42122186495176
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 102,
+        "match_rate": 67.54966887417218
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 153,
+        "match_rate": 92.72727272727272
+      },
+      "management": {
+        "total": 103,
+        "matched": 93,
+        "match_rate": 90.29126213592234
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 109,
+        "match_rate": 83.20610687022901
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 109,
+        "match_rate": 80.74074074074075
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 157,
+        "match_rate": 91.81286549707602
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 113,
+        "match_rate": 41.85185185185185
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 264,
+        "match_rate": 69.84126984126983
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 147,
+        "match_rate": 72.41379310344827
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 179,
+        "match_rate": 82.87037037037037
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 56,
+        "match_rate": 54.90196078431373
+      },
+      "virology": {
+        "total": 166,
+        "matched": 144,
+        "match_rate": 86.74698795180723
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 79,
+        "match_rate": 69.2982456140351
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 216,
+        "match_rate": 92.3076923076923
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 265,
+        "match_rate": 86.60130718954248
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 129,
+        "match_rate": 89.58333333333334
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 145,
+        "match_rate": 88.95705521472392
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 91,
+        "match_rate": 91.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 104,
+        "match_rate": 85.9504132231405
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 76,
+        "match_rate": 67.85714285714286
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 83,
+        "match_rate": 83.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 63,
+        "match_rate": 63.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 87,
+        "match_rate": 87.0
+      }
+    },
+    "08": {
+      "global_facts": {
+        "total": 100,
+        "matched": 67,
+        "match_rate": 67.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 303,
+        "match_rate": 87.57225433526011
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 92,
+        "match_rate": 92.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 590,
+        "match_rate": 65.92178770949721
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 67,
+        "match_rate": 67.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 1206,
+        "match_rate": 78.6179921773142
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 250,
+        "match_rate": 91.91176470588235
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 728,
+        "match_rate": 92.97573435504471
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 119,
+        "match_rate": 82.06896551724138
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 297,
+        "match_rate": 91.66666666666666
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 93,
+        "match_rate": 84.54545454545455
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 351,
+        "match_rate": 90.0
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 194,
+        "match_rate": 95.09803921568627
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 223,
+        "match_rate": 94.09282700421942
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 88,
+        "match_rate": 69.84126984126983
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 545,
+        "match_rate": 89.05228758169935
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 189,
+        "match_rate": 94.02985074626866
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 200,
+        "match_rate": 89.68609865470853
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 79,
+        "match_rate": 79.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 89,
+        "match_rate": 89.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 226,
+        "match_rate": 92.24489795918367
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 202,
+        "match_rate": 71.63120567375887
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 210,
+        "match_rate": 89.36170212765957
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 291,
+        "match_rate": 93.87096774193549
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 59,
+        "match_rate": 59.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 239,
+        "match_rate": 90.18867924528303
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 154,
+        "match_rate": 89.01734104046243
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 527,
+        "match_rate": 96.69724770642202
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 184,
+        "match_rate": 95.33678756476684
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 98,
+        "match_rate": 90.74074074074075
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 143,
+        "match_rate": 94.07894736842105
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 184,
+        "match_rate": 92.92929292929293
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 223,
+        "match_rate": 93.69747899159664
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 279,
+        "match_rate": 89.71061093247589
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 112,
+        "match_rate": 74.17218543046357
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 154,
+        "match_rate": 93.33333333333333
+      },
+      "management": {
+        "total": 103,
+        "matched": 97,
+        "match_rate": 94.1747572815534
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 118,
+        "match_rate": 90.07633587786259
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 119,
+        "match_rate": 88.14814814814815
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 162,
+        "match_rate": 94.73684210526315
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 143,
+        "match_rate": 52.96296296296297
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 314,
+        "match_rate": 83.06878306878306
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 162,
+        "match_rate": 79.80295566502463
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 185,
+        "match_rate": 85.64814814814815
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 68,
+        "match_rate": 66.66666666666666
+      },
+      "virology": {
+        "total": 166,
+        "matched": 146,
+        "match_rate": 87.95180722891565
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 86,
+        "match_rate": 75.43859649122807
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 222,
+        "match_rate": 94.87179487179486
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 281,
+        "match_rate": 91.83006535947712
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 135,
+        "match_rate": 93.75
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 143,
+        "match_rate": 87.73006134969326
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 93,
+        "match_rate": 93.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 110,
+        "match_rate": 90.9090909090909
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 87,
+        "match_rate": 77.67857142857143
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 95,
+        "match_rate": 95.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 77,
+        "match_rate": 77.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 98,
+        "match_rate": 98.0
+      }
+    },
+    "09": {
+      "global_facts": {
+        "total": 100,
+        "matched": 84,
+        "match_rate": 84.0
+      },
+      "moral_disputes": {
+        "total": 346,
+        "matched": 318,
+        "match_rate": 91.90751445086705
+      },
+      "computer_security": {
+        "total": 100,
+        "matched": 95,
+        "match_rate": 95.0
+      },
+      "moral_scenarios": {
+        "total": 895,
+        "matched": 790,
+        "match_rate": 88.26815642458101
+      },
+      "abstract_algebra": {
+        "total": 100,
+        "matched": 91,
+        "match_rate": 91.0
+      },
+      "professional_law": {
+        "total": 1534,
+        "matched": 1346,
+        "match_rate": 87.74445893089961
+      },
+      "professional_medicine": {
+        "total": 272,
+        "matched": 260,
+        "match_rate": 95.58823529411765
+      },
+      "miscellaneous": {
+        "total": 783,
+        "matched": 761,
+        "match_rate": 97.19029374201787
+      },
+      "electrical_engineering": {
+        "total": 145,
+        "matched": 128,
+        "match_rate": 88.27586206896552
+      },
+      "prehistory": {
+        "total": 324,
+        "matched": 305,
+        "match_rate": 94.1358024691358
+      },
+      "public_relations": {
+        "total": 110,
+        "matched": 105,
+        "match_rate": 95.45454545454545
+      },
+      "high_school_macroeconomics": {
+        "total": 390,
+        "matched": 376,
+        "match_rate": 96.41025641025641
+      },
+      "high_school_us_history": {
+        "total": 204,
+        "matched": 197,
+        "match_rate": 96.56862745098039
+      },
+      "high_school_world_history": {
+        "total": 237,
+        "matched": 233,
+        "match_rate": 98.31223628691983
+      },
+      "formal_logic": {
+        "total": 126,
+        "matched": 112,
+        "match_rate": 88.88888888888889
+      },
+      "professional_psychology": {
+        "total": 612,
+        "matched": 585,
+        "match_rate": 95.58823529411765
+      },
+      "sociology": {
+        "total": 201,
+        "matched": 195,
+        "match_rate": 97.01492537313433
+      },
+      "human_aging": {
+        "total": 223,
+        "matched": 214,
+        "match_rate": 95.96412556053812
+      },
+      "college_computer_science": {
+        "total": 100,
+        "matched": 87,
+        "match_rate": 87.0
+      },
+      "business_ethics": {
+        "total": 100,
+        "matched": 95,
+        "match_rate": 95.0
+      },
+      "security_studies": {
+        "total": 245,
+        "matched": 234,
+        "match_rate": 95.51020408163265
+      },
+      "professional_accounting": {
+        "total": 282,
+        "matched": 234,
+        "match_rate": 82.97872340425532
+      },
+      "conceptual_physics": {
+        "total": 235,
+        "matched": 228,
+        "match_rate": 97.02127659574468
+      },
+      "high_school_biology": {
+        "total": 310,
+        "matched": 306,
+        "match_rate": 98.70967741935483
+      },
+      "college_mathematics": {
+        "total": 100,
+        "matched": 76,
+        "match_rate": 76.0
+      },
+      "clinical_knowledge": {
+        "total": 265,
+        "matched": 260,
+        "match_rate": 98.11320754716981
+      },
+      "college_medicine": {
+        "total": 173,
+        "matched": 164,
+        "match_rate": 94.79768786127167
+      },
+      "high_school_psychology": {
+        "total": 545,
+        "matched": 538,
+        "match_rate": 98.71559633027523
+      },
+      "high_school_government_and_politics": {
+        "total": 193,
+        "matched": 190,
+        "match_rate": 98.44559585492227
+      },
+      "jurisprudence": {
+        "total": 108,
+        "matched": 100,
+        "match_rate": 92.5925925925926
+      },
+      "astronomy": {
+        "total": 152,
+        "matched": 148,
+        "match_rate": 97.36842105263158
+      },
+      "high_school_geography": {
+        "total": 198,
+        "matched": 191,
+        "match_rate": 96.46464646464646
+      },
+      "high_school_microeconomics": {
+        "total": 238,
+        "matched": 231,
+        "match_rate": 97.05882352941177
+      },
+      "philosophy": {
+        "total": 311,
+        "matched": 288,
+        "match_rate": 92.60450160771704
+      },
+      "high_school_physics": {
+        "total": 151,
+        "matched": 127,
+        "match_rate": 84.10596026490066
+      },
+      "high_school_european_history": {
+        "total": 165,
+        "matched": 161,
+        "match_rate": 97.57575757575758
+      },
+      "management": {
+        "total": 103,
+        "matched": 100,
+        "match_rate": 97.0873786407767
+      },
+      "human_sexuality": {
+        "total": 131,
+        "matched": 125,
+        "match_rate": 95.41984732824427
+      },
+      "anatomy": {
+        "total": 135,
+        "matched": 130,
+        "match_rate": 96.29629629629629
+      },
+      "world_religions": {
+        "total": 171,
+        "matched": 167,
+        "match_rate": 97.6608187134503
+      },
+      "high_school_mathematics": {
+        "total": 270,
+        "matched": 198,
+        "match_rate": 73.33333333333333
+      },
+      "elementary_mathematics": {
+        "total": 378,
+        "matched": 362,
+        "match_rate": 95.76719576719577
+      },
+      "high_school_chemistry": {
+        "total": 203,
+        "matched": 184,
+        "match_rate": 90.64039408866995
+      },
+      "high_school_statistics": {
+        "total": 216,
+        "matched": 201,
+        "match_rate": 93.05555555555556
+      },
+      "college_physics": {
+        "total": 102,
+        "matched": 85,
+        "match_rate": 83.33333333333334
+      },
+      "virology": {
+        "total": 166,
+        "matched": 162,
+        "match_rate": 97.59036144578313
+      },
+      "econometrics": {
+        "total": 114,
+        "matched": 99,
+        "match_rate": 86.8421052631579
+      },
+      "marketing": {
+        "total": 234,
+        "matched": 229,
+        "match_rate": 97.86324786324786
+      },
+      "nutrition": {
+        "total": 306,
+        "matched": 295,
+        "match_rate": 96.40522875816994
+      },
+      "college_biology": {
+        "total": 144,
+        "matched": 141,
+        "match_rate": 97.91666666666666
+      },
+      "logical_fallacies": {
+        "total": 163,
+        "matched": 152,
+        "match_rate": 93.25153374233128
+      },
+      "medical_genetics": {
+        "total": 100,
+        "matched": 95,
+        "match_rate": 95.0
+      },
+      "international_law": {
+        "total": 121,
+        "matched": 116,
+        "match_rate": 95.86776859504133
+      },
+      "machine_learning": {
+        "total": 112,
+        "matched": 95,
+        "match_rate": 84.82142857142857
+      },
+      "high_school_computer_science": {
+        "total": 100,
+        "matched": 97,
+        "match_rate": 97.0
+      },
+      "college_chemistry": {
+        "total": 100,
+        "matched": 85,
+        "match_rate": 85.0
+      },
+      "us_foreign_policy": {
+        "total": 100,
+        "matched": 98,
+        "match_rate": 98.0
+      }
+    }
+  }
+}

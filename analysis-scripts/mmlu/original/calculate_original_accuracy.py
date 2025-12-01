@@ -80,7 +80,7 @@ def main():
         print()
 
         # 詳細な結果をJSONファイルに保存
-        output_file = "results/mmlu/original_accuracy.json"
+        output_file = "results/mmlu/original/summary/original_accuracy.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(stats, f, indent=2, ensure_ascii=False)
 

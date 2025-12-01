@@ -1,7 +1,7 @@
 {
   "total_questions": 14042,
-  "correct_answers": 11614,
-  "overall_accuracy": 82.70901580971372,
+  "correct_answers": 11633,
+  "overall_accuracy": 82.84432417034611,
   "subject_stats": {
     "logical_fallacies": {
       "total": 163,
@@ -15,8 +15,8 @@
     },
     "college_mathematics": {
       "total": 100,
-      "correct": 96,
-      "accuracy": 96.0
+      "correct": 98,
+      "accuracy": 98.0
     },
     "us_foreign_policy": {
       "total": 100,
@@ -90,8 +90,8 @@
     },
     "college_computer_science": {
       "total": 100,
-      "correct": 87,
-      "accuracy": 87.0
+      "correct": 89,
+      "accuracy": 89.0
     },
     "global_facts": {
       "total": 100,
@@ -105,8 +105,8 @@
     },
     "professional_law": {
       "total": 1534,
-      "correct": 859,
-      "accuracy": 55.997392438070406
+      "correct": 868,
+      "accuracy": 56.58409387222947
     },
     "high_school_statistics": {
       "total": 216,
@@ -175,8 +175,8 @@
     },
     "professional_accounting": {
       "total": 282,
-      "correct": 212,
-      "accuracy": 75.177304964539
+      "correct": 213,
+      "accuracy": 75.53191489361703
     },
     "high_school_european_history": {
       "total": 165,
@@ -185,8 +185,8 @@
     },
     "high_school_mathematics": {
       "total": 270,
-      "correct": 267,
-      "accuracy": 98.88888888888889
+      "correct": 268,
+      "accuracy": 99.25925925925925
     },
     "high_school_computer_science": {
       "total": 100,
@@ -220,8 +220,8 @@
     },
     "miscellaneous": {
       "total": 783,
-      "correct": 705,
-      "accuracy": 90.03831417624522
+      "correct": 708,
+      "accuracy": 90.42145593869732
     },
     "moral_scenarios": {
       "total": 895,
@@ -260,8 +260,8 @@
     },
     "college_medicine": {
       "total": 173,
-      "correct": 139,
-      "accuracy": 80.34682080924856
+      "correct": 140,
+      "accuracy": 80.92485549132948
     },
     "nutrition": {
       "total": 306,
