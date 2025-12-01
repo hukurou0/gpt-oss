@@ -36,6 +36,41 @@ def load_answers(folder_path):
     return answers
 
 
+def calculate_accuracy_by_subject(folder_path):
+    """
+    フォルダ内のJSONLファイルからsubjectごとの正答率を計算する
+
+    Returns:
+        dict: {subject: {"total": int, "correct": int, "accuracy": float}}
+    """
+    subject_stats = defaultdict(lambda: {"total": 0, "correct": 0})
+    folder = Path(folder_path)
+
+    for jsonl_file in folder.glob("*.jsonl"):
+        with open(jsonl_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                try:
+                    data = json.loads(line.strip())
+                    subject = data.get("subject", "")
+                    is_correct = data.get("is_correct", False)
+
+                    subject_stats[subject]["total"] += 1
+                    if is_correct:
+                        subject_stats[subject]["correct"] += 1
+                except json.JSONDecodeError:
+                    continue
+
+    # 正答率を計算
+    for subject in subject_stats:
+        stats = subject_stats[subject]
+        stats["accuracy"] = (
+            stats["correct"] / stats["total"] * 100
+            if stats["total"] > 0 else 0.0
+        )
+
+    return dict(subject_stats)
+
+
 def calculate_match_rate(original_answers, target_answers):
     """
     2つの回答セットを比較し、一致率を計算する
@@ -107,6 +142,10 @@ def main():
     print("Originalの回答を読み込み中...")
     original_answers = load_answers(original_path)
     print(f"  {len(original_answers)} 件の回答を読み込みました")
+
+    # Originalの正答率を計算
+    print("Originalの正答率を計算中...")
+    original_accuracy = calculate_accuracy_by_subject(original_path)
 
     # Early answerの各フォルダを処理
     folders = sorted([
@@ -229,7 +268,7 @@ def main():
                 if subject in all_subject_results[folder]:
                     heatmap_data[i, j] = all_subject_results[folder][subject]["match_rate"]
 
-        fig, ax = plt.subplots(figsize=(12, max(10, len(all_subjects) * 0.3)))
+        _, ax = plt.subplots(figsize=(12, max(10, len(all_subjects) * 0.3)))
         im = ax.imshow(heatmap_data, cmap='YlGn', aspect='auto')
 
         ax.set_xticks(np.arange(len(folder_names)))
@@ -250,6 +289,88 @@ def main():
         plt.savefig(heatmap_path, dpi=150, bbox_inches='tight')
         print(f"  ヒートマップを保存しました: {heatmap_path}")
         plt.close()
+
+    # グラフ4: 正答率と一致度変化の相関分析
+    if all_subject_results and folder_names and original_accuracy:
+        all_subjects = sorted(set(original_accuracy.keys()))
+
+        # 各subjectの正答率と一致度変化のしやすさを計算
+        subject_data = []
+        for subject in all_subjects:
+            if subject not in original_accuracy:
+                continue
+
+            accuracy = original_accuracy[subject]["accuracy"]
+
+            # 一致度変化のしやすさ = 100% - 0%時点での一致率
+            match_at_00 = all_subject_results.get("00", {}).get(subject, {}).get("match_rate", 0)
+            change_amount = 100 - match_at_00  # 変化量（大きいほど変化しやすい）
+
+            subject_data.append({
+                "subject": subject,
+                "accuracy": accuracy,
+                "match_at_00": match_at_00,
+                "change_amount": change_amount
+            })
+
+        if subject_data:
+            # 数学・物理系のsubjectを定義
+            math_physics_subjects = {
+                "abstract_algebra", "college_mathematics", "high_school_mathematics",
+                "elementary_mathematics", "college_physics", "high_school_physics",
+                "conceptual_physics", "formal_logic", "econometrics",
+                "electrical_engineering", "machine_learning", "college_computer_science",
+                "high_school_computer_science", "high_school_statistics"
+            }
+
+            # データを分類
+            math_physics_data = [d for d in subject_data if d["subject"] in math_physics_subjects]
+            other_data = [d for d in subject_data if d["subject"] not in math_physics_subjects]
+
+            accuracies = [d["accuracy"] for d in subject_data]
+            match_at_00_list = [d["match_at_00"] for d in subject_data]
+
+            # 相関係数を計算
+            corr_match_00 = np.corrcoef(accuracies, match_at_00_list)[0, 1]
+
+            _, ax = plt.subplots(figsize=(8, 6))
+
+            # その他のsubject
+            if other_data:
+                ax.scatter(
+                    [d["accuracy"] for d in other_data],
+                    [d["match_at_00"] for d in other_data],
+                    alpha=0.7, s=60, c='steelblue', label='Other subjects'
+                )
+
+            # 数学・物理系のsubject
+            if math_physics_data:
+                ax.scatter(
+                    [d["accuracy"] for d in math_physics_data],
+                    [d["match_at_00"] for d in math_physics_data],
+                    alpha=0.7, s=60, c='coral', label='Math/Physics subjects'
+                )
+
+            # 回帰直線
+            z = np.polyfit(accuracies, match_at_00_list, 1)
+            p = np.poly1d(z)
+            x_line = np.linspace(min(accuracies), max(accuracies), 100)
+            ax.plot(x_line, p(x_line), 'r--', alpha=0.7, label=f'r = {corr_match_00:.3f}')
+            ax.set_xlabel('Original Accuracy (%)', fontsize=12)
+            ax.set_ylabel('Match Rate at 0% Reasoning (%)', fontsize=12)
+            ax.set_title('Accuracy vs Match Rate (0% Reasoning)', fontsize=14)
+            ax.legend(loc='lower right', fontsize=12)
+            ax.grid(True, alpha=0.3)
+
+            plt.tight_layout()
+            corr_path = output_dir / "accuracy_vs_match_rate_correlation.png"
+            plt.savefig(corr_path, dpi=150, bbox_inches='tight')
+            print(f"  相関分析グラフを保存しました: {corr_path}")
+            plt.close()
+
+            # 相関結果を表示
+            print(f"\n  相関分析結果:")
+            print(f"    正答率 vs 0%時点一致率: r = {corr_match_00:.3f}")
 
     # 結果をJSONに保存
     result_data = {
