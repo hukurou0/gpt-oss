@@ -1,0 +1,974 @@
+{
+  "batches": [
+    {
+      "subject": "anatomy",
+      "file_name": "anatomy.jsonl",
+      "file_id": "file-LSWig2aKnTgisUL26i6z4u",
+      "batch_id": "batch_692ff8fc135881908fdaa0f7f411540a",
+      "status": "completed",
+      "created_at": "2025-12-03T17:46:52.310078",
+      "request_counts": {
+        "total": 135,
+        "completed": 135,
+        "failed": 0
+      },
+      "output_file_id": "file-4AFyoqVaFYGWc8fBobiZQE",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:19.021332"
+    },
+    {
+      "subject": "business_ethics",
+      "file_name": "business_ethics.jsonl",
+      "file_id": "file-256aWC7wL6iWzkExPeMBNn",
+      "batch_id": "batch_692ff90192648190ab8e6675061809f3",
+      "status": "completed",
+      "created_at": "2025-12-03T17:46:57.733819",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-LWjCyQKwVNm7bhbB1E8D9k",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:20.444052"
+    },
+    {
+      "subject": "clinical_knowledge",
+      "file_name": "clinical_knowledge.jsonl",
+      "file_id": "file-8wAHUz4Lt4gmEbqMZqcvBY",
+      "batch_id": "batch_692ff90462ac8190a0895d082cfa9e73",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:00.551671",
+      "request_counts": {
+        "total": 265,
+        "completed": 265,
+        "failed": 0
+      },
+      "output_file_id": "file-JLF838KZbpgK9oNh77J9nE",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:21.730569"
+    },
+    {
+      "subject": "college_biology",
+      "file_name": "college_biology.jsonl",
+      "file_id": "file-My9ND5YUKp9vAvs23wXXHa",
+      "batch_id": "batch_692ff906e73c81909422dc4df9b425fa",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:03.247121",
+      "request_counts": {
+        "total": 144,
+        "completed": 144,
+        "failed": 0
+      },
+      "output_file_id": "file-DYMLDg4zmReGRq8Py24jjN",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:22.896106"
+    },
+    {
+      "subject": "college_chemistry",
+      "file_name": "college_chemistry.jsonl",
+      "file_id": "file-3KNEGgirLNiA8pQRD9brCH",
+      "batch_id": "batch_692ff909685c8190942dfeb955fca8f3",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:05.578340",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-GBGBkp7mAesDgxuD2X3S9p",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:23.648874"
+    },
+    {
+      "subject": "college_computer_science",
+      "file_name": "college_computer_science.jsonl",
+      "file_id": "file-ChnzsutFvHFyEB3kgrqyzQ",
+      "batch_id": "batch_692ff90be9e48190bd333a70e3bf1951",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:08.044039",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-4uv229JkxYMAQpxDQNGwMa",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:25.004680"
+    },
+    {
+      "subject": "college_mathematics",
+      "file_name": "college_mathematics.jsonl",
+      "file_id": "file-JeCmD1BWMSeuRnqRiSzVQC",
+      "batch_id": "batch_692ff90e30208190b86876e7673d007a",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:10.333127",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-FqgozxteuqZcgTiMEyTBj4",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:26.069049"
+    },
+    {
+      "subject": "college_medicine",
+      "file_name": "college_medicine.jsonl",
+      "file_id": "file-Th5pbvwonRfENNUgYTpBxy",
+      "batch_id": "batch_692ff91124688190822dfd9eb75c6d5c",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:13.334031",
+      "request_counts": {
+        "total": 173,
+        "completed": 173,
+        "failed": 0
+      },
+      "output_file_id": "file-R5xR3GmcDWAXdiCeC2Tu4r",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:27.268028"
+    },
+    {
+      "subject": "college_physics",
+      "file_name": "college_physics.jsonl",
+      "file_id": "file-HJQVrBTRxAtrYg2u9JxWYG",
+      "batch_id": "batch_692ff913891c8190be001527e17dd86e",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:15.664769",
+      "request_counts": {
+        "total": 102,
+        "completed": 102,
+        "failed": 0
+      },
+      "output_file_id": "file-5BPCWfeuwCEUKugoXtn4B1",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:27.911708"
+    },
+    {
+      "subject": "computer_security",
+      "file_name": "computer_security.jsonl",
+      "file_id": "file-5Qia5na6ggzVQzFHmaUrS8",
+      "batch_id": "batch_692ff915a0f08190bcca5d21476c8afe",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:17.762713",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-9gZxDMtstXtqpeeDMPV8jJ",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:28.938423"
+    },
+    {
+      "subject": "conceptual_physics",
+      "file_name": "conceptual_physics.jsonl",
+      "file_id": "file-WjkBFdR5YQXeQ5VinsPR1c",
+      "batch_id": "batch_692ff9189e188190b2c398ec8768bb41",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:20.763205",
+      "request_counts": {
+        "total": 235,
+        "completed": 235,
+        "failed": 0
+      },
+      "output_file_id": "file-YEkjvbZrtDiJ6e57Yqb9HD",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:30.035465"
+    },
+    {
+      "subject": "econometrics",
+      "file_name": "econometrics.jsonl",
+      "file_id": "file-1soD9X1bx1SPZ4EuoNrQD1",
+      "batch_id": "batch_692ff91b6e8c8190bc94022060996732",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:23.606338",
+      "request_counts": {
+        "total": 114,
+        "completed": 114,
+        "failed": 0
+      },
+      "output_file_id": "file-VNunmz6DdRGttDRn5xpfwy",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:31.416306"
+    },
+    {
+      "subject": "electrical_engineering",
+      "file_name": "electrical_engineering.jsonl",
+      "file_id": "file-DudqnCNjLTaeeBsyCdh5dJ",
+      "batch_id": "batch_692ff91e2c90819080b78237a40cc9dc",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:26.403948",
+      "request_counts": {
+        "total": 145,
+        "completed": 145,
+        "failed": 0
+      },
+      "output_file_id": "file-F9b2icWE4sdGF7iNqhvHTw",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:32.430330"
+    },
+    {
+      "subject": "elementary_mathematics",
+      "file_name": "elementary_mathematics.jsonl",
+      "file_id": "file-9aGE96oMeAe4qvye96u48r",
+      "batch_id": "batch_692ff92101648190ac4238c9fa777d5a",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:29.127680",
+      "request_counts": {
+        "total": 378,
+        "completed": 378,
+        "failed": 0
+      },
+      "output_file_id": "file-BodYbt5A5K1boxPX4TejNi",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:33.249803"
+    },
+    {
+      "subject": "formal_logic",
+      "file_name": "formal_logic.jsonl",
+      "file_id": "file-AL2yTKYRaoSezfpdPDGg3L",
+      "batch_id": "batch_692ff923dff0819094612d2630cf97e9",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:32.019673",
+      "request_counts": {
+        "total": 126,
+        "completed": 126,
+        "failed": 0
+      },
+      "output_file_id": "file-81BFbTW3fFNyBYhmMrCbCd",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:34.401321"
+    },
+    {
+      "subject": "global_facts",
+      "file_name": "global_facts.jsonl",
+      "file_id": "file-Vge6thRcZrxMcZG84UhthU",
+      "batch_id": "batch_692ff926374c8190a95e9e31410ec99d",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:34.357079",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-NUCEvUsuo1aioWoTP5ka2h",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:35.502310"
+    },
+    {
+      "subject": "high_school_chemistry",
+      "file_name": "high_school_chemistry.jsonl",
+      "file_id": "file-A4t9dWW5H5JC1iiZ55RZnn",
+      "batch_id": "batch_692ff92bf4c88190bb4df4c5b76f356d",
+      "status": "completed",
+      "created_at": "2025-12-03T17:47:40.055770",
+      "request_counts": {
+        "total": 203,
+        "completed": 203,
+        "failed": 0
+      },
+      "output_file_id": "file-H83i2z9jbokDisDXmNGLEz",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:36.890798"
+    },
+    {
+      "subject": "human_sexuality",
+      "file_name": "human_sexuality.jsonl",
+      "file_id": "file-L28nZxCKFtoNzVinLhihwd",
+      "batch_id": "batch_692ff9532120819088b56df10ebf87b7",
+      "status": "completed",
+      "created_at": "2025-12-03T17:48:19.230815",
+      "request_counts": {
+        "total": 131,
+        "completed": 131,
+        "failed": 0
+      },
+      "output_file_id": "file-WstHcTUykTJL97kGWDdFNy",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:37.835373"
+    },
+    {
+      "subject": "management",
+      "file_name": "management.jsonl",
+      "file_id": "file-A1one2yJDj8VNcL2a5T1AH",
+      "batch_id": "batch_692ff95e92688190babd739e85f0bcdf",
+      "status": "completed",
+      "created_at": "2025-12-03T17:48:30.804619",
+      "request_counts": {
+        "total": 103,
+        "completed": 103,
+        "failed": 0
+      },
+      "output_file_id": "file-7kx6QHRJ2Ge3M1kqK79bvs",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:38.785770"
+    },
+    {
+      "subject": "medical_genetics",
+      "file_name": "medical_genetics.jsonl",
+      "file_id": "file-HkgaAsg1aiueEUwUMtSw9M",
+      "batch_id": "batch_692ff96395848190a1408c65524e3ca3",
+      "status": "completed",
+      "created_at": "2025-12-03T17:48:35.797829",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-D7iE7f7dovzxGya8f3yQDu",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:40.107177"
+    },
+    {
+      "subject": "nutrition",
+      "file_name": "nutrition.jsonl",
+      "file_id": "file-5pJc53ZNsRDCP1QHi8WniQ",
+      "batch_id": "batch_692ff972a9dc8190b64540f2023b1c9e",
+      "status": "completed",
+      "created_at": "2025-12-03T17:48:50.842616",
+      "request_counts": {
+        "total": 306,
+        "completed": 306,
+        "failed": 0
+      },
+      "output_file_id": "file-5gJZkfFE9NtzkTQGE2K3hq",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:41.386957"
+    },
+    {
+      "subject": "public_relations",
+      "file_name": "public_relations.jsonl",
+      "file_id": "file-LMn8LLE3dz9sLn8TLjPKcH",
+      "batch_id": "batch_692ff98d858081908a3b2dfecd2a7a2d",
+      "status": "completed",
+      "created_at": "2025-12-03T17:49:17.617186",
+      "request_counts": {
+        "total": 110,
+        "completed": 110,
+        "failed": 0
+      },
+      "output_file_id": "file-5ZEuPEx9UVyGzn3EcMAhsF",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:42.228052"
+    },
+    {
+      "subject": "security_studies",
+      "file_name": "security_studies.jsonl",
+      "file_id": "file-RP3E9iFwyDu34YKdbg1peZ",
+      "batch_id": "batch_692ff9901ce88190814748913dbcaa04",
+      "status": "completed",
+      "created_at": "2025-12-03T17:49:20.241226",
+      "request_counts": {
+        "total": 245,
+        "completed": 245,
+        "failed": 0
+      },
+      "output_file_id": "file-K4AsADT8qKJdZTKfxceQvP",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:43.718717"
+    },
+    {
+      "subject": "us_foreign_policy",
+      "file_name": "us_foreign_policy.jsonl",
+      "file_id": "file-DQECeCBRBQcP7rWP6DpeFg",
+      "batch_id": "batch_692ff995f8788190801ba4958586886c",
+      "status": "completed",
+      "created_at": "2025-12-03T17:49:26.065811",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-APzTNTr4NSMSgucVFZ554z",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:44.628635"
+    },
+    {
+      "subject": "virology",
+      "file_name": "virology.jsonl",
+      "file_id": "file-LMZ9aQgNJgo9tKrpSTfXZw",
+      "batch_id": "batch_692ff9982bc8819083ad00ffed8512e5",
+      "status": "completed",
+      "created_at": "2025-12-03T17:49:28.321257",
+      "request_counts": {
+        "total": 166,
+        "completed": 166,
+        "failed": 0
+      },
+      "output_file_id": "file-E8YSLPRNqyFxp2gva4jiS9",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:45.448238"
+    },
+    {
+      "subject": "abstract_algebra",
+      "file_name": "abstract_algebra.jsonl",
+      "file_id": "file-Hr86o5uJFDm3rKmRrkUtFQ",
+      "batch_id": "batch_692ffb5d91c48190a97d532972bdd364",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:01.644851",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-RFyTZM7ARBwaEcTznaqM3Y",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:46.808638"
+    },
+    {
+      "subject": "astronomy",
+      "file_name": "astronomy.jsonl",
+      "file_id": "file-VuMn4TMuBKCPQi4pGSCCAs",
+      "batch_id": "batch_692ffb60a8b8819093ceb2a05e9c9ae7",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:04.920312",
+      "request_counts": {
+        "total": 152,
+        "completed": 152,
+        "failed": 0
+      },
+      "output_file_id": "file-CKwgrPN5t5aAG8RhtGQCNZ",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:48.056122"
+    },
+    {
+      "subject": "high_school_biology",
+      "file_name": "high_school_biology.jsonl",
+      "file_id": "file-NVKTGRAR3TcPBRQKfpFtfL",
+      "batch_id": "batch_692ffb647b5081908d9b702ecb50eb14",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:08.566824",
+      "request_counts": {
+        "total": 310,
+        "completed": 310,
+        "failed": 0
+      },
+      "output_file_id": "file-FepvE41zySuSV2vsWdVadU",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:49.246425"
+    },
+    {
+      "subject": "high_school_computer_science",
+      "file_name": "high_school_computer_science.jsonl",
+      "file_id": "file-HfE4b3WfvnB4nVPCqNDiyk",
+      "batch_id": "batch_692ffb6817f88190add9542607c1ad88",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:12.293884",
+      "request_counts": {
+        "total": 100,
+        "completed": 100,
+        "failed": 0
+      },
+      "output_file_id": "file-9tEhZ2W88rq45tdKdAwrT6",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:50.274898"
+    },
+    {
+      "subject": "high_school_european_history",
+      "file_name": "high_school_european_history.jsonl",
+      "file_id": "file-QcsSshm5oK7DdvzuVWCSZ7",
+      "batch_id": "batch_692ffb6b92588190979fe2244ef00633",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:15.655653",
+      "request_counts": {
+        "total": 165,
+        "completed": 165,
+        "failed": 0
+      },
+      "output_file_id": "file-XxUMXybn6WcJB2PFsMbZxZ",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:51.362018"
+    },
+    {
+      "subject": "high_school_geography",
+      "file_name": "high_school_geography.jsonl",
+      "file_id": "file-KpZmTVtKSxUkY6Sjezhu2B",
+      "batch_id": "batch_692ffb6f310c8190862f30483e3b761d",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:19.295012",
+      "request_counts": {
+        "total": 198,
+        "completed": 198,
+        "failed": 0
+      },
+      "output_file_id": "file-GqhQeJi8A4k1fFDUYDT9Px",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:52.513311"
+    },
+    {
+      "subject": "high_school_government_and_politics",
+      "file_name": "high_school_government_and_politics.jsonl",
+      "file_id": "file-M8ZVh65T5Mfv4ebL3iCgU2",
+      "batch_id": "batch_692ffb72c6cc8190b2de8eb75c0c71d0",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:22.885986",
+      "request_counts": {
+        "total": 193,
+        "completed": 193,
+        "failed": 0
+      },
+      "output_file_id": "file-G7uHgYa7tC6oUk8MsNrEvJ",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:53.774052"
+    },
+    {
+      "subject": "high_school_macroeconomics",
+      "file_name": "high_school_macroeconomics.jsonl",
+      "file_id": "file-NuxrEHZH43q9u4DQaz6dNc",
+      "batch_id": "batch_692ffb76be408190894668cba85f9fbe",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:26.965188",
+      "request_counts": {
+        "total": 390,
+        "completed": 390,
+        "failed": 0
+      },
+      "output_file_id": "file-AhBacBAXT64g7gZwLegoy9",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:55.091075"
+    },
+    {
+      "subject": "high_school_mathematics",
+      "file_name": "high_school_mathematics.jsonl",
+      "file_id": "file-Auq9pXyQsYBDGpFirdAXBe",
+      "batch_id": "batch_692ffb7aeb7c81909e8429bc79d6e3d1",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:31.055818",
+      "request_counts": {
+        "total": 270,
+        "completed": 270,
+        "failed": 0
+      },
+      "output_file_id": "file-AMnFEjv8jzA68VZg7xLouY",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:56.525235"
+    },
+    {
+      "subject": "high_school_microeconomics",
+      "file_name": "high_school_microeconomics.jsonl",
+      "file_id": "file-KDVd6CwwCHpCfeSz6bDNqr",
+      "batch_id": "batch_692ffb7ec6ec819089a4af3ef560a2d9",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:35.071235",
+      "request_counts": {
+        "total": 238,
+        "completed": 238,
+        "failed": 0
+      },
+      "output_file_id": "file-TvWyKLCTDRhYLaFG22gqNG",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:57.581920"
+    },
+    {
+      "subject": "high_school_physics",
+      "file_name": "high_school_physics.jsonl",
+      "file_id": "file-1XqqzvK4LnmyqcTk155upZ",
+      "batch_id": "batch_692ffb826aec81908d6f5e2fbed714d0",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:38.680412",
+      "request_counts": {
+        "total": 151,
+        "completed": 151,
+        "failed": 0
+      },
+      "output_file_id": "file-Ji15xZabnzuzkGDRrByTto",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:58.587684"
+    },
+    {
+      "subject": "high_school_psychology",
+      "file_name": "high_school_psychology.jsonl",
+      "file_id": "file-Jwd8jfTwD4L2SjbbnMwZmU",
+      "batch_id": "batch_692ffb875ec881908f6529dea80bddcd",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:43.479803",
+      "request_counts": {
+        "total": 545,
+        "completed": 545,
+        "failed": 0
+      },
+      "output_file_id": "file-2rW9s1RF3sCyHY2LW4h6mY",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:44:59.935066"
+    },
+    {
+      "subject": "high_school_statistics",
+      "file_name": "high_school_statistics.jsonl",
+      "file_id": "file-4xP54ciAawAPjS8BPZdx15",
+      "batch_id": "batch_692ffb8b2ae8819087b21da231f9aaf5",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:47.314878",
+      "request_counts": {
+        "total": 216,
+        "completed": 216,
+        "failed": 0
+      },
+      "output_file_id": "file-3TfMp8GAS4SehcSAxSqoKW",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:00.943610"
+    },
+    {
+      "subject": "high_school_world_history",
+      "file_name": "high_school_world_history.jsonl",
+      "file_id": "file-AwhcFajZnm3PqDFZhXdHsL",
+      "batch_id": "batch_692ffb92cce081908d349b72166f2db5",
+      "status": "completed",
+      "created_at": "2025-12-03T17:57:55.055474",
+      "request_counts": {
+        "total": 237,
+        "completed": 237,
+        "failed": 0
+      },
+      "output_file_id": "file-SHVcybnhHkf5Nvu2k1rE9P",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:02.198131"
+    },
+    {
+      "subject": "machine_learning",
+      "file_name": "machine_learning.jsonl",
+      "file_id": "file-7EptcdgFuhPKGtcNGXnEyU",
+      "batch_id": "batch_692ffba4dc08819088f0ffef8652dfb9",
+      "status": "completed",
+      "created_at": "2025-12-03T17:58:13.023167",
+      "request_counts": {
+        "total": 112,
+        "completed": 112,
+        "failed": 0
+      },
+      "output_file_id": "file-SqRWaWtDsXGjjiUPsGEbWK",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:02.773672"
+    },
+    {
+      "subject": "professional_medicine",
+      "file_name": "professional_medicine.jsonl",
+      "file_id": "file-RCBGRRaP16vYwVnmXHRp2X",
+      "batch_id": "batch_692ffbd302008190a5b925bdfd5e7681",
+      "status": "completed",
+      "created_at": "2025-12-03T17:58:59.198551",
+      "request_counts": {
+        "total": 272,
+        "completed": 272,
+        "failed": 0
+      },
+      "output_file_id": "file-NubuH4iucryKer76owKYnU",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:03.441117"
+    },
+    {
+      "subject": "high_school_us_history",
+      "file_name": "high_school_us_history.jsonl",
+      "file_id": "file-WJN56TQLd7KkqssmHBa9MD",
+      "batch_id": "batch_692ffd23c5908190b518fa422dfbc553",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:35.872807",
+      "request_counts": {
+        "total": 204,
+        "completed": 204,
+        "failed": 0
+      },
+      "output_file_id": "file-WvkvheYDXPYpa9h1gWdN1p",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:04.687872"
+    },
+    {
+      "subject": "human_aging",
+      "file_name": "human_aging.jsonl",
+      "file_id": "file-T3VeEc7irdQutfak54wjzg",
+      "batch_id": "batch_692ffd271798819093e2909702d6d434",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:39.201758",
+      "request_counts": {
+        "total": 223,
+        "completed": 223,
+        "failed": 0
+      },
+      "output_file_id": "file-3AY1MQe9jJkvRrbsKAjXCn",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:06.085380"
+    },
+    {
+      "subject": "international_law",
+      "file_name": "international_law.jsonl",
+      "file_id": "file-7mWYfhPQUQLZWsx8ZXVQjF",
+      "batch_id": "batch_692ffd2a95f48190ad4a698b4a53ba9c",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:42.672835",
+      "request_counts": {
+        "total": 121,
+        "completed": 121,
+        "failed": 0
+      },
+      "output_file_id": "file-Xd7QC8PE6woVPDAGvnLYoW",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:06.790542"
+    },
+    {
+      "subject": "jurisprudence",
+      "file_name": "jurisprudence.jsonl",
+      "file_id": "file-NoqqCk2FPy2XyMBAN5cK7r",
+      "batch_id": "batch_692ffd30e72c819088411c0fbdc995ab",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:49.099982",
+      "request_counts": {
+        "total": 108,
+        "completed": 108,
+        "failed": 0
+      },
+      "output_file_id": "file-SwQB3Jbmkp6Jp4D1af3dZc",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:08.052318"
+    },
+    {
+      "subject": "logical_fallacies",
+      "file_name": "logical_fallacies.jsonl",
+      "file_id": "file-4FfYB1STT5ekY3v4pRtYVJ",
+      "batch_id": "batch_692ffd34498c819081542734155bf46d",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:52.374349",
+      "request_counts": {
+        "total": 163,
+        "completed": 163,
+        "failed": 0
+      },
+      "output_file_id": "file-MP7JDyaPTtJvmcrJGnsXX1",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:09.511828"
+    },
+    {
+      "subject": "marketing",
+      "file_name": "marketing.jsonl",
+      "file_id": "file-WfS9xYAtNuDKqwtQ1WV6gT",
+      "batch_id": "batch_692ffd382fdc81909a849afe57ad38fe",
+      "status": "completed",
+      "created_at": "2025-12-03T18:04:56.274712",
+      "request_counts": {
+        "total": 234,
+        "completed": 234,
+        "failed": 0
+      },
+      "output_file_id": "file-PAr7bYFhxEDABvXubuYfBq",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:11.098580"
+    },
+    {
+      "subject": "miscellaneous",
+      "file_name": "miscellaneous.jsonl",
+      "file_id": "file-3vEemd9KYvGSyPWYQQTrgR",
+      "batch_id": "batch_692ffd3ce5888190a09cdfe01aa70f9b",
+      "status": "completed",
+      "created_at": "2025-12-03T18:05:01.020240",
+      "request_counts": {
+        "total": 783,
+        "completed": 783,
+        "failed": 0
+      },
+      "output_file_id": "file-29m22UbXTiPHL69qUQrQwn",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:12.475665"
+    },
+    {
+      "subject": "moral_disputes",
+      "file_name": "moral_disputes.jsonl",
+      "file_id": "file-9ZocojgmrgudpqcW5E6pQi",
+      "batch_id": "batch_692ffd4225b481908564d13c167eabd3",
+      "status": "completed",
+      "created_at": "2025-12-03T18:05:06.267502",
+      "request_counts": {
+        "total": 346,
+        "completed": 346,
+        "failed": 0
+      },
+      "output_file_id": "file-Taqi37RXQfrMRhSDYBkjkt",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:13.469891"
+    },
+    {
+      "subject": "prehistory",
+      "file_name": "prehistory.jsonl",
+      "file_id": "file-EtwzX1LYZcT9oSUVY87w5c",
+      "batch_id": "batch_692ffd51165481909a567ae6816f7fd4",
+      "status": "completed",
+      "created_at": "2025-12-03T18:05:21.251761",
+      "request_counts": {
+        "total": 324,
+        "completed": 324,
+        "failed": 0
+      },
+      "output_file_id": "file-J2jSDNyWBGh6XKmGBW8s8G",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:14.883827"
+    },
+    {
+      "subject": "moral_scenarios",
+      "file_name": "moral_scenarios.jsonl",
+      "file_id": "file-JbRAjpBDUx9Ee3JAgLxPAV",
+      "batch_id": "batch_692ffe615e948190a5d663e439e44662",
+      "status": "completed",
+      "created_at": "2025-12-03T18:09:53.540757",
+      "request_counts": {
+        "total": 895,
+        "completed": 895,
+        "failed": 0
+      },
+      "output_file_id": "file-VURQFg9MyhwH82dq1mXuGR",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:16.153718"
+    },
+    {
+      "subject": "philosophy",
+      "file_name": "philosophy.jsonl",
+      "file_id": "file-YXo8a7XzQpKSfEnp7e2f1L",
+      "batch_id": "batch_692ffe658ef48190adba6ebcfe2e0548",
+      "status": "completed",
+      "created_at": "2025-12-03T18:09:57.730002",
+      "request_counts": {
+        "total": 311,
+        "completed": 311,
+        "failed": 0
+      },
+      "output_file_id": "file-3bVFVimDHoYb4oSTkJY82c",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:17.398569"
+    },
+    {
+      "subject": "professional_accounting",
+      "file_name": "professional_accounting.jsonl",
+      "file_id": "file-JgcMaU7FHW14pRvGGCk1ge",
+      "batch_id": "batch_692ffe6a2074819094a1b82c9d871abe",
+      "status": "completed",
+      "created_at": "2025-12-03T18:10:02.442792",
+      "request_counts": {
+        "total": 282,
+        "completed": 282,
+        "failed": 0
+      },
+      "output_file_id": "file-GGzXWioSi2XHJfr2MASNgL",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:18.349897"
+    },
+    {
+      "subject": "sociology",
+      "file_name": "sociology.jsonl",
+      "file_id": "file-PRCvtYyDHaSXpwFByzoxAX",
+      "batch_id": "batch_692ffe7e0d7081908c58aa4e435e79c2",
+      "status": "completed",
+      "created_at": "2025-12-03T18:10:22.203201",
+      "request_counts": {
+        "total": 201,
+        "completed": 201,
+        "failed": 0
+      },
+      "output_file_id": "file-TLDqVZEX3Z1yBfzwskvSkR",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:19.452360"
+    },
+    {
+      "subject": "world_religions",
+      "file_name": "world_religions.jsonl",
+      "file_id": "file-SJJF4uuVujFRZuUWu3KXWE",
+      "batch_id": "batch_692ffe8181fc8190aa15d4a56596e7c4",
+      "status": "completed",
+      "created_at": "2025-12-03T18:10:25.583844",
+      "request_counts": {
+        "total": 171,
+        "completed": 171,
+        "failed": 0
+      },
+      "output_file_id": "file-HJbfqT3MeFLaLaS4yCPPHe",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:20.526033"
+    },
+    {
+      "subject": "professional_psychology",
+      "file_name": "professional_psychology.jsonl",
+      "file_id": "file-Q2Pjg7R1Ham51qTmkoTU46",
+      "batch_id": "batch_692fff5fd5d08190ab741e75af8d10c8",
+      "status": "completed",
+      "created_at": "2025-12-03T18:14:08.076668",
+      "request_counts": {
+        "total": 612,
+        "completed": 612,
+        "failed": 0
+      },
+      "output_file_id": "file-C1A7PnQXD8dzMwpZhpw1eH",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:22.009617"
+    },
+    {
+      "subject": "professional_law",
+      "file_name": "professional_law.jsonl",
+      "file_id": "file-LEx58UYeFcJTc8rdNc5nC6",
+      "batch_id": "batch_69300273f8308190ad21974a586f60a5",
+      "status": "completed",
+      "created_at": "2025-12-03T18:27:16.209457",
+      "request_counts": {
+        "total": 1534,
+        "completed": 1534,
+        "failed": 0
+      },
+      "output_file_id": "file-WLD4WibbJEtz5mTjUDywjB",
+      "error_file_id": null,
+      "downloaded": true,
+      "downloaded_at": "2025-12-03T18:45:23.357836"
+    }
+  ],
+  "last_checked": "2025-12-03T18:43:50.817230"
+}

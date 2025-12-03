@@ -1,0 +1,350 @@
+{
+  "model": "gpt-4.1",
+  "created_at": "20251203_174337",
+  "total_requests": 14042,
+  "total_skipped": 0,
+  "subjects": [
+    {
+      "subject": "abstract_algebra",
+      "file": "abstract_algebra.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "anatomy",
+      "file": "anatomy.jsonl",
+      "requests": 135,
+      "skipped": 0
+    },
+    {
+      "subject": "astronomy",
+      "file": "astronomy.jsonl",
+      "requests": 152,
+      "skipped": 0
+    },
+    {
+      "subject": "business_ethics",
+      "file": "business_ethics.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "clinical_knowledge",
+      "file": "clinical_knowledge.jsonl",
+      "requests": 265,
+      "skipped": 0
+    },
+    {
+      "subject": "college_biology",
+      "file": "college_biology.jsonl",
+      "requests": 144,
+      "skipped": 0
+    },
+    {
+      "subject": "college_chemistry",
+      "file": "college_chemistry.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "college_computer_science",
+      "file": "college_computer_science.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "college_mathematics",
+      "file": "college_mathematics.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "college_medicine",
+      "file": "college_medicine.jsonl",
+      "requests": 173,
+      "skipped": 0
+    },
+    {
+      "subject": "college_physics",
+      "file": "college_physics.jsonl",
+      "requests": 102,
+      "skipped": 0
+    },
+    {
+      "subject": "computer_security",
+      "file": "computer_security.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "conceptual_physics",
+      "file": "conceptual_physics.jsonl",
+      "requests": 235,
+      "skipped": 0
+    },
+    {
+      "subject": "econometrics",
+      "file": "econometrics.jsonl",
+      "requests": 114,
+      "skipped": 0
+    },
+    {
+      "subject": "electrical_engineering",
+      "file": "electrical_engineering.jsonl",
+      "requests": 145,
+      "skipped": 0
+    },
+    {
+      "subject": "elementary_mathematics",
+      "file": "elementary_mathematics.jsonl",
+      "requests": 378,
+      "skipped": 0
+    },
+    {
+      "subject": "formal_logic",
+      "file": "formal_logic.jsonl",
+      "requests": 126,
+      "skipped": 0
+    },
+    {
+      "subject": "global_facts",
+      "file": "global_facts.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_biology",
+      "file": "high_school_biology.jsonl",
+      "requests": 310,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_chemistry",
+      "file": "high_school_chemistry.jsonl",
+      "requests": 203,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_computer_science",
+      "file": "high_school_computer_science.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_european_history",
+      "file": "high_school_european_history.jsonl",
+      "requests": 165,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_geography",
+      "file": "high_school_geography.jsonl",
+      "requests": 198,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_government_and_politics",
+      "file": "high_school_government_and_politics.jsonl",
+      "requests": 193,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_macroeconomics",
+      "file": "high_school_macroeconomics.jsonl",
+      "requests": 390,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_mathematics",
+      "file": "high_school_mathematics.jsonl",
+      "requests": 270,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_microeconomics",
+      "file": "high_school_microeconomics.jsonl",
+      "requests": 238,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_physics",
+      "file": "high_school_physics.jsonl",
+      "requests": 151,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_psychology",
+      "file": "high_school_psychology.jsonl",
+      "requests": 545,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_statistics",
+      "file": "high_school_statistics.jsonl",
+      "requests": 216,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_us_history",
+      "file": "high_school_us_history.jsonl",
+      "requests": 204,
+      "skipped": 0
+    },
+    {
+      "subject": "high_school_world_history",
+      "file": "high_school_world_history.jsonl",
+      "requests": 237,
+      "skipped": 0
+    },
+    {
+      "subject": "human_aging",
+      "file": "human_aging.jsonl",
+      "requests": 223,
+      "skipped": 0
+    },
+    {
+      "subject": "human_sexuality",
+      "file": "human_sexuality.jsonl",
+      "requests": 131,
+      "skipped": 0
+    },
+    {
+      "subject": "international_law",
+      "file": "international_law.jsonl",
+      "requests": 121,
+      "skipped": 0
+    },
+    {
+      "subject": "jurisprudence",
+      "file": "jurisprudence.jsonl",
+      "requests": 108,
+      "skipped": 0
+    },
+    {
+      "subject": "logical_fallacies",
+      "file": "logical_fallacies.jsonl",
+      "requests": 163,
+      "skipped": 0
+    },
+    {
+      "subject": "machine_learning",
+      "file": "machine_learning.jsonl",
+      "requests": 112,
+      "skipped": 0
+    },
+    {
+      "subject": "management",
+      "file": "management.jsonl",
+      "requests": 103,
+      "skipped": 0
+    },
+    {
+      "subject": "marketing",
+      "file": "marketing.jsonl",
+      "requests": 234,
+      "skipped": 0
+    },
+    {
+      "subject": "medical_genetics",
+      "file": "medical_genetics.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "miscellaneous",
+      "file": "miscellaneous.jsonl",
+      "requests": 783,
+      "skipped": 0
+    },
+    {
+      "subject": "moral_disputes",
+      "file": "moral_disputes.jsonl",
+      "requests": 346,
+      "skipped": 0
+    },
+    {
+      "subject": "moral_scenarios",
+      "file": "moral_scenarios.jsonl",
+      "requests": 895,
+      "skipped": 0
+    },
+    {
+      "subject": "nutrition",
+      "file": "nutrition.jsonl",
+      "requests": 306,
+      "skipped": 0
+    },
+    {
+      "subject": "philosophy",
+      "file": "philosophy.jsonl",
+      "requests": 311,
+      "skipped": 0
+    },
+    {
+      "subject": "prehistory",
+      "file": "prehistory.jsonl",
+      "requests": 324,
+      "skipped": 0
+    },
+    {
+      "subject": "professional_accounting",
+      "file": "professional_accounting.jsonl",
+      "requests": 282,
+      "skipped": 0
+    },
+    {
+      "subject": "professional_law",
+      "file": "professional_law.jsonl",
+      "requests": 1534,
+      "skipped": 0
+    },
+    {
+      "subject": "professional_medicine",
+      "file": "professional_medicine.jsonl",
+      "requests": 272,
+      "skipped": 0
+    },
+    {
+      "subject": "professional_psychology",
+      "file": "professional_psychology.jsonl",
+      "requests": 612,
+      "skipped": 0
+    },
+    {
+      "subject": "public_relations",
+      "file": "public_relations.jsonl",
+      "requests": 110,
+      "skipped": 0
+    },
+    {
+      "subject": "security_studies",
+      "file": "security_studies.jsonl",
+      "requests": 245,
+      "skipped": 0
+    },
+    {
+      "subject": "sociology",
+      "file": "sociology.jsonl",
+      "requests": 201,
+      "skipped": 0
+    },
+    {
+      "subject": "us_foreign_policy",
+      "file": "us_foreign_policy.jsonl",
+      "requests": 100,
+      "skipped": 0
+    },
+    {
+      "subject": "virology",
+      "file": "virology.jsonl",
+      "requests": 166,
+      "skipped": 0
+    },
+    {
+      "subject": "world_religions",
+      "file": "world_religions.jsonl",
+      "requests": 171,
+      "skipped": 0
+    }
+  ]
+}

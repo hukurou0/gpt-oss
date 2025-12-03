@@ -3,3 +3,4 @@ __pycache__
 *.gguf
 .DS_Store
 repomix-output.xml
+.env
