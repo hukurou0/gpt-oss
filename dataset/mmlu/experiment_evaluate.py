@@ -1,11 +1,18 @@
+import sys
+import os
+import json
+
+# Add project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 import argparse
 import os
 import time
 import json
 import numpy as np
 import pandas as pd
-from utils.logger import setup_logger, get_logger
-from utils.result_saver import ResultSaver
+from logs.utils.logger import setup_logger, get_logger
+from logs.utils.result_saver import ResultSaver
 
 choices = ["A", "B", "C", "D"]
 

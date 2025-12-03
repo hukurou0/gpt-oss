@@ -64,6 +64,23 @@ def generate_early_answer(prompt: str, analysis: str, analysis_percentage: float
     output = run_llm(input_prompt)
     return output[0]
 
+def generate_paraphrased_answer(prompt: str, paraphrased_analysis: str) -> str:
+    """
+    言い換えたanalysisを使って最終回答を生成する
+
+    Args:
+        prompt: ユーザープロンプト
+        paraphrased_analysis: 言い換え済みのanalysis
+
+    Returns:
+        str: 最終回答（A, B, C, D のいずれか）
+    """
+    harmony_prompt = create_harmony_prompt(prompt)
+    input_prompt = _add_cut_assistant_message(harmony_prompt, paraphrased_analysis)
+    output = run_llm(input_prompt)
+    return output[0]
+
+
 def generate_filler_tokens(prompt: str, analysis: str, analysis_percentage: float) -> dict:
     """
     analysisの一部を使って答えを生成する
